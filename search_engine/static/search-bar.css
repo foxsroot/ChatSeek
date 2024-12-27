@@ -6,6 +6,10 @@ button {
     border-bottom-right-radius: 5px;
 }
 
+.submit {
+    height: 42px;
+}
+
 button:hover {
     background-color: #433fb6;
     cursor: pointer;
