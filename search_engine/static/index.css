@@ -7,7 +7,12 @@ body {
     background-color: #FFF;
 }
 
+body.dark-mode #search-bar {
+    box-shadow: 0 4 10px 4px #CCCCCC;
+}
+
 .container {
+    background-color: rgba(0,0,0,0);
     margin: 23vh auto auto auto;
     text-align: center;
     display: flex;
@@ -33,7 +38,8 @@ input:focus {
 
 button {
     padding: 13px 15px 13px;
-    margin-left: -47px;
+    margin-left: -48px;
+    position: absolute;
 }
 
 #icon {

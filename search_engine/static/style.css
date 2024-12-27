@@ -16,12 +16,12 @@
 }
 
 .prev-btn {
-    background-color: #e0e0e0;
+    background-color: #5D55F6;
     color: #333;
 }
 
 .prev-btn:hover {
-    background-color: #d5d5d5;
+    background-color: #433fb6;
     transform: translateX(-3px);
 }
 

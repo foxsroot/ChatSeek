@@ -5,12 +5,13 @@
     overflow-y: auto;
     background-color: white;
     position: absolute;
-    width: 420px;
+    width: 414px;
     /*width: 372px;*/
     z-index: 1000;
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
 }
 
 .suggestions li {

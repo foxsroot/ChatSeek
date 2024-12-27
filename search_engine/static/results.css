@@ -1,5 +1,13 @@
+body.dark-mode #searchbox {
+    box-shadow: 0 1px 10px 1px #606060FF;
+}
+
+body.dark-mode hr {
+    border-color: #bfbfbf;
+}
+
 .suggestions {
-    width: clamp(200px, 840px, 46.2vw);
+    width: clamp(195px, 835px, 46vw);
 }
 
 main {
@@ -35,6 +43,7 @@ input {
 button {
     padding: 12px 15px 13px;
     margin-left: -48px;
+    position: absolute;
 }
 
 h1 {

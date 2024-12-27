@@ -5,3 +5,7 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+body {
+    transition: background-color 300ms ease-out;
+}
