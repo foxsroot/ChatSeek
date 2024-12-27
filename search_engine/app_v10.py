@@ -78,20 +78,30 @@ def get_newsgroup(document_id):
     return "Email not found"
 
 
-def levenshtein_distance(s1, s2):
+def levenshtein_distance(s1, s2, max_distance=float('inf')):
+    # Ensure that s1 is the shorter string to minimize space usage
     if len(s1) > len(s2):
         s1, s2 = s2, s1
 
-    distances = range(len(s1) + 1)
+    previous_row = list(range(len(s1) + 1))
+
     for index2, char2 in enumerate(s2):
-        new_distances = [index2 + 1]
+        current_row = [index2 + 1]
+
         for index1, char1 in enumerate(s1):
             if char1 == char2:
-                new_distances.append(distances[index1])
+                current_row.append(previous_row[index1])
             else:
-                new_distances.append(1 + min((distances[index1], distances[index1 + 1], new_distances[-1])))
-        distances = new_distances
-    return distances[-1]
+                current_row.append(
+                    1 + min(previous_row[index1], previous_row[index1 + 1], current_row[-1])
+                )
+
+        if min(current_row) > max_distance:
+            return max_distance + 1
+
+        previous_row = current_row
+
+    return previous_row[-1]
 
 
 def auto_correct_query(tokens):
@@ -102,7 +112,8 @@ def auto_correct_query(tokens):
         max_distance = max(1, len(token) // 3)  # Max distance is 1/3 of token length
 
         for candidate in all_tokens:
-            distance = levenshtein_distance(token, candidate)
+            # Pass max_distance to levenshtein_distance for early termination
+            distance = levenshtein_distance(token, candidate, max_distance)
             if distance <= max_distance and distance < min_distance:
                 min_distance = distance
                 closest_match = candidate
@@ -148,6 +159,7 @@ def search():
 
         corrected_tokens = auto_correct_query(tokens)
         corrected_query = ' '.join(corrected_tokens)
+        # corrected_query = query
 
         # if corrected_query != query:
         #     stemmed_tokens = [stemmer.stemWord(token) for token in corrected_tokens]

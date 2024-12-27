@@ -30,7 +30,7 @@
 
 <div class="search-info">
     <p id="showing-results">About {{ total_results }} results</p>
-    {% if total_results <= 10 %} <p class="auto-correct">Did you mean: <span class="quote">"</span><a
+    {% if total_results <= 10 and corrected_query != query %} <p class="auto-correct">Did you mean: <span class="quote">"</span><a
         id="corrected-word" href="/search?query={{ corrected_query }}">{{
     corrected_query }}</a><span class="quote">"</span></p>
     {% endif %}
