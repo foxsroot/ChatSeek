@@ -1,0 +1,45 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9824
+Subject: Bungee After Dark module uploaded
+From: ajbennett@miavx1.acs.muohio.edu (Andrew Bennett)
+
+Hey folks!
+
+Just moments ago, I uploaded the Bungee Jumper After Dark module that
+was widely talked about on here some time ago.
+
+It's at ftp.cica.indiana.edu, in /pub/pc/win3/uploads, titled simply
+bungee.zip.
+
+Be sure to set your ftp connection to binary mode before downloading.
+If you have any other After Dark shareware/freeware modules, please
+upload them too.  The more the merrier.
+
+
+Andrew
+--
+
+Andrew Bennett   ajbennett@miavx1.acs.muohio.edu    What planet are you from?
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9825
+From: jeroeng@blade.stack.urc.tue.nl (Jeroen Gremmen)
+Subject: Re: DOS 6 vfintd.386 and Windows sys.ini
+
+Peter P. Lei (lei@rtsg.mot.com) wrote:
+: 
+: Does anyone know what the vfintd.386 device is used for in windows 3.1?
+: It's under the [386enh] section as
+: 	device=c:\dos\vfintd.386
+: 
+I know Norton Desktop for Windows includes this file and its help file 
+mentioned something about floppy-disk access.
+
+Jeroen
+
+-- 
+========================================================================
+J.C.A. Gremmen              Email: jeroeng@blade.stack.urc.tue.nl
+Gildelaan 34                Phone: 04255-3411 (No modem or fax pleez!)
+5081 PH  Hilvarenbeek               
+

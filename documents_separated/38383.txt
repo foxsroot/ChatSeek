@@ -1,0 +1,61 @@
+Newsgroup: comp.graphics
+document_id: 38381
+Subject: newss
+From: pollarda@physc1.byu.edu
+
+
+
+I am working on a project where we are going to be including
+both still and moving grapics within a database.  Of course
+JPEG and MPEG come to mind as the formats of choice for the
+various files.  However, from what I read on the Net, it seems
+as if there are several different forms of each of these.
+
+What I want to do, is settle on a file format which I can count
+on as being a standard format 10 years from now.  I know Apple is going
+to support Quicktime on the new Power PC's and, so this
+may be the format of choice.
+
+What format does Apple's Quicktime use for their products?  I guess
+it is some kind of MPEG for their motion picture. Is it any different
+than standard MPEG files?
+
+Thanx for any info!
+
+Art.
+Pollarda@xray.byu.edu
+
+
+  
+
+Newsgroup: comp.graphics
+document_id: 38382
+Subject: PD 3D Viewer wanted
+From: qiaok@bones.et.byu.edu (Kun Qiao)
+
+I am looking for a public domain 3d viewer.  It does not have to be very
+fancy.  The features I want is simple wireframe display, flat shading, 
+simple transformation.  It would be nice to have hidden line.    
+
+Any information is appreciated.
+
+
+Newsgroup: comp.graphics
+document_id: 38383
+From: bryanw@rahul.net (Bryan Woodworth)
+Subject: Re: CView answers
+
+In <1993Apr17.113223.12092@imag.fr> schaefer@imag.imag.fr (Arno Schaefer) writes:
+
+>Sorry, Bryan, this is not quite correct. Remember the VGALIB package that comes
+>with Linux/SLS? It will switch to VGA 320x200x256 mode *without* Xwindows.
+>So at least it is *possible* to write a GIF viewer under Linux. However I don't
+>think that there exists a similar SVGA package, and viewing GIFs in 320x200 is
+>not very nice.
+
+No, VGALIB?  Amazing..  I guess it was lost in all those subdirs :-)
+Thanks for correcting me.  It doesn't sound very appealing though, only
+320x200?  I'm glad it wasn't something major I missed.
+
+Thanks,
+

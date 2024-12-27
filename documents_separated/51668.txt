@@ -1,0 +1,8 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 51668
+From: zxxst+@pitt.edu (Zhihua Xie)
+Subject: Re: Duo 230 crashes aftersleep (looks like Apple bug!)
+
+this is a test
+ 
+

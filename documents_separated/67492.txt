@@ -1,0 +1,10 @@
+Newsgroup: comp.windows.x
+document_id: 67492
+From: bnoble+@cs.cmu.edu (Brian Noble)
+Subject: Re: X Server scanline padding question
+
+
+Figured it out.  The answer lies in mit/server/ddx/mfb/mfbcustom.h.
+
+Brian
+

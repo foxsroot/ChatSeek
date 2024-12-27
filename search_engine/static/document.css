@@ -1,0 +1,48 @@
+.back-link {
+    text-decoration: none;
+}
+
+hr {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.details {
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    box-shadow: 0 4px 10px 4px #CCCCCC;
+    float: left;
+    margin-right: 20px;
+    width: 25vw;
+    overflow-wrap: break-word;
+}
+
+.message p {
+    font-size: 15px;
+}
+
+.message {
+    border-radius: 5px;
+    padding: 5px 25px;
+    box-shadow: 0 4px 10px 4px #CCCCCC;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+@media screen and (max-width:768px) {
+    .details {
+        width: 93%;
+        float: none;
+    }
+
+    .message {
+        margin-top: 25px;
+        height: 65vh;
+    }
+}

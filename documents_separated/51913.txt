@@ -1,0 +1,69 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 51912
+Subject: Re: Monitor Shut-down on 13" Hi-Res
+From: sadams@eis.calstate.edu (Steven Adams)
+
+Just my luck.  I did however call my local Apple dealer and he said that
+the he thinks the serial numbers of the machines that are covered begin
+with either 70 or 53-56, and maybe one other.  He also told me that Apple
+had extended the service on these serial numbers for another year!!!  
+
+So there is still hope - Get those monitor in!!
+
+
+jeffh@ludwig.cc.uoregon.edu (Jeff Hite ) writes:
+> In article <1993Apr15.183527.3365@guvax.acc.georgetown.edu>  
+> hew@guvax.acc.georgetown.edu writes:
+> > THere is a defect in the 13" hi-res monitors, bring it to a dealer and 
+> > they will replace the flyback for free, I think.
+> > 
+> > 
+> > 	I just heard of this problem at work today and we are fixing 
+> > them for free.
+> > 
+> > 
+> > 	________________
+> > 	- / o r r
+> 
+> The service notice on the 13" hi-res monitors expired 3/23/93 after this  
+> date Apple will NOT reimburse service providers for the fix (replacement  
+> of the hi-voltage capacitor). All you folks that have been putting up with  
+> intermittant shutdowns without getting it to your service provider missed  
+> out on the freebie. It was in force for a year. If you got it free after  
+> 3/23, you got a deal...
+> Jeff Hite
+> Computing Center
+> U of Oregon
+> jeffh@ludwig.cc.uoregon.edu
+
+--
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 51913
+From: bauer@informatik.uni-ulm.de (Christian Bauer)
+Subject: Re: Q700 at 34.5MHz, it's fine...
+
+In article <lee5.734735026@husc.harvard.edu>, lee5@husc8.harvard.edu
+(Patrick Lee) wrote:
+> 
+> menes@Informatik.TU-Muenchen.DE (Rainer Menes) writes:
+> 
+> 
+> >I wonder why nobody has ever tried to replace the oscilator only, like on a Mac IIsi. As I understand the Newer Variable Speed Overdrive is only hardware, and alittle init which is use to adjust the speed. My idear is to replace the cristal oscilator wit
+> h a socket and than I can change the oscilator very easy. This will be alot cheaper the the Newer Variable Speed Overdrive. I would gues only 20$ to 50$ are need to do the upgrade. 
+> 
+> >Does someone on the net ever tried this variant of speeding up the quadra 700??
+In the May issue of C't Magazine was an article about upgrading 040 models
+of apple. They simply change crystals and add a fan.
+Hammerhead: Centris 610 was able to work with 25 MHz (cooler prefered)
+            and for 1000 DM you get an 68040 (33MHz) which works with the
+            appropriate crystal at full speed. (extra cooling required)    
+            Centris 650 like Quadra 700 with extra cooling 33MHz works on
+            most machines and for real power enthusiasts they used a
+            Quadra 950 at 40 MHz wow! But for better description you should
+            get this issue of C't (a german PC magazine!) 
+
+Christian Bauer
+
+bauer@informatik.uni-ulm.de
+

@@ -1,0 +1,90 @@
+Newsgroup: sci.crypt
+document_id: 15434
+Subject: Re: Once tapped, your code is no good any more.
+From: a_rubin@dsg4.dse.beckman.com (Arthur Rubin)
+
+In <strnlghtC5nrHw.1qB@netcom.com> strnlght@netcom.com (David Sternlight) writes:
+
+>In article <115863@bu.edu> uni@acs.bu.edu (Shaen Bernhardt) writes:
+
+>>
+>>I wish I could agree with you.  Ask yourself this.  Why would any private
+>>sector entity wish to buy a crypto system that was KNOWN to be at least
+>>partially compromised? (Key escrows in this instance)  Why would any
+>>private sector entity wish to buy a crypto system that had not been properly
+>>evaluated?  (i.e. algorythm not publically released)
+>>The answer seems obvious to me, they wouldn't.  There is other hardware out
+>>there not compromised.  DES as an example (triple DES as a better one.)
+
+>What follows is my opinion. It is not asserted to be "the truth" so no
+>flames, please.  It comes out of a background of 20 years as a senior
+>corporate staff executive in two Fortune 50 companies.
+
+No wonder American businesses are going down the tubes! :-|
+
+>I'd be happy to use a crypto system supplied by the NSA for business, if
+>they told me it was more secure than DES, and in particular resistant to
+>attempts by Japanese, French, and other competitive companies and
+>governments to break.
+
+(It's NIST, not NSA.  NSA is not supposed to have anything to do with this.)
+They didn't say that.  They said is was better than some commercial-grade
+encryptions.  I, for one, wouldn't trust them if they did, unless they
+release the algorithm for investigation.
+
+>I'd be happy to do so even with escrowed keys, provided I was happy about
+>the bona fides of the escrow agencies (the Federal Reserve would certainly
+>satisfy me, as would something set up by one of the big 8 accounting firms).
+
+Maybe the ACLU and EFF.  (It would have to be a non-profit, so the big 8
+would be out.)
+
+>I'd trust the NSA or the President if they stated there were no trap
+>doors--I'd be even happier if a committee of independent experts examined
+>the thing under seal of secrecy and reported back that it was secure.
+
+I wouldn't trust the NSA.  I think I would trust the President on this, but
+I'm not certain he would be told.
+
+>I'd trust something from the NSA long before I'd trust something from some
+>Swiss or anybody Japanese.
+
+That's your problem.
+
+>This may seem surprising to some here, but I suggest most corporations would
+>feel the same way. Most/many/some (pick one) corporations have an attitude
+>that the NSA is part of our government and "we support our government", as
+>one very famous CEO put it to me one day.
+
+I want to emphasize the I am not speaking for Beckman Instruments at this
+point.  However, we are an international company, and I would like to think
+that our customers come first, ahead of our government's whims.
+--
+Arthur L. Rubin: a_rubin@dsg4.dse.beckman.com (work) Beckman Instruments/Brea
+216-5888@mcimail.com 70707.453@compuserve.com arthur@pnet01.cts.com (personal)
+My opinions are my own, and do not represent those of my employer.
+
+Newsgroup: sci.crypt
+document_id: 15435
+From: geoff@ficus.cs.ucla.edu (Geoffrey Kuenning)
+Subject: Re: Once tapped, your code is no good any more.
+
+In article <2073@rwing.UUCP> pat@rwing.UUCP (Pat Myrto) writes:
+
+> fishing expeditions without the target's knowlege.  Don't give up the
+> right to be safe from that - that should be non-negotiable, and Clinton
+> and Co. know it (which is probably why they quietly developed this thing,
+> figuring if they get it this far, they can ram it on through).
+
+It always amazes me how quick people are to blame whatever
+administration is current for things they couldn't possibly have
+initiated.  This chip had to take *years* to develop, yet already
+we're claiming that the Clinton administration sneaked it in on us.
+Bullshit.  The *Bush* administration and the career Gestapo were
+responsible for this horror, and the careerists presented it to the
+new presidency as a fait accompli.  That doesn't excuse Clinton and
+Gore from criticism for being so stupid as to go for it, but let's lay
+the body at the proper door to start with.
+-- 
+	Geoff Kuenning	geoff@maui.cs.ucla.edu	geoff@ITcorp.com
+

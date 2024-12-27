@@ -1,0 +1,117 @@
+Newsgroup: comp.windows.x
+document_id: 67397
+Subject: Re: XV 3.00 has escaped!
+From: sands@ccu1.aukuni.ac.nz (Greg Sands)
+
+bradley@grip.cis.upenn.edu (John Bradley) writes:
+
+>If found, it answers to the name of 'contrib/xv-3.00.tar.Z'.
+
+Before I even think about getting this, is it going to be posted to 
+comp.sources.x at any time in the near future?  
+
+Greg.
+
+-- 
+Greg Sands.                           |  Department of Engineering Science
+-----------                           |  University of Auckland           
+g.sands@auckland.ac.nz                |  New Zealand.
+
+Newsgroup: comp.windows.x
+document_id: 67398
+Subject: Re-entrancy of Xlib functions. Known problem???
+From: visser@eedwsa.itwol.bhp.com.au (Martin Visser)
+
+I've found a problem in the use of Xlib functions regarding re-entrancy. I
+decided to implement an animated cursor (using 6 created cursors) by calling
+XDefineCursor from a SIG_ALRM signal handler. This is used to indicate we are
+waiting for a operator request to complete. (on a production control system).
+I was redrawing the screen underneath the animated cursor and then restoring
+the standard cursor when complete. I found dumped core , and upon analysis
+it was when the SIG_ALRM handler was called during a XDrawString call. XDrawString
+was doing a bcopy (presumably an internal structure) when the XDefineCursor
+was called. Presumably the (internal) structure that XDrawString was manipulating
+was not in a stable state and sent XDefineCursor to where it shouldn't have been.
+
+Has anyone else experienced this? Is there any official documentation that
+says you should ensure this doesn't happen? Or should bcopy() be atomic.
+We are running on SGI Irix 4.0.1 with X11R4.
+
+
+
+-- 
+Regards, Martin
+
+   /\/\     :  Martin Visser - Electrical / Software Engineer 
+  / / /\    :  Engineering Technology Department
+ / / /  \   :  BHP Steel - Slab and Plate Products Division
+/ / / /\ \  :  P.O. Box 1854 Wollongong NSW 2500 AUSTRALIA
+\ \/ / / /  :  Phone    +61-42-75-7522 ext. 6207
+ \  / / /   :  Fax      +61-42-75-7038 
+  \/\/\/    :  E-mail   visser@itwol.bhp.com.au
+
+Newsgroup: comp.windows.x
+document_id: 67399
+From: klute@tommy.informatik.uni-dortmund.de (Rainer Klute)
+Subject: Re: Imake-TeX: looking for beta testers
+
+In article <1rl3efINNl7p@fbi-news.Informatik.Uni-Dortmund.DE>,
+klute@tommy.informatik.uni-dortmund.de (Rainer Klute) writes:
+|> As I announced at the X Technical Conference in January, I would like
+|> to
+|> make Imake-TeX, the Imake support for using the TeX typesetting system,
+|> publically available. Currently Imake-TeX is in beta test here at the
+|> computer science department of Dortmund University, and I am looking
+|> for
+|> some more beta testers, preferably with different TeX and Imake
+|> installations.
+
+Judging from the responses so far, I have not made clear enough in my
+article quoted above that Imake-TeX is not for installing TeX, but for
+*using* it. With Imake-TeX, you will never again have to fiddle around with
+calling latex and its various utility programs (makeindex, bibtex). Simply
+type "make" and your document's DVI file will be up-to-date. All you have
+to do is to write a simple Imakefile and let Imake generate a suitable
+Makefile for you. Here is such an Imakefile:
+
+	#include "TeX.tmpl"
+	PaperFormatA4()
+	SimpleLatexTarget(document)
+
+The generated Makefile provides the following commands:
+
+    make depend:    Searching the TeX source files for dependencies like
+                    \input{somefile}
+
+    make dvi:       Generate an up-to-date DVI file
+
+    make viewdvi:   Display it on your screen
+
+    make ps:        Generate a PostScript version of your document
+
+    make viewps:    Display it
+
+    make clean:     Remove unnecessary things
+
+    make veryclean: Remove even the DVI file
+
+    make Makefiles: Generate Makefiles in subdirectories
+
+
+If ...
+
+a) ...this seems attractive to you,
+b) ...you are willing to test Imake-TeX and send me a short test report,
+c) ...you are willing to cope with a rudimentary English documentation
+   (however, the German version is completed and included),
+
+then you are invited as a beta tester. I am looking forward to your e-mail.
+
+-- 
+  Dipl.-Inform. Rainer Klute      I R B :  immer richtig beraten
+  Univ. Dortmund, IRB
+  Postfach 500500         |)|/    Tel.: +49 231 755-4663
+D-W4600 Dortmund 50       |\|\    Fax : +49 231 755-2386
+
+  new address after June 30th: Univ. Dortmund, D-44221 Dortmund
+

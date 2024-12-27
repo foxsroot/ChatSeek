@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ subject }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='document.css') }}">
+</head>
+<body>
+<a href="/" class="back-link">←</a>
+<h1>{{ subject }}</h1>
+<hr>
+<div class="details">
+    <p><b>Newsgroup: </b>{{ newsgroup }}</p>
+    <p><b>Email: </b>{{ email }}</p>
+    <p><b>Document ID: </b>{{ docID }}</p>
+</div>
+<div class="message">
+    <p>{{ content | safe }}</p>
+</div>
+</body>
+</html>

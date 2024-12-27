@@ -1,0 +1,43 @@
+.suggestions {
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+    position: absolute;
+    width: 420px;
+    /*width: 372px;*/
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.suggestions li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+.search-container {
+    position: relative;
+    display: inline-block;
+}
+
+.auto-correct {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.auto-correct a {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+.auto-correct a:hover {
+    text-decoration: none;
+}

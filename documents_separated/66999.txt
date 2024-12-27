@@ -1,0 +1,13 @@
+Newsgroup: comp.windows.x
+document_id: 66999
+From: howardy@freud.nia.nih.gov (Howard Wai-Chun Yeung)
+Subject: need shading program example in X
+
+Do anyone know about any shading program based on Xlib in the public domain?
+I need an example about how to allocate correct colormaps for the program.
+
+Appreciate the help.
+
+Howard.
+
+

@@ -1,0 +1,73 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60362
+Subject: Conner CP30061G info, please
+From: michael@pcmith.rks.se (Michael Thurbin)
+
+I have a Conner-disk model CP30061G (200Mb ??) with no info at all. The only thing I know is that
+is normally used with Compaq-machines.
+Please, send me information on switch-settings, geometry and so on.
+It looks like a normal IDE-disk but is it possible to use it with a standard IDE-controller??
+
+-- Michael
+
+-- 
+**************************************************************************************************
+Michael Thurbin
+Sommarvagen 1		Phone: +46 (0)47021340
+S-352 37 Vaxjoe		Fax:   +46 (0)47048978
+SWEDEN
+**************************************************************************************************
+
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60363
+Subject: Looking for replacement for a JVC-disk
+From: michael@pcmith.rks.se (Michael Thurbin)
+
+Hi!
+I got hold of an old Zenith 286 Laptop with model# ZWL-183-45
+
+The hard-disk is dead but the rest seems to work. I took the Zenith apart and found a very strange
+disk for wich I now try to replace.
+
+The disk is marked JVC, model JD3824R00-1.
+Has anyone any specs. on this disk or suggestion where i can find it or a cheap replacement for it.
+
+Thanks for your help.
+
+-- Michael
+
+Michael Thurbin (michael@pcmith.rks.se)
+
+-- 
+**************************************************************************************************
+Michael Thurbin
+Sommarvagen 1		Phone: +46 (0)47021340
+S-352 37 Vaxjoe		Fax:   +46 (0)47048978
+SWEDEN
+**************************************************************************************************
+
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60364
+From: lance@hartmann.austin.ibm.com (Lance Hartmann)
+Subject: Re: S3 video card at different address
+
+In article <1qmrdd$70h@umcc.umcc.umich.edu> jon@umcc.umcc.umich.edu (Jon Zeeff) writes:
+>I'd like to add a second S3 based video card to my system.  Does anyone
+>know of a company that sells a card that can coexist with another one?
+>All I really need is color text on one monitor and fast color graphics
+>on the other.
+>
+>Probably just a configurable address would do it.
+>
+
+For what it's worth (I haven't confirmed it), a Diamond tech-rep told
+me that ALL S3-based video cards use port addresses 0x2E0 and 0x2E8.
+If this is true, it appears that you canNOT use more than one S3 card
+in your system.
+
+Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+               Yes, that IS a '%' (percent sign) in my network address.
+------------------------------------------------------------------------------
+All statements, comments, opinions, etc. herein reflect those of the author
+and shall NOT be misconstrued as those of IBM or anyone else for that matter.
+

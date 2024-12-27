@@ -1,0 +1,46 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 51647
+Subject: Re: Mac Plus is constantly rebooting!
+From: stubbs@hawk.cs.ukans.edu (Jerry Stubbs)
+
+>On a side note, has anyone ever had a Mac Plus "smoke out" on them?  We  
+>have had four machines that all of a sudden start emitting a thick grayish  
+>white smoke.  In each case it was a capacitor that had gone bad.  Has  
+>anyone else encountered this?
+
+>Keith Cooley
+>EE Macintosh Lab Administrator
+>Louisiana Tech University
+>tkc@engr.LaTech.EDU
+
+
+We've had it happen a time or two.  Beginning students think it is pretty
+entertaining when it happens during a lab lecture or demonstration.
+
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 51648
+From: umsoroko@ccu.umanitoba.ca (Michael Sorokowski)
+Subject: Request info on floptical drives.
+
+I'm considering adding a floptical drive to my current system.
+
+What I would like to know is which floptical drives are recommended for
+their quality and performance.
+
+My preference would be floptical drives capable of handling both 800k and
+1.4k floppies, but handling 800k floppies is not a necessity.
+
+So far, I only know a bit about the Iomega floptical and the Infinity
+floptical drives.  Are there any comments/recommendations for either of these?
+
+Are there any other floptical drives that are worth looking into and where
+can they be purchased (i.e. which mail order places, etc).
+
+Thanks in advance.
+
+Please send replies directly to umsoroko@ccu.umanitoba.ca
+
+----
+Mike Sorokowski		(umsoroko@ccu.umanitoba.ca)
+

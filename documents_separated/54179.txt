@@ -1,0 +1,26 @@
+Newsgroup: sci.electronics
+document_id: 54178
+Subject: PC BOARD Layout Help
+From: <EH1QC@CUNYVM.BITNET>
+
+Hi,  I have a few questions about laying out a PCB. I am using easytrax for dos
+which is a great program. But what my question is When laying out traces what
+thickness should they be? I am mainly designing low voltage low current boards
+for micro controller apps. What should pad sizes be for resistors? I will be
+turning to a commercial PCB maker to produce 1's of these boards and I was
+wondering what is the minimum distance traces should be from each other. Well
+any info would be great. Thanks.
+                                                 Anton
+
+Newsgroup: sci.electronics
+document_id: 54179
+From: dws30@p1hdb01cd.amdahl.com (David Sharpe)
+Subject: Re: Pink Noise
+
+
+ Pink Noise and White Noise are equal amounts of all frequencies.  This
+is in most cases around the 20-3.3K Hz range.  Pink/White are used to
+adjust for room dynamics and stuff like that.  There are a few EQ's out
+on the market that have Pink noise built in.  Most all from Audio
+Control have them I know the C-101 does.  
+

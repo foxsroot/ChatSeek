@@ -1,0 +1,36 @@
+Newsgroup: comp.graphics
+document_id: 38305
+Subject: Rendering Software for Multi-processor Computer S
+From: wcarter@trident.datasys.swri.edu (William Carter)
+
+
+Hello,
+
+    I am searching for rendering software which has been developed
+to specifically take advantage of multi-processor computer systems.
+Any pointers to such software would be greatly appreciated.
+    
+Thanks.
+
+-- 
+Billy Carter, Software Engineering Section
+Southwest Research Institute
+wcarter@swri.edu
+
+Newsgroup: comp.graphics
+document_id: 38306
+From: lvandyke@balboa.eng.uci.edu (Lee Van Dyke)
+Subject: Wanted: map of the world type gifs
+
+Hi, can anyone direct me to map type gifs? 
+
+I am interesting in cartography and would find
+these gifs useful.
+
+tia,
+
+--
+Lee Van Dyke
+      lvandyke@balboa.eng.uci.edu,
+UUCP: infotec!Infotec.COM!lee@sunkist.West.Sun.COM
+

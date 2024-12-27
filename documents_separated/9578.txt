@@ -1,0 +1,83 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9577
+Subject: Re: GUI Application Frameworks for Windows ??
+From: stefan@olson.acme.gen.nz (Stefan Olson)
+
+In <1993Apr12.154418.14463@cimlinc.uucp> bharper@cimlinc.uucp (Brett Harper) writes:
+>Hello,
+>  
+>  I'm investigating the purchase of an Object Oriented Application Framework.  I have
+>come across a few that look good:
+
+>  Zapp 1.1 from Inmark
+>  Zinc 3.5 from Zinc software
+>  C++/Views from Liant
+>  Win++ from Blaise
+
+>Some considerations I'm using:
+
+>  Being new to Windows programming (I'm from the UNIX/X world), the quality and
+>intuitivness of the abstraction that these class libraries provide is very 
+>important.  However, since I'm not adverse to learning the internals of Windows
+>programming, the new programming methodology should be closely aligned with
+>the native one.  I don't believe arbitrary levels of abstraction, just for the
+>sake of changing the API, are valuable.
+
+The Microsoft Founation classes (afx) that come with C/C++ 7.0 (and 
+Visual C++) are very good, they already have a version for NT,
+it comes with source code, and is very close to the navtive API.
+It also as some classes to manage data structures...
+
+...Stefan
+
+-- 
+------------------------------------------------------------------------
+   Stefan Olson                     Mail: stefan@olson.acme.gen.nz
+   Kindness in giving creates love.
+------------------------------------------------------------------------
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9578
+From: Jesse
+Subject: Is ms-windows a "mature" OS?
+
+hi,
+  Have you used Mac system 6.x or 7.x? If the answer is positive, you would
+know if ms-windows is a "mature" OS.
+
+  Days ago people doubted that ms-windows is not a real OS. I can see why
+they have such question. Ms-windows confuses many people. Microsoft
+simulated Mac, but it did a lousy job.  For example:
+
+(1) You can not create hierarchy groups. There is no way to create a group
+    in a group. (If you know how, please tell me.)
+(2) Too many system parameters to take care of. 
+(3) uncomplete documentation. It's not easy to find the reason why causes
+    an unpredictable error.
+(4) Group deleting/file deleting
+    After deleting a group, users have to use file manager to delete files.
+    But if users forget to delete some related files, the disk will be full
+    of nonsense files.
+(5) share problem
+    Once you create two windows doing compilation and editing in some
+    language (w/o good editor), there will be a sharing problem. You just
+    can not open or save the program if it is loaded. It makes sense to
+    prevent from saving, but not opening.
+
+Microsoft try to compromise between DOS and windows, but they just make 
+ms-windows a graphical DOS with capacity doing mutiple DOS jobs; 
+the worst thing is they complicate the environment. The orginal purpose
+of ms-windows should be to simplify the environment, and make PC easier 
+to use.
+  
+  It's by no means easy to satisfy everybody, but if Microsoft want to
+keep their reputations, they should evaluate the user interface more
+carefully before products distribute.
+
+  No flame, please.
+
+Jesse
+e-mail:cyen@cs.unt.edu/ic43@sol.acs.unt.edu
+
+
+

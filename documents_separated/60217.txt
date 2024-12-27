@@ -1,0 +1,98 @@
+Newsgroup: sci.space
+document_id: 60216
+Subject: Re: Space Research Spin Off
+From: shafer@rigel.dfrf.nasa.gov (Mary Shafer)
+
+On Tue, 6 Apr 1993 02:19:59 GMT, pgf@srl03.cacs.usl.edu (Phil G. Fraering) said:
+
+Phil> shafer@rigel.dfrf.nasa.gov (Mary Shafer) writes:
+
+>On 4 Apr 1993 20:31:10 -0400, prb@access.digex.com (Pat) said:
+
+>Pat> In article <1993Apr2.213917.1@aurora.alaska.edu> Pat>
+>nsmca@aurora.alaska.edu writes: >Question is can someone give me 10
+>examples of direct NASA/Space related >research that helped humanity
+>in general? It will be interesting to see..
+
+>Pat> TANG :-) Mylar I think.  I think they also pushed Hi Tech Pat>
+>Composites for airframes.  Look at Fly by Wire.
+
+>Swept wings--if you fly in airliners you've reaped the benefits.
+
+Phil> Didn't one of the early jet fighters have these?  I also think
+Phil> the germans did some work on these in WWII.
+
+The NACA came up with them before World War II.  NASA is directly
+descended from the NACA, with space added in.
+
+You'll notice that I didn't mention sweep wings even though the
+X-5, tested at what's now Dryden, had them.  We did steal that one
+dirctly from the Germans.  The difference is that swept wings don't
+change their angle of sweep, sweep wings do.  Perhaps the similarity
+of names has caused some confusion?  747s have swept wings, F-111s
+have sweep wings.
+
+>Winglets.  Area ruling.  Digital fly by wire.  Ride smoothing.
+
+Phil> A lot of this was also done by the military...
+
+After NASA aerodynamicists proposed them and NASA test teams
+demonstrated them.  Richard Whitcomb and R.T. Jones, at Langley
+Research Center, were giants in the field.
+
+Dryden was involved in the flight testing of winglets and area
+ruling (in the 70s and 50s, respectively).  It's true that we
+used military aircraft as the testbeds (KC-135 and YF-102) but
+that had more to do with availability and need than with military
+involvement.  The YF-102 was completely ours and the KC-135 was
+bailed to us.  The Air Force, of course, was interested in our
+results and supportive of our efforts.
+
+Dryden flew the first digital fly by wire aircraft in the 70s. No
+mechnaical or analog backup, to show you how confident we were.
+General Dynamics decided to make the F-16 flyby-wire when they saw how
+successful we were.  (Mind you, the Avro Arrow and the X-15 were both
+fly-by-wire aircraft much earlier, but analog.)
+
+Phil> Egad! I'm disagreeing with Mary Shafer!  
+
+The NASA habit of acquiring second-hand military aircraft and using
+them for testbeds can make things kind of confusing.  On the other
+hand, all those second-hand Navy planes give our test pilots a chance
+to fold the wings--something most pilots at Edwards Air Force Base
+can't do.
+
+
+--
+Mary Shafer  DoD #0362 KotFR NASA Dryden Flight Research Facility, Edwards, CA
+shafer@rigel.dfrf.nasa.gov                    Of course I don't speak for NASA
+ "A MiG at your six is better than no MiG at all."  Unknown US fighter pilot
+
+Newsgroup: sci.space
+document_id: 60217
+From: adam@sw.stratus.com (Mark Adam)
+Subject: Re: space food sticks
+
+In article <1pr5u2$t0b@agate.berkeley.edu>, ghelf@violet.berkeley.edu (;;;;RD48) writes:
+> The taste is hard to describe, although I remember it fondly.  It was
+> most certainly more "candy" than say a modern "Power Bar."  Sort of
+> a toffee injected with vitamins.  The chocolate Power Bar is a rough
+> approximation of the taste.  Strawberry sucked.
+> 
+
+Peanut butter was definitely my favorite. I don't think I ever took a second bite
+of the strawberry.
+
+I recently joined Nutri-System and their "Chewy Fudge Bar" is very reminicent of
+the chocolate Space Food. This is the only thing I can find that even comes close
+the taste. It takes you back... your taste-buds are happy and your
+intestines are in knots... joy!
+
+-- 
+
+mark ----------------------------
+(adam@paix.sw.stratus.com)	|	My opinions are not those of Stratus.
+				|	Hell! I don`t even agree with myself!
+
+	"Logic is a wreath of pretty flowers that smell bad."
+

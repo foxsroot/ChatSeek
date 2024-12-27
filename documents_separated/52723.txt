@@ -1,0 +1,85 @@
+Newsgroup: sci.electronics
+document_id: 52722
+Subject: ACCESS BUS (was I2C bus)
+From: srgxnbs@grace.cri.nz
+
+From:	MX%"Andy.Macrae@Corp.Sun.COM"  6-APR-1993 06:48:34.96
+To:	SRGXNBS
+CC:	
+Subj:	Re: I^2C bus and long haul serial (also Axlo
+
+Return-Path: <Andy.Macrae@Corp.Sun.COM>
+Received: from Sun.COM by GRV.GRACE.CRI.NZ (MX V3.1C) with SMTP; Tue, 06 Apr
+          1993 06:48:29 +1300
+Received: from Corp.Sun.COM (lemay.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1) id
+          AA24280; Mon, 5 Apr 93 11:48:08 PDT
+Received: from grendal.Corp.Sun.COM by Corp.Sun.COM (4.1/elliemay (corpmail1
+          inbound)) id AA25933; Mon, 5 Apr 93 11:48:07 PDT
+Received: by grendal.Corp.Sun.COM (4.1/SMI-4.1) id AA05710; Mon, 5 Apr 93
+          11:47:28 PDT
+Date: Mon, 5 Apr 93 11:47:28 PDT
+From: Andy.Macrae@Corp.Sun.COM (Andrew MacRae)
+Message-ID: <9304051847.AA05710@grendal.Corp.Sun.COM>
+To: srgxnbs@grace.cri.nz
+Subject: Re: I^2C bus and long haul serial (also Axlo
+CC: Andy.Macrae@Corp.Sun.COM
+content-length: 693
+
+In article <1pii04INNk6t@zephyr.grace.cri.nz> you write:
+> Whats required to get onto the ACCESS bus? The nice thing about the
+> i2c is that most i/o requires one 8 ... 16 pin DIL chip, ie its cheap
+> and easy. Anyone can design a bus, trouble is most buses require a
+> host of interface chips and often on-board intelligence.
+
+Bruce,
+	For the latest information on Access.Bus call the Access.Bus
+Industry Group at (408) 991-3517.  Also, Sun will be hosting the next
+meeting of the group on April 19th, here in Mountain View.  For some reason
+I am not able to post to any newsgroups today, so please feel free to pass
+this information on yourself as you see fit.
+
+						Andrew MacRae
+
+
+Newsgroup: sci.electronics
+document_id: 52723
+From: baden@sys6626.bison.mb.ca (baden de bari)
+Subject: Re: Jacob's Ladder
+
+g92m3062@alpha.ru.ac.za (Brad Meier) writes:
+
+> Hi, I'm looking for a circuit, that is called a "Jacob's Ladder".
+> This little box is usually seen in sci-fi movies.  It consists of 
+> two curves of wire protruding into the air, with little blue sparks
+> starting at their base (where the two wires are closer to each other),
+> moving up the wires to the top, and ending in a small crackling noise. 
+> 
+> Could anyone supply me with the schematic for the innards of this box?
+> 
+> Thanks in advance
+> Mike
+> 
+> (Please reply by email to g90k3853@alpha.ru.ac.za)
+> 
+> --
+>  |  / |  | ~|~ /~~\  |  | ~|~ /~~\  |~~\  /~~\         The KnightOrc 
+>  |/   |\ |  | |   __ |__|  | |    | |__/ |         g92m3062@hippo.ru.ac.za
+>  |\   | \|  | |    | |  |  | |    | |  | |      "When it's over I'll go home,
+>  |  \ |  | _|_ \__/  |  |  |  \__/  |  |  \__/    until then, I stay!" - Me
+
+ 
+        I'd like any accumulated information on this as well please.
+ 
+                Thanks.
+ 
+_________________________________________    
+    _____                                |
+   |     |   |                           |
+ =========== |    Baden de Bari          |
+  | o   o |  |                           |
+  |   ^   |  | baden@sys6626.bison.ca    |
+  |  {-}  |  | baden@inqmind.bison.ca    |
+   \_____/   |                           |
+-----------------------------------------
+
+

@@ -1,0 +1,41 @@
+Newsgroup: sci.crypt
+document_id: 15571
+Subject: Looking for MS-DOS crypto programs
+From: EXTDSM@LURE.LATROBE.EDU.AU (MADDISON,David)
+
+I am a new reader of sci.crypt I would like to obtain a copy of a
+public domain program that can encrypt files, preferably using DES,
+that runs under MS-DOS.
+
+I would also like to obtain a program which will password protect
+floppy disks, if this is possible.
+
+Thanks.
+
+David Maddison
+Melbourne, Australia
+
+Newsgroup: sci.crypt
+document_id: 15572
+From: oz@ursa.sis.yorku.ca (Ozan S. Yigit)
+Subject: Re: List of large integer arithmetic packages
+
+Mark Riordan writes:
+
+	[a list of large-integer arithmetic packages elided]
+
+I thought I would note that except Lenstra's packages, none of the
+large-integer packages are in the public domain. As an alternative,
+a straightforward *PD* implementation of Knuth's algorithms may be
+found as a part of Uof Arizona's ICON distribution.
+
+oz
+---
+With diligence, it is possible to make | electric: oz@sis.yorku.ca
+anything run slowly.        --Tom Duff | ph:[416] 736 2100 x 33976
+
+			
+
+
+
+

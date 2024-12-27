@@ -1,0 +1,40 @@
+Newsgroup: comp.graphics
+document_id: 38836
+Subject: DXF to PCX,GIF,TIF or TGA?
+From: murashiea@mail.beckman.com (Ed Murashie)
+
+Does anyone know of a program for the PC that
+will take AutoCad DXF format files and convert
+them to a raster format, like PCX, GIF, etc?
+Thanks in advance....
+				ED
+
+------------------
+Ed Murashie                     US Mail :  Beckman Instruments Inc.
+phone: (714) 993-8895                      Diagnostic System Group 
+fax:   (714) 961-3759                      200 S. Kraemer Blvd  W-361
+Internet: murashiea@mail.beckman.com       Brea, Ca 92621  
+
+Newsgroup: comp.graphics
+document_id: 38837
+From: matess@gsusgi1.gsu.edu (Eliza Strickler)
+Subject: I donwloaded a .bin file from a unix machine - now what?
+
+I just donwloaded a *.bin file from a unix machine which is
+supposed to be converted to a MAC format. Does anyone know 
+what I need to do to this file to get it into any Dos, Mac
+or Unix readable format. Someone mentioned fetch on the unix
+machine - is this correct? Could someone explain the .bin
+format a little?
+
+Thanks,
+
+Elizabeth
+-- 
+
+
+\|/--_   -_-      ----           ###         _- ----------------------
+-0    -_-   --       -__ %~- ____#0        _-   Elizabeth Strickler
+|\     ^                 0\~     /\   /\  -     
+|_(___/ \_    ||_________/     _/  |_/  \_      matess@gsusgi1.gsu.edu 
+

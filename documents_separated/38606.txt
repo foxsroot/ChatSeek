@@ -1,0 +1,38 @@
+Newsgroup: comp.graphics
+document_id: 38605
+Subject: Re: Trying to view POV files.....
+From: dane@nermal.santarosa.edu (Dane Jasper)
+
+Edward d Nobles (ednobles@sacam.OREN.ORTN.EDU) wrote:
+
+: I've been trying to view .tga files created in POVRAY.  I have the Diamond
+: SpeedStar 24 Video board (not the _24X_).  So far I can convert them to
+: jpeg using cjpeg and view them with CVIEW but that only displays 8 bit color.
+..
+: Just want to see the darn things in real color...
+
+I have an ATI ultra pro card, and have found that the easiest way to view
+true color images is using their windows drivers and something like winjpeg
+or photofinish.  
+
+If anyone has a non-windows solution, I'd love to hear it!
+
+Dane
+
+Newsgroup: comp.graphics
+document_id: 38606
+From: jroberts@ux4.cso.uiuc.edu (Robertson)
+Subject: ATI GUP and Graphics Wkshop/Win
+
+I have an ATI Graph. Ultra Pro VLB w/2 megs, and have a small question
+about Graphics Workshop for Windows.  When I exit from it it says my
+current driver can handle on 32768 colors when I am actually in 
+1024x768x65000 color mode.  Is this a driver problem, a GWS error, or
+what?  I am using the 1.5(59) driver under Win 3.1.  It correctly
+states that I can display 16M colors when I switch to 800x600x24bit,
+though.
+Another question- Anybody know of any Viewers that support this card
+other than Windows viewers?
+Any help would be appreciated.
+
+

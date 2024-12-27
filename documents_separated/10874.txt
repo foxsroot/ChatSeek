@@ -1,0 +1,7 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 10874
+From: stu1016@discover.wright.edu (Chris Thompson)
+Subject: Font Size for DOS in a Window 800x600x256
+
+
+

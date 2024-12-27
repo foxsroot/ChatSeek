@@ -1,0 +1,39 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9643
+Subject: FORTRAN library for MS-Windows
+From: traversmorgan@swell.actrix.gen.nz (Guan Lye Chua)
+
+
+Hi!  I will like to know if there is a FORTRAN library for MS-Windows v3+ out
+there.
+
+I have several lots of source code written by past A/Ps in MS-FORTRAN, and
+recently have needed to port them to MS-Windows... I would like to avoid a
+major code-rewrite if possible - maybe a WINDOWS library is all I need?
+
+Please help - reply by E-mail to:  traversmorgan@swell.actrix.gen.nz
+-- 
+Guan Lye Chua                                                              
+c/- Travers Morgan (NZ) Ltd, P O Box 11-525, Wellington, NZ.               
+Tel.: +64 4 471 0303   Fax.: +64 4 471 0353 
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9644
+From: bigal@wpi.WPI.EDU (Nathan Charles Crowell)
+Subject: Wallpaper in Windows 3.1
+
+Hi there,
+
+Is there any utility available that will make Windows
+randomly select one of your windows directory's .BMP
+files as the wallpaper file?
+
+Nate
+--------------------------
+Nathan C. Crowell, Dept. of Materials Science/ACRL
+
+Worcester Polytechnic Institute     E-mail: bigal@wpi.wpi.edu
+
+"A flower?"-Genesis "Supper's Ready"
+--------------------------
+

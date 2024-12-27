@@ -1,0 +1,10 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60266
+From: cunning@mksol.dseg.ti.com (patrick w cunningham)
+Subject: AMD CPU
+
+ Any comments of AMD microprocessors?  good?, bad?
+
+ thanks, pat
+
+

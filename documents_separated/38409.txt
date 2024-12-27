@@ -1,0 +1,25 @@
+Newsgroup: comp.graphics
+document_id: 38408
+Subject: .GL and .FLI specs
+From: arthur@qedbbs.com (Arthur Choung)
+
+Can somebody point out to me where I can find the specs for .GL and .FLI files
+found on PC's?
+
+------------------------------
+arthur@qedbbs.com (Arthur Choung)  or  qed!arthur
+The QED BBS -- (310)420-9327
+
+Newsgroup: comp.graphics
+document_id: 38409
+From: DonH@cup.portal.com (Don - Hirschfeld)
+Subject: Re: MS-Windows graphics viewer?
+
+Check out Image Pals v1.2 from U-Lead (until May, special $99 intro price,
+310-523-9393). It has the basic image processing tools for all major formats,
+does screen grabbing, and allows all your image files to be calalogged into
+a thumbnail database. It's great!
+
+
+Don
+

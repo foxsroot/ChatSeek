@@ -1,0 +1,12 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 10610
+From: yjj@rhea.ctr.columbia.edu (Yuan Jiang)
+Subject: Any utility that let you remap the keyboard under MS Win?
+
+Any utility that let you remap the keyboard under MS Win?
+
+Thanks for any pointer.
+
+
+
+

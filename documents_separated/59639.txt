@@ -1,0 +1,100 @@
+Newsgroup: sci.med
+document_id: 59638
+Subject: Re: cure for dry skin?
+From: habersch@husc8.harvard.edu (Oren Haber-Schaim)
+
+jlecher@pbs.org writes:
+
+>In article <1rmn0c$83v@morrow.stanford.edu>, mou@nova1.stanford.edu (Alex Mou) writes:
+>> Hi all,
+>> 
+>> My skin is very dry in general. But the most serious part is located
+>> from knees down. The skin there looks like segmented. The segmentation
+>> actually happens beneath the skin. I would like to know if there is any
+>> cure for this.
+>> 
+
+>As a matter of fact, I just saw a dermatologist the other day, and while I 
+>was there, I asked him about dry skin. I'd been spending a small fortune
+>on various creams, lotions, and other dry skin treatments.
+>He said all I needed was a large jar of vaseline. Soak in a lukewarm tub
+>of water for 10 minutes (ONLY 10 minutes!) then massage in the vaseline,
+>to trap the moisture in. 
+
+That is the standard advice in dermatology texts.
+The soak part greatly increases the inconvenience.  Don't bother unless
+it doesn't work otherwise.
+
+>The hard part will be finding the time to rub in the
+>vaseline properly. 
+
+Exactly, but it adds to the "ritual" aspect, which is important for
+us suggestible patients.  (Posters, don't bother to repeat the 
+rationale for the soak.)
+
+>If it's not done right, you remain greasy and stick
+
+Greasy no matter what. Vaseline (generically, petrolatum) is 
+famous for that.  One text states that the more greasy a dry-skin
+cream is, the more effective.  
+
+>Try it. It's got to be cheaper then spending $30 for 8 oz. of 'natural'
+>lotion.
+
+Try USP lanolin, at least for maintenance (preventive) therapy.  USP
+lanolin is natural and much less greasy AND cheap (don't buy the more
+expensive perfumed lanolin mixture).  As I've commented before, petrolatum
+is a poorly characterized mixture of hydrocarbons which are not found in
+biological systems (that is not inherently bad, but smell it up close,
+even on your hand), are partially absorbed into the body and remain there
+for months or more, and have associations with cancer.  Don't panic, but
+also don't believe it's God's gift to the human skin.
+
+
+Oren Haber-Schaim
+
+Newsgroup: sci.med
+document_id: 59639
+From: antonio@qualcom.qualcomm.com (Franklin Antonio)
+Subject: Re: Thermoscan ear thermometer
+
+In article <ASHWIN.93May1225032@leo.gatech.edu> ashwin@cc.gatech.edu (Ashwin Ram) writes:
+>Does the "Thermoscan" instrument really work?  It is supposed to give you a
+>fast and accurate temperature reading in the ear.  How far in the ear does
+>one have to insert the instrument?  Is it worth the $100 it is currently
+>selling for?
+
+No, they do not work well.  My doctor started using one recently, and I
+thought the concept was so amazing that I bought one too.  
+
+The thing works by reading the infrared emissions from the ear drum.
+The ear drum is hotter than the ear canal walls, so you have to point
+the thing very carefully.  This means tugging on the top of the ear
+to straighten out the ear canal, then inserting the thing snugly, then
+pushing a button.  Unfortunately, there are many things that can go wrong.
+It is almost impossible to aim the thing correctly when you do it on 
+yourself.  I get readings which differ from each other by up to 2 degrees,
+and may differ from an oral thermometer by up to 2 degrees.  
+
+I talked to one of the nurses in my doctor's office recently about this,
+and she said she didn't like them either, for same reasons.  She did give
+me some instruction on how to tug on my ear, and what correct insertion
+feels like, but she said she thought it was impossible to do correctly
+on one's self.  She also said that she and other nurses had complained to
+the company about inaccurate readings, and that someone from the company
+had told them to take great care to clean the infrared window at the end
+of the probe with alcohol from time to time.  She demonstrated this prior
+to reading my temperature, and managed to get a reading within 0.5 degree
+of the oral temperature I took at home before driving to the Dr's office.
+
+I have also noticed tha some nurses click the button, then remove the
+probe immediately.  This causes wrong readings.  In my experience, you
+have to leave the probe in a good 1 to 2 seconds after clicking the button
+to get a good measurement.  The nurse I talked with agreed.  I suspect
+that many people don't realize this, and therefore get bad readings for
+yet another reason.
+
+In short, it's a great idea.  It may work for some folks, but I believe
+it doesn't work well for a person who wants to take his own temperature.
+
+

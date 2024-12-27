@@ -1,0 +1,99 @@
+Newsgroup: sci.crypt
+document_id: 15967
+Subject: Re: Tempest
+From: pgut1@cs.aukuni.ac.nz (Peter Gutmann)
+
+In <1993Apr22.132638.19448@ringer.cs.utsa.edu> whughes@lonestar.utsa.edu (William W. Hughes) writes:
+
+>Hell, just set up a spark jammer, or some other _very_ electrically-noisy
+>device. Or build an active Farrady cage around the room, with a "noise"
+>signal piped into it. While these measures will not totally mask the
+>emissions of your equipment, they will provide sufficient interference to
+>make remote monitoring a chancy proposition, at best. There is, of course,
+>the consideration that these measures may (and almost cretainly will)
+>cause a certain amount of interference in your own systems. It's a matter
+>of balancing security versus convenience.
+
+The problem is that this will also cause  "a certain amount of interference"
+in *all* systems within the range of the device.  A long time ago I built a
+small jammer to dissuade my brother from using his radio alarm clock at 
+something like 4am, which had just enough range to cover my room and his.
+However something powerful enough to mask all (or at least most) emissions from
+your computer equipment is also going to knock out half your neighbourhoods
+radio and TV reception.  This isn't going to make you many friends.
+
+Incidentally, an older-model TRS80 makes a fine wideband jammer <grin>
+
+Peter.
+--
+ pgut1@cs.aukuni.ac.nz||p_gutmann@cs.aukuni.ac.nz||gutmann_p@kosmos.wcc.govt.nz
+peterg@kcbbs.gen.nz||peter@nacjack.gen.nz||peter@phlarnschlorpht.nacjack.gen.nz
+             (In order of preference - one of 'em's bound to work)
+            -- Everything was so different before it all changed --
+
+Newsgroup: sci.crypt
+document_id: 15968
+Subject: Re: Crypto papers on the net.
+From: pgut1@cs.aukuni.ac.nz (Peter Gutmann)
+
+In <16BB91429.C445585@mizzou1.missouri.edu> C445585@mizzou1.missouri.edu (John Kelsey) writes:
+
+>   I've recently been reading a paper of Merkle's (publixhed only on the
+>net, I think) discussing three potential replacements for DES.  Was
+>anyting ever done with these?  Are Khufu, Khafre, and/or Snefru still
+>being discussed anywhere?  (I know Snefru is referenced in the RSA
+>FAQ, and I think it may also be in the sci.crypt FAQ.)
+
+The paper was distributed (against the wishes of the NSA - I have a copy
+with a few 'illicit distribution' footnotes scribbled on it :-), and eventually
+published at one of the crypto conferences.  Things were looking good.
+
+Then Xerox patented the algorithms.  <Plonk!>
+
+I don't know of anything which uses them.  Also, Khafre was broken at a
+later conference and from work on a related algorithm I don't think the
+existing Khufu would hold up too well against a converted differential
+cryptanalysis attack, although it can probably be changed to resist this
+type of attack....
+
+Peter.
+
+[In case you don't know what the <Plonk> is about, check _The New Hacker's
+ Dictionary_.  It's the sound someone makes when they fall to the bottom
+ of a killfile]
+
+
+Newsgroup: sci.crypt
+document_id: 15969
+From: warlord@MIT.EDU (Derek Atkins)
+Subject: Re: Clipper and conference calls
+
+In article <1993Apr25.114820.14022@ulysses.att.com> smb@research.att.com (Steven Bellovin) writes:
+
+   In article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (Wm. Michael Feeley) writes:
+   > Just curious, how would the Clipper Chip system handle
+   > conference calls?
+
+   It's not Clipper, it's any encryption system.  I've seen a number of
+   designs; they generally involve a multi-line cleartext bridge.
+
+Depending on the encryption system, so long as everyone has the same
+key, it can be done.  For example, I was using "vat", which is an
+Internet Audio tool, for a conference call, and we were encrypting the
+session.  (Unfortunately, one site was doing more work, and didn't
+have the CPU for it, so it didn't sound all that good at a different
+site)
+
+So, you don't neccessarily have to have a clear-text bridge.  But if
+you do, its totally internal to one of the sites involved in the
+conversation....
+
+-derek
+
+
+--
+  Derek Atkins, MIT '93, Electrical Engineering and Computer Science
+     Secretary, MIT Student Information Processing Board (SIPB)
+           MIT Media Laboratory, Speech Research Group
+           warlord@MIT.EDU       PP-ASEL        N1NWH
+

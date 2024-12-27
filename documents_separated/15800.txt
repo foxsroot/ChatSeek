@@ -1,0 +1,15 @@
+Newsgroup: sci.crypt
+document_id: 15800
+From: "Stephen J. Ludwick" <sl3b+@andrew.cmu.edu>
+Subject: Encryption Chip Availibility
+
+Hi everybody!
+
+Does anyone know of companies that are currently manufacturing
+encryption chips for sale to the general public?  Get them while you
+can!  Some pointers would be greatly appreciated.
+
+Thanks
+
+Steve
+

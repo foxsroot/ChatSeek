@@ -1,0 +1,122 @@
+Newsgroup: sci.crypt
+document_id: 15648
+Subject: Re: Screw the people, crypto is for hard-core hackers & spooks only
+From: a_rubin@dsg4.dse.beckman.com (Arthur Rubin)
+
+In <1r47l1INN8gq@senator-bedfellow.MIT.EDU> jfc@athena.mit.edu (John F Carr) writes:
+
+>In most cases information you come by properly is yours to use as you wish,
+>but there are certainly exceptions.  If you write a paper which includes
+>sufficiently detailed information on how to build a nuclear weapon, it is
+>classified.  As I understand the law, nuclear weapons design is
+>_automatically_ classified even if you do the work yourself.  I believe you
+>are then not allowed to read your own paper.
+
+This has now been thrown out by the courts.  (The "Progressive" case.)
+
+>A less serious example: if you tell drivers about a speed trap they are
+>about to run into, you can be fined, even though you might argue that you
+>broke no law when you discovered the location of the policeman.  The charge
+>is interfering with a police officer, which is quite similar what you would
+>be doing by reverse engineering the Clipper chip.
+
+This is outright illegal.  It DOES violate the first amendment.  If you
+would, give a case in which your "speed trap" example has been upheld by
+the courts.
+--
+Arthur L. Rubin: a_rubin@dsg4.dse.beckman.com (work) Beckman Instruments/Brea
+216-5888@mcimail.com 70707.453@compuserve.com arthur@pnet01.cts.com (personal)
+My opinions are my own, and do not represent those of my employer.
+
+Newsgroup: sci.crypt
+document_id: 15649
+Subject: Re: Once tapped, your code is no good any more.
+From: a_rubin@dsg4.dse.beckman.com (Arthur Rubin)
+
+In <strnlghtC5uIJ4.76t@netcom.com> strnlght@netcom.com (David Sternlight) writes:
+
+>In article <ELEE9SF.93Apr21095141@menudo.menudo.UH.EDU>
+>elee9sf@menudo.menudo.UH.EDU (Karl Barrus) writes:
+
+>>
+>>Would you trust a black-box from the NSA versus an "open system" from
+>>elsewhere?
+
+>Absolutely, if I were assured by someone I trusted that the black box was
+>more secure. I have nothing to conceal from the government, but I would like
+>to be sure that any Russian, Japanese, French, or other competitors for my
+>services can't read my traffic. I'd like to be sure that competitive bid
+>information was safe from commercial competitors and foreign governments
+>which would aid them.
+
+>I believe the NSA has identical motivations with respect to my activities.
+>The President and many other senior government officials have made it very
+>clear that they share these motivations. Thus I'd trust them on the
+>"coincidence of interests" argument as well as on a basic trust in their
+>professionalism and a high confidence in their skills.
+
+>David
+>-- 
+>David Sternlight         Great care has been taken to ensure the accuracy of
+>                         our information, errors and omissions excepted.  
+
+Nothing but errors and omissions here!
+
+--
+Arthur L. Rubin: a_rubin@dsg4.dse.beckman.com (work) Beckman Instruments/Brea
+216-5888@mcimail.com 70707.453@compuserve.com arthur@pnet01.cts.com (personal)
+My opinions are my own, and do not represent those of my employer.
+
+Newsgroup: sci.crypt
+document_id: 15650
+From: mbeckman@mbeckman.mbeckman.com (Mel Beckman)
+Subject: Re: text of White House announcement and Q&As on clipper chip encryption
+
+
+In article <1993Apr17.032022.14021@clarinet.com> (sci.crypt,alt.security,comp.org.eff.talk,comp.security.misc,comp.org.acm,comp.org.ieee), brad@clarinet.com (Brad Templeton) writes:
+> Let's assume, for the moment, that the system really is secure unless
+> you get both halves of the encryption key from the two independent
+> escrow houses.  Let's say you even trust the escrow houses -- one is
+> the ACLU and the other is the EFF.  (And I'm not entirely joking about
+> those two names)
+
+The problem with "Let's assume" reasoning is that, taken to the extreme
+(and you're close), you arrive at "Let's assume this is perfectly OK."
+
+The assumptions you make are big ones. If the system is really secure, then
+why does the government have to keep the algorithm secret?  There are plenty
+of encryption algorithms that don't depend upon nondisclosure to be secure,
+so why in the world use one that does?  There are reasons, of course, but
+I certainly can't think of any honest ones.
+
+Next, you assume we can "trust" the escrow houses. But the last time I checked,
+EVERY SINGLE BRANCH OF GOVERNMENT has experienced unauthorized disclosure,
+corruption, and even fabrication, of supposedly secure data. The govt is
+saying "Yeah, but NOW we're serious, so you can trust us."  Bullcrypt. 
+
+And finally, although you didn't state it explicitly, you implicitly assume
+that the warrant mechanism in this country is safe and reasonable. The case
+in Ventura County of a man shot and killed by officers serving a deliberately
+fraudulant warrant tells me that the govt has a long ways to go on this
+score.
+
+Remember that all this is to catch the drug dealers, right?  As others
+have pointed out, the current proposal will, if deployed, render truly secure
+encryption much more expensive and inconvenient than Uncle Sam's brand.
+Who will be able to afford, and be sufficiently motivated, to purchase this
+expensive, inconvenient higher protection?  Somebody with lots of extra
+cash...
+
+The following is more true than ever:
+
+  "When [strong] encryption is outlawed, only outlaws will have [strong]
+encryption."
+
+
+________________________________________________________________________
+| Mel beckman                  |   Internet: mbeckman@mbeckman.com     |
+| Beckman Software Engineering | Compuserve: 75226,2257                |
+| Ventura, CA 93003            |  Voice/fax: 805/647-1641 805/647-3125 |
+|______________________________|_______________________________________|
+ "You can observe a lot just by watching."  -Yogi Bera
+

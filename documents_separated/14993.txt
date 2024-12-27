@@ -1,0 +1,68 @@
+Newsgroup: sci.crypt
+document_id: 14992
+Subject: Re: Illegal Wiretaps (was Denning's Trust)
+From: kubo@zariski.harvard.edu (Tal Kubo)
+
+In article <1ppg02$i2k@bigboote.WPI.EDU> 
+ear@bigwpi.WPI.EDU (Mr. Neat-O [tm]) writes:
+>>
+>>It is apparently quite easy to get hold of a person's calling records
+>>through the phone company.  Police (and some lawyers) are able to acquire
+>>such information without any warrant or judicial supervision, whether or
+>>not the target is suspected of specific crimes.
+>
+>Pardon me, but isn't this very illegal?  I was under the impression that a
+>warrent *is* needed to get this information out of the phone company in
+>order to protect people's privacy. 
+
+Legal or not, I've seen it done.  Phone records were obtained
+in order to *establish* probable cause, rather than as a result of it.
+In other words, for a fishing expedition.
+
+ 
+>                                   A local (Worcester, MA) police officer I
+>spoke with only a couple of nights ago told me that they usually only
+>subpeona the phone companies records in *extreme* conditions because it's so
+>much of a hassle.
+
+And does the phone company require written, subpoena-able evidence
+of probable cause in order to process the request?  I suggest that
+the officer was disinterested in pursuing your case -- even if you
+could prove the offender had called you at a certain time, your 
+chances of winning a harassment suit on the strength of this evidence
+are nil.  My contact with several people who have dealt with cases
+of extreme phone harassment (several thousand calls in one case) teaches 
+me that police in this area are quite lethargic about pursuing such matters.
+
+
+Tal
+
+Newsgroup: sci.crypt
+document_id: 14993
+From: bontchev@fbihh.informatik.uni-hamburg.de (Vesselin Bontchev)
+Subject: Re: Licensing of public key implementations
+
+strnlght@netcom.com (David Sternlight) writes:
+
+> I will provide one hint: it is reported that RSA expressed puzzlement (at
+> their conference) that nobody has asked for permission to use RIPEM to
+> write a PGP-compatible program.
+
+This actually supports Bill's speculation - IF there is a backdoor in
+RSAREF and IF PKP is supported secretly by the NSA, then it is more
+than natural that they will welcome ANY public-key implementation that
+uses RSAREF and will strongly oppose themselves against ANY
+implementation that doesn't.
+
+I personally cannot see how one could put a backdoor in a
+long-precision modular arithmetic library that comes in source, but,
+of course, the fact that -I- cannot see it means nothing...
+
+Regards,
+Vesselin
+-- 
+Vesselin Vladimirov Bontchev          Virus Test Center, University of Hamburg
+Tel.:+49-40-54715-224, Fax: +49-40-54715-226      Fachbereich Informatik - AGN
+< PGP 2.2 public key available on request. > Vogt-Koelln-Strasse 30, rm. 107 C
+e-mail: bontchev@fbihh.informatik.uni-hamburg.de    D-2000 Hamburg 54, Germany
+

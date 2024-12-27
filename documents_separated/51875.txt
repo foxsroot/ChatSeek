@@ -1,0 +1,74 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 51874
+Subject: Word Printing to IIg
+From: gary@marshall.wvnet.edu (gary's news)
+
+We have a user that has Word 5.0 and is using symbols such as pi and
+other mathematic sysmbols, plus doing fractions, etc.
+
+The document shows up on the screen with no problems, looks fine.
+
+When she tries to print it on a IIg the pi changes to an upside down
+caret, and several other symbols change to double quotes at bottom of
+character, plus some little circles appear between words of the fractions
+instead of spaces.
+
+This happens on a IIg laser printer.  Tried it on serveral macs and two
+different IIg's.
+
+Prints fine on an NT and NTX laser printers.
+
+What's wrong???
+
+Thanks for any help in advance,
+
+Gary
+
+-- 
+
+***************************************************************************
+
+Gary Weis
+University Computer Center
+400 Hal Greer Boulevard
+Huntington, West Virginia  25755-5320
+
+Phone:  (304) 696-3205
+Fax  :  (304) 696-3601
+
+Internet:  Gary@marshall.wvnet.edu
+Bitnet  :  Gary@marshall
+UCC Net :  Gary
+
+***************************************************************************
+
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 51875
+From: steveh@tasman.cc.utas.edu.au (Steve Howell)
+Subject: Re: Quadra 700 Sound
+
+
+
+	The Quadra 700 goes thru extensive initalize routines of its hardware,
+read's PRAM, obtains all info from last session including the volume
+setting, and then executes the sound procedure for the startup sound, and
+wait's on the SCSI controller to respond to the boot up code.
+
+
+If the DRAM produces an error, or a registers cannot be read from a device,
+or the device corrupts that address/data or control paths, then if it is
+possible, the firmware branchs to another sound routine that produces the 
+'sad mac' sound.
+
+
+This is a general breifing of the start up procedure of a typical mac.
+If you cannot control the volume of the quadra, even at boot up, then i feel
+there is something incorrect with the logic board. 
+
+My Quadra 700 does not show the problems you are having.
+
+
+Steve H
+
+

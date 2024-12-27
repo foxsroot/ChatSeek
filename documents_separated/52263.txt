@@ -1,0 +1,43 @@
+Newsgroup: comp.sys.mac.hardware
+document_id: 52262
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+From: stubbs@hawk.cs.ukans.edu (Jerry Stubbs)
+
+
+>In article <ltdpedINNrsj@exodus.Eng.Sun.COM>, gsager@heliacal.Eng.Sun.COM (Gary Sager) writes...
+
+>>work, it was pointed out that this should only be done with monitors
+>>with the power switch on front. . . . 
+
+> This is a pet peeve of mine. I wish companies would put power switches on the
+> front of the equipment! If my Apple monitor had the switch on the front, I
+> would happily power it off at night. Almost every piece of computer equipment
+> I own/use has the switch on the back (including external hard drives and
+> modems--why?). I hope front-mounted switches become the norm, and soon.
+
+It is just extra wire and work to put the switch in front. Usually the easiest
+place to put the switch is wherever the power cord enters the machine, and
+people HATE power cords on the front!! I prefer a power strip.
+
+
+
+Newsgroup: comp.sys.mac.hardware
+document_id: 52263
+From: bsd9554@ultb.isc.rit.edu (B.S. Davidson)
+Subject: StyleWriter II Dying?
+
+I bought a StyleWriter II a couple months ago, and lately, when I print
+something, I notice white lines or "gaps" running through the line being
+printed.  It's almost like the paper is advancing a smidge too far when
+advancing lines.  
+
+I replaced the ink cartridge thinking it might be the problem, but the lines
+are still there.  Has anyone else noticed this problem?  What's the best way to
+get rid of it?
+
+-- 
++-----------------------------------+------------------------------------+
+| Brian S. Davidson                 | Internet: bsd9554@ultb.isc.rit.edu |
+| Rochester Institute of Technology |   BITNET: BSD9554@RITVAX           |
++-----------------------------------+------------------------------------+
+

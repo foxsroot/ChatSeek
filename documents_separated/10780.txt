@@ -1,0 +1,68 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 10771
+Subject: Re: Challenge to Microsoft supporters.
+From: thomas@datamark.co.nz (Thomas Beagle)
+
+In article <1993May14.210055.25497@klaava.Helsinki.FI> jliukkon@klaava.Helsinki.FI (Juha-Matti Liukkonen) writes:
+
+>Let me pose a question: how many MS-DOS users are out there who have no
+>access to the net, but would probably find this feature useful, too?
+>Ie., your suggestion implies that Microsoft is relying on the shareware
+>or PD products to fill the gaps on DOS. Or did I misunderstand your
+>statement?
+
+Shareware is available from the net, magazines, distributors, clubs,
+friends, and bulletin boards. I don't think people have any problems
+getting hold of it.
+
+Fill gaps in Dos? There's no need for many people - Dos 5 provides
+more services than I need as it is. I just run Windows on top of it.
+
+BTW, my Windows must be an operating system - it provides a Disk
+Operating System that Dos can't access. (NFS...) :-)
+
+-- 
+   Thomas Beagle | thomas@datamark.co.nz        Work: 64 4 233 8186    __o
+Technical Writer | thomas@cavebbs.welly.gen.nz  Home: 64 4 499 3832  _-\<,
+  Wellington, NZ |           Long ears make good handles.           (_)/(_)
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 10780
+From: bjgrier@bnr.ca (Brian Grier)
+Subject: Re: Challenge to Microsoft supporters.
+
+[ Lots of stuff deleted because I felt like it ]
+
+This MS bashing has definitely lost all its humor value.
+
+I think most of the people posting are forgetting that most users
+of MS products do not even know about internet, and Unix is that
+very unfriendly place where bizzare abreviations replace the rather
+comfortable abreviations they know. And the abreviations have subtle
+differences between the different vendors. While PC users tend to
+customize any windowing setup, they can not do much with their 
+command line.
+
+So to most of the computer users in the world MS product symbolize
+quality. MS has made their life easier, and more productive and to them
+that is quality. They do not care about what innovative things MS has
+done, other than to make their life with a computer one heck of a lot
+easier. You may know better than most computer users in this world
+but that will not change their perception.
+
+Face it until Unix come up with a decent GUI that is available to
+all variations of Unix it just will not catch on with the mainstream
+of computer users. We here on the net are not mainstream computer users.
+
+
+Brian
+-- 
+
+Disclaimer: The opinions expressed are mine not those of BNR.
+
+ ____________________________________________________________________________
+| Brian, WS1S (ST/TT User/Developer) |  If I wanted a computer to play games |
+| Bell Northern Research             |  on I'd buy an Amiga. However I have  |
+| Research Triangle Park, NC         |  real work to do. So please get lost! |
+|____________________________________|_______________________________________|
+

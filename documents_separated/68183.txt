@@ -1,0 +1,52 @@
+Newsgroup: comp.windows.x
+document_id: 68182
+Subject: GUI builders for VMS
+From: mark@trident.datasys.swri.edu (Mark D. Collier)
+
+I am looking for GUI Builders/UIMS's which run in a VMS/OpenVMS
+environment. I am interested in both Motif tools and GUI-independent
+tools such as XVT. My client also requires that the tool has been
+in production for at least 6 months in the VMS environment. Note
+that I have the list of tools from the FAQ, but not the info on
+VMS availability.
+
+Thanks
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mark D. Collier                      Southwest Research Institute
+Senior Research Analyst              Automation and Data Systems Division
+Voice: (512) 522-3437                Data Systems Department
+FAX:   (512) 522-5499                Software Engineering Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Newsgroup: comp.windows.x
+document_id: 68183
+From: chas@stax.uchicago.edu (Charles Blair)
+Subject: xnlock / xdm
+
+I am using xnlock as the screensaver for a PC-based X server. However,
+after an interval of no activity, my X session ends. This does not
+happen when I use xscreensaver. 
+
+My screensave command is fired up from my .xsession like this:
+
+xautolock -time 1 -locker xnlock -corners ++++ -cornerdelay 1 &
+
+My hypothesis is that xdm (I use xdmcp to start my X session) detects
+a period of inactivity from the server, then terminates the session.
+However, for some reason, this does not happen with xscreensaver. Is
+there a workaround?
+
+I'd prefer responses via e-mail.
+
+Thanks.
+
+
+
+
+
+--
+"Economics is not for those who are atracted to real-world problems
+which have simple and clear solutions. For these individuals, I
+recommend astrology."  -- Hugo Sonnenschein
+

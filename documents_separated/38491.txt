@@ -1,0 +1,47 @@
+Newsgroup: comp.graphics
+document_id: 38490
+Subject: XV under MS-DOS ?!?
+From: NO E-MAIL ADDRESS@eicn.etna.ch
+
+Hi ... Recently I found XV for MS-DOS in a subdirectory of GNU-CC (GNUISH). I 
+use frequently XV on a Sun Spark Station 1 and I never had problems, but when I
+start it on my computer with -h option, it display the help menu and when I
+start it with a GIF-File my Hard disk turns 2 or 3 seconds and the prompt come
+back.
+
+My computer is a little 386/25 with copro, 4 Mega rams, Tseng 4000 (1M) running
+MS-DOS 5.0 with HIMEM.SYS and no EMM386.SYS. I had the GO32.EXE too... but no
+driver who run with it.
+
+Do somenone know the solution to run XV ??? any help would be apprecied..
+		
+	Thanx in advance !!!! 
+             
+-- 
+---------------------------------------------------------------------
+*								    *
+*  Pascal PERRET     		|	perret@eicn.etna.ch         *
+*  Ecole d'ingénieur ETS	|	(Not Available at this time)*
+*  2400 Le LOCLE		|				    *
+*  Suisse 							    *
+*		     !!!! Enjoy COMPUTER !!!!			    *
+*								    *
+---------------------------------------------------------------------
+
+Newsgroup: comp.graphics
+document_id: 38491
+From: g9134255@wampyr.cc.uow.edu.au (Coronado Emmanuel Abad)
+Subject: Need polygon splitting algo...
+
+
+The idea is to clip one polygon using another polygon (not
+necessarily rectangular) as a window.  My problem then is in
+finding out all the new vertices of the resulting "subpolygons"
+from the first one.  Is this simply a matter of extending the
+usual algorithm whereby each of the edges of one polygon is checked
+against another polygon???  Is there a simpler way??
+
+Comments welcome.
+
+Noel.
+

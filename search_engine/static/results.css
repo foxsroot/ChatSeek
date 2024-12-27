@@ -1,0 +1,65 @@
+.suggestions {
+    width: clamp(200px, 840px, 46.2vw);
+}
+
+main {
+    margin-left: 10px;
+}
+
+.auto-correct {
+    color: #F44242;
+    /*display: none;*/
+}
+
+#corrected-word {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+#corrected-word:hover {
+    text-decoration: underline;
+}
+
+.quote {
+    color: #4285F4;
+}
+
+#icon {
+    width: 60px;
+}
+
+input {
+    width: clamp(200px, 800px, 45vw);
+}
+
+button {
+    padding: 12px 15px 13px;
+    margin-left: -48px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.result-card {
+    line-height: 5px;
+    margin-bottom: 45px;
+}
+
+#showing-results {
+    font-size: smaller;
+}
+
+.search-info {
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+/* Pagination */
+

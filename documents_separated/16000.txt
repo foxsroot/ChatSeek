@@ -1,0 +1,81 @@
+Newsgroup: sci.crypt
+document_id: 15999
+Subject: Re: What is going on?...
+From: sdoty@odie.santarosa.edu (Scott Doty)
+
+Paul Repacholi (zrepachol@cc.curtin.edu.au) wrote:
+
+: PS The first posting I saw I thought was a joke in *VERY* bad taste. My appologies
+: to the person who broke the news.
+
+For what it's worth...
+
+Clipper Chip Announcement (clipper@csrc.ncsl.nist.gov) wrote:
+
+: Note:  This file will also be available via anonymous file
+: transfer from csrc.ncsl.nist.gov in directory /pub/nistnews and
+: via the NIST Computer Security BBS at 301-948-5717.
+:      ---------------------------------------------------
+: 
+:                          THE WHITE HOUSE
+: 
+
+I haven't been able to open an ftp session with that machine.
+
+Operating under the assumption that the address was wrong, I tried using
+nslookup and nicname/whois...
+
+> ls nist.gov 
+[nnsc.nsf.net]
+Host or domain name            Internet address              
+[...]
+ ncsl                           server = mail-gw.ncsl.nist.gov         
+ mail-gw.ncsl                   129.6.48.199
+ ncsl                           server = dove.nist.gov                 
+ ncsl                           server = ecf.ncsl.nist.gov             
+ ecf.ncsl                       129.6.48.2
+ ncsl                           server = enh.nist.gov                  
+ ncsl                           server = SUNMGR.NCSL.NIST.GOV          
+ SUNMGR.NCSL                    129.6.48.12
+[...]
+
+That's all I could find about the ncsl domain...oh, and I tried an MX lookup
+on the machine in question, which failed.  Nicname/whois domain lookups at
+both registries failed, too. 
+
+So I thought, "hey, I'm just not using the tools right" and tried calling
+the BBS number -- no answer.
+
+I'm probably doing something wrong...or, perhaps, the machine has been put
+behind a firewall.  But it does look like csrc.ncsl.nist.gov has become an
+un-machine.  If someone would try ftp'ing to it, or knows what's up, I'd
+really appreciate the info. 
+
+Scott Doty <sdoty@odie.santarosa.edu>
+
+Newsgroup: sci.crypt
+document_id: 16000
+From: jhupp@shockwave.win.net (Jeff Hupp)
+Subject: Re: Clipper and conference calls
+
+ 
+>In article <122723@netnews.upenn.edu>, feeley@cattell.psych.upenn.edu (Wm. Michael Feeley) writes:
+>> Just curious, how would the Clipper Chip system handle
+>> conference calls?
+>
+>It's not Clipper, it's any encryption system.  I've seen a number of
+>designs; they generally involve a multi-line cleartext bridge.
+>
+        A 'multi-line cleartext bridge?"
+                      ^^^^^^^^^
+        And just were would you put that bridge?  If it isn't at one of
+the receiptants location, forget encryption at all.  You have blown any
+security you thought you might have had. 
+
+_____________________________________________________________________
+\Jeff Hupp                      |Internet: jhupp@shockwave.win.net   \
+|9797 Medowglen, Apt. 1807      |Ad:    Contract Programming, Novell |
+|Houston, Texas  77042          |       Network Design and Support.  |
+|Voice: (713) 780 - 9419        |"The best govenment doesn't" -- me. |
+\_____________________________________________________________________\ 
+

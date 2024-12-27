@@ -1,0 +1,13 @@
+Newsgroup: comp.graphics
+document_id: 38910
+From: muchor@fuw.edu.pl (Krzysztof Muchorowski)
+Subject: GIF to Targa
+
+Hello,
+   Subject says it all. I need a GIF to Targa converter, so that my
+dta15 could make a .FLI of them.
+      Krzysztof
+
+
+
+

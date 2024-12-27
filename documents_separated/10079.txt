@@ -1,0 +1,9 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 10079
+From: a-kraus@uiuc.edu@uiuc.edu (Albert L. Kraus)
+Subject: Codabar font
+
+HI!
+I need a codabar font for win. TT or other.
+Thanks! 
+

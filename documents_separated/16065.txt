@@ -1,0 +1,35 @@
+Newsgroup: sci.crypt
+document_id: 16064
+Subject: Re: Tempest
+From: pgut1@cs.aukuni.ac.nz (Peter Gutmann)
+
+In <1993Apr27.071549.22910@random.ccs.northeastern.edu> rogue@ccs.northeastern.edu (Free Radical) writes:
+
+>As anyone who attended HoHoCon will attest, you can pick information
+                        ^^^^^^^
+>off the video chip.  It's surprisingly easy too.  The guy did it with
+>a portable TV, with very minor mods.  It only worked from 3 feet, but
+>then it was just a demonstration.
+
+A convention for Santa Claus impersonators?  Please elaborate, enquiring minds
+(those in the second and third jars from the left) want to know....
+
+Peter.
+
+Newsgroup: sci.crypt
+document_id: 16065
+From: pdc@dcs.ed.ac.uk (Paul Crowley)
+Subject: Re: Clipper and conference calls
+
+Quoting dougb@ecs.comm.mot.com in article <1993Apr26.150434.227@lmpsbbs.comm.mot.com>:
+>You would have to use something other than the AT&T black box - in other
+>words, I don't think public key would work.  The session key would have 
+>to be agreed upon prior to the conversation and distributed to all 
+>sites beforehand.
+
+Why can't one site decide a session key and send it to the other sites
+by public key encryption?
+  __                                  _____
+\/ o\ Paul Crowley   pdc@dcs.ed.ac.uk \\ //
+/\__/ Trust me. I know what I'm doing. \X/  Fold a fish for Jesus!
+

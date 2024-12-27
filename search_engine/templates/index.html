@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatSeek</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='search-bar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='suggest.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="../static/icon.png" id="icon">
+        <form action="/search" method="POST" class="search-container">
+            <input type="text" id="search-bar" name="query" placeholder="Search through conversations..." required autocomplete="off" onkeyup="fetchSuggestions()">
+            <ul id="suggestions" class="suggestions"></ul>
+            <button type="submit">Go</button>
+        </form>
+        <p>Discover Insights Faster: Effortlessly Search Through Thousands of<br>Newsgroup Chats to Spark Your Next Article Idea.</p>
+    </div>
+
+    <script>
+        let debounceTimer;
+
+        function fetchSuggestions() {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                const query = document.getElementById('search-bar').value.trim();
+                const suggestionsList = document.getElementById('suggestions');
+
+                if (query.length === 0) {
+                    suggestionsList.innerHTML = '';
+                    return;
+                }
+
+                const words = query.split(' ');
+                const lastWord = words.pop();
+                const prefix = words.join(' ');
+
+                fetch(`/suggest?q=${encodeURIComponent(lastWord)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        suggestionsList.innerHTML = '';
+                        data.forEach(suggestion => {
+                            const fullSuggestion = prefix ? `${prefix} ${suggestion}` : suggestion;
+                            const li = document.createElement('li');
+                            li.textContent = fullSuggestion;
+                            li.onclick = () => {
+                                document.getElementById('search-bar').value = fullSuggestion;
+                                suggestionsList.innerHTML = '';
+                            };
+                            suggestionsList.appendChild(li);
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error fetching suggestions:', error);
+                    });
+            }, 300);
+        }
+    </script>
+</body>
+</html>

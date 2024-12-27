@@ -1,0 +1,16 @@
+Newsgroup: comp.windows.x
+document_id: 67225
+From: queloz@bernina.ethz.ch (Ronald Queloz)
+Subject: Hypercard for UNIX
+
+Hi netlanders,
+
+Does anybody know if there is something like Macintosh Hypercard for any UNIX 
+platform?
+
+
+Thanks in advance
+
+
+Ron.
+

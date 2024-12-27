@@ -1,0 +1,17 @@
+Newsgroup: comp.graphics
+document_id: 38287
+From: mtoivakk@abo.fi (Martti Toivakka PAP)
+Subject: Compiled version of VOGL-library for PC?
+
+
+Has anybody compiled VOGL-graphics library
+for IBM-PC? I need to call it from MS-Fortran
+but don't have MS-C to compile the sources.
+
+Thanks for any help...
+
+
+martti toivakka
+mtoivakk@abo.fi
+
+

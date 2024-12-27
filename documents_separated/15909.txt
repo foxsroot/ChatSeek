@@ -1,0 +1,13 @@
+Newsgroup: sci.crypt
+document_id: 15909
+From: gtoal@gtoal.com (Graham Toal)
+Subject: Re: PGP ideas for IBM systems
+
+:    I've been thinking about how difficult it would be to make PGP available
+: in some form on EBCDIC machines.
+
+Don't encourage them.  Let EBCDIC machines die an honorable death :)
+
+G
+
+

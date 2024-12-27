@@ -1,0 +1,31 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9850
+Subject: ==> MS Windows Sound System, Text to Speach?
+From: HADAM@bcsc02.gov.bc.ca
+
+Hi all News Group users:
+Does anyone know whether there is some software which will let one do
+Text to Speach like the Sound Blaster does?
+Hal Adam,  HADAM@bcsc02.gov.bc.ca
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9851
+From: jr0930@eve.albany.edu (DIAMOND)
+Subject: Simple Windows question
+
+Ok, here's a nice easy question for all you out there.
+
+When running DOS 5.0 under Windows 3.0, I lose the ability to do a
+print-screen.
+I have no problem with this when I'm running DOS not under Windows.
+If it's relavant, I'm using 'Quarterdeck 6.0' expanded memory manager for
+my 386.
+  Please e-mail any responses, since I don't get to read the news too often.
+    Thanks in advance.
+
+-- 
+ |||||||||||   		 	   ||||||||||| 
+_|||||||||||_______________________|||||||||||_      jr0930@eve.albany.edu
+-|||||||||||-----------------------|||||||||||-     jr0930@Albnyvms.bitnet
+ |||||||||||  GO HEAVY OR GO HOME  |||||||||||
+

@@ -1,0 +1,13 @@
+Newsgroup: comp.windows.x
+document_id: 67453
+From: colinm@max.carleton.ca (Colin McFadyen)
+Subject: X11R5 support for 386i GX??
+
+  Does X11R5 support the graphics accelerator board
+in the Sun 386i????
+
+Thanks in advance.
+
+Colin.
+
+

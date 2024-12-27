@@ -1,0 +1,63 @@
+Newsgroup: comp.graphics
+document_id: 38568
+Subject: XV for MS-DOS !!!
+From: NO E-MAIL ADDRESS@eicn.etna.ch
+
+Hi !!! This is the response for Wayne Michael...and certainly for other-one :-)
+
+
+I'm sorry for...
+
+    1)  The late of the answer but I couldn't find xv221 for msdos 'cause 
+	I forgot the address...but I've retrieve it..
+
+    2)  Posting this answer here in comp.graphics 'cause I can't use e-mail,
+	not yet....
+
+   2) My bad english 'cause I'm a Swiss and my language is french....
+
+
+After a long time I retrieve the address where you can find XV for Dos...
+
+	Site	: omnigate.clarkson.edu
+	Aliases	: grape.ecs.clarkson.edu
+	Number	: 128.153.4.2
+
+	/pub/msdos/djgpp/pub
+
+	it's xv221.zip (?) I think...
+
+
+Certainly you read the other answer from Kevin Martin... He write about DV/X 
+(?). 
+
+    What is it ?????? Could Someone answer ????
+	
+	Thanx in advance.... 
+
+-- 
+---------------------------------------------------------------------
+*								    *
+*  Pascal PERRET     		|	perret@eicn.etna.ch         *
+*  Ecole d'ingénieur ETS	|	(Not Available at this time)*
+*  2400 Le LOCLE		|				    *
+*  Suisse 							    *
+*		     !!!! Enjoy COMPUTER !!!!			    *
+*								    *
+---------------------------------------------------------------------
+
+Newsgroup: comp.graphics
+document_id: 38569
+From: fombaron@ufrima.imag.fr (FOMBARON marc)
+Subject: 3d-Studio V2.01 : Any differences with previous version
+
+Are there significant differences between V2.01 and V2.00 ?
+Thank you for helping
+
+Marc.
+-- 
+      _/_/  _/_/   e-mail : Marc.Fombaron@ufrima.imag.fr
+     _/ _/_/ _/
+    _/  _/  _/  _/     _/    _/_/_/   _/_/_/_/   _/  _/_/_/_/  Marc Fombaron.
+   _/      _/  _/     _/  _/      _/ _/     _/  _/  _/     _/  Grenoble.
+

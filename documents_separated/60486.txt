@@ -1,0 +1,48 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60485
+Subject: WANGTEK Tape Controller Card Revision E - address & IRQ wanted
+From: system@codewks.nacjack.gen.nz (Wayne McDougall)
+
+
+I have a WANGTEK tape controller card (Revision E) that was used with the
+Sytos backup system to take backups of a friend's system. That system has
+crashed and I'm attempting to restore it.
+
+Unfortunately, the documentation for this ancient card has been lost in the
+mists of time, and I need to know the DMA, IRQ and address for this card.
+
+Can anyone suggest how I could determine these things?
+
+There is a bank of dip switches on the card which are set to:
+
+---------------------
+1 2 3 4 5 6 7 8 9 10
+    UPUPUP    UPUPUP
+UPUP      UPUP
+------OPEN----------
+
+Thanks for your time.
+
+-- 
+	This posting is definitive. bljeghbe'chugh vaj blHegh.
+  Wayne McDougall :: Keeper of the list of shows better than Star Trek(TM) ::
+            Ask me about the Auckland Festival of Missions, 18-25 April, 1993
+I always change my mind when new evidence is available. What method do you use?
+
+
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60486
+From: junaid@monu6.cc.monash.edu.au (Mr A. Walker)
+Subject: 2 Sound Blasters in 1 machine
+
+	Is it possible to have 2 Sound Blasters in 1 machine?
+Would give your the equivalent of a SB Pro but with stereo Digitized sound.
+The way Creative Labs price Pro's in Oz, the price is equal.
+
+	I suppose you could set the I/O addresses to 220 and 240H
+but what about the DMA channels?
+	Any way what is this DMA channel sharing hype?  Does it share the
+SB and hardisk DMA channels or something more esoteric?
+ 
+
+

@@ -1,0 +1,11 @@
+Newsgroup: comp.windows.x
+document_id: 66904
+From: rgasch@nl.oracle.com (Robert Gasch)
+Subject: Re: Expose Events
+
+Please excuse my previous posting. It was appended to this thread by 
+accident.
+
+
+--> Robert
+

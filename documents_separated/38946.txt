@@ -1,0 +1,11 @@
+Newsgroup: comp.graphics
+document_id: 38946
+From: senderow@diva.Berkeley.EDU (Dan Senderowicz)
+Subject: convertion program to gremlin
+
+I was wondering if somebody knows of a PD program for converting
+any graphic formats such as fig, pic, unixplot, tek, etc. to
+gremlin. Thanks,
+
+Dan.
+

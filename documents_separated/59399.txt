@@ -1,0 +1,9 @@
+Newsgroup: sci.med
+document_id: 59399
+From: werckme1@eecs.uic.edu (robert werckmeister)
+Subject: ECG data needed
+
+I need some ECG data , uncompressed,  hopefully in ascii format.
+Don't care what it looks like, this is for a signal processing
+project.
+

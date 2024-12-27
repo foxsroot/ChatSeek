@@ -1,0 +1,10 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60387
+From: august1@server.uwindsor.ca (AUGUSTYN  ROBERT         )
+Subject: Address interliving?
+
+What is address interliving? and memmory modules  interliving?
+Thanks in advance for the info.
+Robert.
+
+

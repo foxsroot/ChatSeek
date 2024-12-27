@@ -1,0 +1,94 @@
+Newsgroup: rec.motorcycles
+document_id: 103152
+Subject: Re: Tools Tools Tools
+From: behanna@phoenix.syl.nj.nec.com (Chris BeHanna)
+
+In article <C51105.98C.1@cs.cmu.edu> jfriedl@cs.cmu.edu writes:
+>behanna@phoenix.syl.nj.nec.com (Chris BeHanna) writes:
+>|> 	While we're on the subject, has anyone else noticed that the 1/2" deep
+>|> well in Craftsman's $60 SAE deep well set is too small to fit a 1/2" bolt or
+>|> nut?	When I took the socket in for an exchange, EVERY !#%@ one of the 1/2"
+>|> deep well sockets on the rack had the exact same problem!!!
+>
+>Not to imply that you didn't, but since you didn't mention it.....
+>did you measure the size of your test nut with callipers? Were all three
+>"cross lengths" no more than 1/2"? I've seen bolt heads, and even a few
+>nuts, which got slightly thicker further down toward the basa... sort of
+>a trapizodial cross section.
+
+	That I did not do; however, the sample bolt I took to the store fit
+rather well in the following:  1/2" open end wrench, 1/2" box end wrench, 1/2"
+12-point normal socket.  I take that as meaning it's a 1/2" bolt head.
+ 
+>But as several people have pointed out, and as I'm noting in the tool FAQ
+>I'm writing up in case anyone will want it, a lifetime guarantee doesn't
+>necessiarly mean better tools.
+
+	Yup.  At $6 a socket, I want the @#$@# thing to FIT!
+
+Later,
+-- 
+Chris BeHanna	DoD# 114          1983 H-D FXWG Wide Glide - Jubilee's Red Lady
+behanna@syl.nj.nec.com	          1975 CB360T - Baby Bike
+Disclaimer:  Now why would NEC	  1991 ZX-11 - pending delivery
+agree with any of this anyway?    I was raised by a pack of wild corn dogs.
+
+Newsgroup: rec.motorcycles
+document_id: 103153
+Subject: Re: Oops! Oh no!
+From: ranck@joesbar.cc.vt.edu (Wm. L. Ranck)
+
+JACK ROGERS WATERS (jrwaters@eos.ncsu.edu) wrote:
+: In article <1ppejb$3h0@vtserf.cc.vt.edu> ranck@joesbar.cc.vt.edu (Wm. L. Ranck) writes:
+: >
+: >Well, at least I damaged my own bike.  If I had done it to someone else's
+: >property I'd *really* feel like a jerk.  As it is I just feel stupid.
+: >
+: I don't mean to be a cynic but . . . . you may want to reconsider
+: having the body work done right away.  The same type of thing
+: may happen again.  Wait till you get used to the bike, etc.
+
+Well, I waited a whole week to take the pastic bits off and take them
+to the body shop.  Is that long enough :-)
+--
+
+*******************************************************************************
+* Bill Ranck                                          ranck@joesbar.cc.vt.edu *
+*******************************************************************************
+
+Newsgroup: rec.motorcycles
+document_id: 103154
+From: jrwaters@eos.ncsu.edu (JACK ROGERS WATERS)
+Subject: Re: The quest for horndom
+
+In article <1993Apr5.171807.22861@research.nj.nec.com> behanna@phoenix.syl.nj.nec.com (Chris BeHanna) writes:
+>In article <1993Apr4.010533.26294@ncsu.edu> jrwaters@eos.ncsu.edu (JACK ROGERS WATERS) writes:
+>>No laughing, please.  I have a few questions.  First of all, do I
+>>need a relay?  Are there different kinds, and if so, what kind should
+>>I get?  Both horns are 12 Volt.
+>
+>	I did some back-of-the-eyelids calculations last night, and I figure
+>these puppies suck up about 10 amps to work at maximum efficiency (i.e., the
+>cager might need a shovel to clean out his seat).  Assumptions:  125dBA at one
+>meter.  Neglecting solid angle considerations and end effects and other
+>acoustic niceties from the shape of the horn itself, this is a power output
+>of 125 Watts.  125Watts/12Volts is approx. 10 Amps.
+>
+>	Yes, get a relay.
+>
+>	Yes, tell me how you did it (I want to do it on the ZX).
+>
+>Later,
+
+I'll post a summary after I get enough information.  I'll include
+tips like "how to know when the monkey is pulling your leg".  Shouldn't
+monkey's have to be bonded and insured before they work on bikes?
+
+Jack Waters II
+DoD#1919
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ I don't fear the thief in the night.  Its the one that comes in the  ~
+~ afternoon, when I'm still asleep, that I worry about.                ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

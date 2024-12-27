@@ -1,0 +1,63 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9752
+Subject: Re: Utility for updating Win.ini and system.ini
+From: Stephen.Gibson@sonoma.edu <Stephen Gibson>
+
+
+
+In article <1993Apr20.220556.19652@news.uit.no> Svein Pedersen,
+sp@odin.fna.no writes:
+>Sorry, I did`nt tell exactly what I need.
+>
+>I need a utility for automatic updating (deleting, adding, changing) of
+*.ini 
+>files for Windows. 
+>The program should run from Dos batchfile or the program run a script
+under Windows.
+>
+>I will use the utility for updating the win.ini (and other files) on
+meny PC`s.  
+>
+>Do I find it on any FTP host?
+>
+> Svein
+>
+
+If you are managing PC's on a Novell network, get the network management
+tools provided by either Sabre Software or Automated Design Systems. 
+Among the many features, you'll find utilities that can help you to
+manage .INI files stored on users' workstations or home directories. 
+This is commercial software and well worth the money.  To date, I have
+not found ANYTHING available via FTP that could compare.  Reply to the
+address in my .SIG for more info.
+----------------------------------
+Stephen Gibson, System Support Specialist
+Sonoma State University
+eMAIL:	gibsonst@sonoma.edu
+						Stephen.Gibson@sonoma.edu
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9753
+From: djserian@flash.LakeheadU.Ca (Reincarnation of Elvis)
+Subject: speeding up windows
+
+I have a 386/33 with 8 megs of memory
+
+I have noticed that lately when I use programs like WpfW or Corel Draw
+my computer "boggs" down and becomes really sluggish!
+
+What can I do to increase performance?  What should I turn on or off
+
+Will not loading wallpapers or stuff like that help when it comes to
+the running speed of windows and the programs that run under it?
+
+Thanx in advance
+
+Derek
+
+--
+$_    /|$Derek J.P. Serianni $ E-Mail : djserian@flash.lakeheadu.ca           $ 
+$\'o.O' $Sociologist         $ It's 106 miles to Chicago,we've got a full tank$
+$=(___)=$Lakehead University $ of gas, half a pack of cigarettes,it's dark,and$
+$   U   $Thunder Bay, Ontario$ we're wearing sunglasses. -Elwood Blues        $  
+

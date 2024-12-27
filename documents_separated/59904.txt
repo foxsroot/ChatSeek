@@ -1,0 +1,2186 @@
+Newsgroup: sci.space
+document_id: 59870
+Subject: Diffs to sci.space/sci.astro Frequently Asked Questions
+From: leech@cs.unc.edu (Jon Leech)
+
+Archive-name: space/diff
+
+DIFFS SINCE LAST FAQ POSTING (IN POSTING ORDER)
+
+(These are hand-edited context diffs; do not attempt to use them to patch
+old copies of the FAQ).
+
+===================================================================
+diff -t -c -r1.18 FAQ.intro
+*** /tmp/,RCSt1a06400	Thu Apr  1 14:47:22 1993
+--- FAQ.intro	Thu Apr  1 14:46:55 1993
+***************
+*** 101,107 ****
+		  NASA Langley (Technical Reports)
+		  NASA Spacelink
+		  National Space Science Data Center
+-		  Space And Planetary Image Facility
+		  Space Telescope Science Institute Electronic Info. Service
+		  Starcat
+		  Astronomical Databases
+--- 101,106 ----
+***************
+*** 130,135 ****
+--- 129,135 ----
+	      LLNL "great exploration"
+	      Lunar Prospector
+	      Lunar science and activities
++	      Orbiting Earth satellite histories
+	      Spacecraft models
+	      Rocket propulsion
+	      Spacecraft design
+
+===================================================================
+diff -t -c -r1.18 FAQ.net
+*** /tmp/,RCSt1a06405	Thu Apr  1 14:47:24 1993
+--- FAQ.net	Thu Apr  1 14:46:57 1993
+***************
+*** 58,63 ****
+--- 58,67 ----
+      elements are sent out on the list from Dr. Kelso, JSC, and other sources
+      as they are released. Email to elements-request@telesoft.com to join.
+
++     GPS Digest is a moderated list for discussion of the Global Positioning
++     System and other satellite navigation positioning systems. Email to
++     gps-request@esseye.si.com to join.
++
+      Space-investors is a list for information relevant to investing in
+      space-related companies. Email Vincent Cate (vac@cs.cmu.edu) to join.
+
+***************
+*** 223,227 ****
+--- 227,241 ----
+      1030. If in fact you should should learn of unauthorized access, contact
+      NASA personnel.
+
++     Claims have been made on this news group about fraud and waste. None
++     have ever been substantiated to any significant degree. Readers
++     detecting Fraud, Waste, Abuse, or Mismanagement should contact the NASA
++     Inspector General (24-hours) at 800-424-9183 (can be anonymous) or write
++
++	  NASA
++	  Inspector General
++	  P.O. Box 23089
++	  L'enfant Plaza Station
++	  Washington DC 20024
+
+  NEXT: FAQ #3/15 - Online (and some offline) sources of images, data, etc.
+
+===================================================================
+diff -t -c -r1.18 FAQ.data
+*** /tmp/,RCSt1a06410	Thu Apr  1 14:47:26 1993
+--- FAQ.data	Thu Apr  1 14:46:54 1993
+***************
+*** 216,237 ****
+	  Telephone: (301) 286-6695
+
+	  Email address:   request@nssdca.gsfc.nasa.gov
+-
+-
+-     SPACE AND PLANETARY IMAGE FACILITY
+-
+-     Available 24 hours a day via anonymous FTP from pioneer.unm.edu. Has
+-     approximately 150 CD-ROM's full of imagery, raw, and tabular data. To
+-     start, get the file:
+-
+-	  pioneer.unm.edu:pub/info/beginner-info
+-
+-     This will hopefully give you all of the information you need to get data
+-     from their machine. beginner-info has been translated to other
+-     languages, you should look inside pub/info for the particular language
+-     that meets your needs.
+-
+-     Contact help@pioneer.unm.edu.
+
+
+      SPACE TELESCOPE SCIENCE INSTITUTE ELECTRONIC INFORMATION SERVICE
+--- 216,221 ----
+
+===================================================================
+diff -t -c -r1.18 FAQ.math
+*** /tmp/,RCSt1a06415	Thu Apr  1 14:47:28 1993
+--- FAQ.math	Thu Apr  1 14:46:56 1993
+***************
+*** 60,65 ****
+--- 60,71 ----
+	  Gives series to compute positions accurate to 1 arc minute for a
+	  period + or - 300 years from now. Pluto is included but stated to
+	  have an accuracy of only about 15 arc minutes.
++
++     _Multiyear Interactive Computer Almanac_ (MICA), produced by the US
++     Naval Observatory. Valid for years 1990-1999. $55 ($80 outside US).
++     Available for IBM (order #PB93-500163HDV) or Macintosh (order
++     #PB93-500155HDV). From the NTIS sales desk, (703)-487-4650. I believe
++     this is intended to replace the USNO's Interactive Computer Ephemeris.
+
+      _Interactive Computer Ephemeris_ (from the US Naval Observatory)
+      distributed on IBM-PC floppy disks, $35 (Willmann-Bell). Covers dates
+
+===================================================================
+diff -t -c -r1.18 FAQ.references
+*** /tmp/,RCSt1a06420	Thu Apr  1 14:47:30 1993
+--- FAQ.references	Thu Apr  1 14:46:59 1993
+***************
+*** 93,100 ****
+      US Naval Observatory
+	  202-653-1079 (USNO Bulletin Board via modem)
+	  202-653-1507 General
+-	  202-653-1545 Nautical Almanac Office (info on the Interactive
+-	      Computer Ephemeris)
+
+      Willmann-Bell
+      P.O. Box 35025
+--- 93,98 ----
+***************
+*** 138,151 ****
+      SDI's SSRT (Single Stage Rocket Technology) project has funded a
+      suborbital technology demonstrator called DC-X that should fly in
+      mid-1993. Further development towards an operational single-stage to
+!     orbit vehicle is uncertain at present; for considerably more detail on
+!     the SSRT program, get the document
+
+!	  ames.arc.nasa.gov:pub/SPACE/FAQ/DeltaClipper
+
+!     by anonymous FTP or through the email server.
+
+
+      HOW TO NAME A STAR AFTER A PERSON
+
+      Official names are decided by committees of the International
+--- 136,151 ----
+      SDI's SSRT (Single Stage Rocket Technology) project has funded a
+      suborbital technology demonstrator called DC-X that should fly in
+      mid-1993. Further development towards an operational single-stage to
+!     orbit vehicle (called Delta Clipper) is uncertain at present.
+
+!     An collection of pictures and files relating to DC-X is available by
+!     anonymous FTP or email server in the directory
+
+!	  bongo.cc.utexas.edu:pub/delta-clipper
+
++     Chris W. Johnson (chrisj@emx.cc.utexas.edu) maintains the archive.
+
++
+      HOW TO NAME A STAR AFTER A PERSON
+
+      Official names are decided by committees of the International
+***************
+*** 223,228 ****
+--- 223,236 ----
+      University Press, 1970. Information about the Lunar Orbiter missions,
+      including maps of the coverage of the lunar nearside and farside by
+      various Orbiters.
++
++
++     ORBITING EARTH SATELLITE HISTORIES
++
++     A list of Earth orbiting satellites (that are still in orbit) is
++     available by anonymous FTP in:
++
++	  ames.arc.nasa.gov:pub/SPACE/FAQ/Satellites
+
+
+      SPACECRAFT MODELS
+
+===================================================================
+diff -t -c -r1.18 FAQ.addresses
+*** /tmp/,RCSt1a06435	Thu Apr  1 14:47:34 1993
+--- FAQ.addresses	Thu Apr  1 14:46:51 1993
+***************
+*** 75,80 ****
+--- 75,85 ----
+	  the latter, an SF 171 is useless. Employees are Caltech employees,
+	  contractors, and for the most part have similar responsibilities.
+	  They offer an alternative to funding after other NASA Centers.
++
++	  A fact sheet and description of JPL is available by anonymous
++	  FTP in
++
++	      ames.arc.nasa.gov:pub/SPACE/FAQ/JPLDescription
+
+      NASA Johnson Manned Space Center (JSC)
+      Houston, TX 77058
+
+===================================================================
+diff -t -c -r1.18 FAQ.new_probes
+*** /tmp/,RCSt1a06450	Thu Apr  1 14:47:38 1993
+--- FAQ.new_probes	Thu Apr  1 14:46:58 1993
+***************
+*** 8,13 ****
+--- 8,19 ----
+      team, ISAS/NASDA launch schedules, press kits.
+
+
++     ASUKA (ASTRO-D) - ISAS (Japan) X-ray astronomy satellite, launched into
++     Earth orbit on 2/20/93. Equipped with large-area wide-wavelength (1-20
++     Angstrom) X-ray telescope, X-ray CCD cameras, and imaging gas
++     scintillation proportional counters.
++
++
+      CASSINI - Saturn orbiter and Titan atmosphere probe. Cassini is a joint
+      NASA/ESA project designed to accomplish an exploration of the Saturnian
+      system with its Cassini Saturn Orbiter and Huygens Titan Probe. Cassini
+***************
+*** 98,115 ****
+
+
+      MAGELLAN - Venus radar mapping mission. Has mapped almost the entire
+!     surface at high resolution. Currently (11/92) in mapping cycle 4,
+!     collecting a global gravity map.
+
+
+      MARS OBSERVER - Mars orbiter including 1.5 m/pixel resolution camera.
+!     Launched 9/24/92 on a Titan III/TOS booster. MO is currently (3/93) in
+      transit to Mars, arriving on 8/24/93. Operations will start 11/93 for
+      one martian year (687 days).
+
+
+!     TOPEX/Poseidon - Joint US/French Earth observing satellite, launched in
+!     August 1992 on an Ariane 4 booster. The primary objective of the
+      TOPEX/POSEIDON project is to make precise and accurate global
+      observations of the sea level for several years, substantially
+      increasing understanding of global ocean dynamics. The satellite also
+--- 104,121 ----
+
+
+      MAGELLAN - Venus radar mapping mission. Has mapped almost the entire
+!     surface at high resolution. Currently (4/93) collecting a global gravity
+!     map.
+
+
+      MARS OBSERVER - Mars orbiter including 1.5 m/pixel resolution camera.
+!     Launched 9/25/92 on a Titan III/TOS booster. MO is currently (4/93) in
+      transit to Mars, arriving on 8/24/93. Operations will start 11/93 for
+      one martian year (687 days).
+
+
+!     TOPEX/Poseidon - Joint US/French Earth observing satellite, launched
+!     8/10/92 on an Ariane 4 booster. The primary objective of the
+      TOPEX/POSEIDON project is to make precise and accurate global
+      observations of the sea level for several years, substantially
+      increasing understanding of global ocean dynamics. The satellite also
+
+===================================================================
+diff -t -c -r1.18 FAQ.astronaut
+*** /tmp/,RCSt1a06465	Thu Apr  1 14:47:43 1993
+--- FAQ.astronaut	Thu Apr  1 14:46:52 1993
+***************
+*** 162,174 ****
+      specific standards:
+
+	   Distant visual acuity:
+!		20/100 or better uncorrected,
+		correctable to 20/20, each eye.
+
+	   Blood pressure:
+		140/90 measured in sitting position.
+
+!     3. Height between 60 and 76 inches.
+
+      Pilot Astronaut Candidate:
+
+--- 162,174 ----
+      specific standards:
+
+	   Distant visual acuity:
+!		20/150 or better uncorrected,
+		correctable to 20/20, each eye.
+
+	   Blood pressure:
+		140/90 measured in sitting position.
+
+!     3. Height between 58.5 and 76 inches.
+
+      Pilot Astronaut Candidate:
+
+Newsgroup: sci.space
+document_id: 59871
+Subject: Space FAQ 01/15 - Introduction
+From: leech@cs.unc.edu (Jon Leech)
+
+Archive-name: space/intro
+Last-modified: $Date: 93/04/01 14:39:10 $
+
+    FREQUENTLY ASKED QUESTIONS ON SCI.SPACE/SCI.ASTRO
+
+    INTRODUCTION
+
+    This series of linked messages is periodically posted to the Usenet
+groups sci.space and sci.astro in an attempt to provide good answers to
+frequently asked questions and other reference material which is worth
+preserving. If you have corrections or answers to other frequently asked
+questions that you would like included in this posting, send email to
+leech@cs.unc.edu (Jon Leech).
+
+    If you don't want to see the FAQ, add 'Frequently Asked Questions' to
+your KILL file for this group (if you're not reading this with a newsreader
+that can kill articles by subject, you're out of luck).
+
+    The FAQ volume is excessive right now and will hopefully be trimmed down
+by rewriting and condensing over time. The FAQ postings are available in
+the Ames SPACE archive in FAQ/faq<#>.
+
+    Good summaries will be accepted in place of the answers given here. The
+point of this is to circulate existing information, and avoid rehashing old
+answers. Better to build on top than start again. Nothing more depressing
+than rehashing old topics for the 100th time. References are provided
+because they give more complete information than any short generalization.
+
+    Questions fall into three basic types:
+
+    1) Where do I find some information about space?
+
+    Try your local public library first. The net is not a good place to ask
+    for general information. Ask INDIVIDUALS (by email) if you must. There
+    are other sources, use them, too. The net is a place for open ended
+    discussion.
+
+    2) I have an idea which would improve space flight?
+
+    Hope you aren't surprised, but 9,999 out of 10,000 have usually been
+    thought of before. Again, contact a direct individual source for
+    evaluation. NASA fields thousands of these each day.
+
+    3) Miscellanous queries.
+
+    These are addressed on a case-by-case basis in the following series of
+    FAQ postings.
+
+
+    SUGGESTIONS FOR BETTER NETIQUETTE
+
+    Read news.announce.newusers if you're on Usenet.
+    Minimize cross references, [Do you REALLY NEED to?]
+    Edit "Subject:" lines, especially if you're taking a tangent.
+    Send mail instead, avoid posting follow ups. (1 mail message worth
+	100 posts).
+    Internet mail readers: send requests to add/drop to SPACE-REQUEST
+	not SPACE.
+    Read all available articles before posting a follow-up. (Check all
+	references.)
+    Cut down attributed articles (leave only the points you're
+	responding to; remove signatures and headers). Summarize!
+    Put a return address in the body (signature) of your message (mail
+	or article), state your institution, etc. Don't assume the
+	'reply' function of mailers will work.
+    Use absolute dates. Post in a timely way. Don't post what everyone
+	will get on TV anyway.
+    Some editors and window systems do character count line wrapping:
+	keep lines under 80 characters for those using ASCII terminals
+	(use carriage returns).
+
+
+    INDEX TO LINKED POSTINGS
+
+    I've attempted to break the postings up into related areas. There isn't
+    a keyword index yet; the following lists the major subject areas in each
+    posting. Only those containing astronomy-related material are posted to
+    sci.astro (indicated by '*' following the posting number).
+
+    #	Contents
+
+    1*	Introduction
+	    Suggestions for better netiquette
+	    Index to linked postings
+	    Notes on addresses, phone numbers, etc.
+	    Contributors
+
+    2*	Network resources
+	    Overview
+	    Mailing lists
+	    Periodically updated information
+	    Warning about non-public networks
+
+    3*	Online (and some offline) sources of images, data, etc.
+	    Introduction
+	    Viewing Images
+	    Online Archives
+		NASA Ames
+		NASA Astrophysics Data System
+		NASA Jet Propulsion Lab (Mission Information and Images)
+		NASA Langley (Technical Reports)
+		NASA Spacelink
+		National Space Science Data Center
+		Space Telescope Science Institute Electronic Info. Service
+		Starcat
+		Astronomical Databases
+		Astronomy Programs
+		Orbital Element Sets
+		SPACE Digest
+	    Landsat & NASA Photos
+	    Planetary Maps
+	    Cometary Orbits
+
+    4*	Performing calculations and interpreting data formats
+	    Computing spacecraft orbits and trajectories
+	    Computing planetary positions
+	    Computing crater diameters from Earth-impacting asteroids
+	    Map projections and spherical trignometry
+	    Performing N-body simulations efficiently
+	    Interpreting the FITS image format
+	    Sky (Unix ephemeris program)
+	    Three-dimensional star/galaxy coordinates
+
+    5*	References on specific areas
+	    Publishers of space/astronomy material
+	    Careers in the space industry
+	    DC-X single-stage to orbit (SSTO) program
+	    How to name a star after a person
+	    LLNL "great exploration"
+	    Lunar Prospector
+	    Lunar science and activities
+	    Orbiting Earth satellite histories
+	    Spacecraft models
+	    Rocket propulsion
+	    Spacecraft design
+	    Esoteric propulsion schemes (solar sails, lasers, fusion...)
+	    Spy satellites
+	    Space shuttle computer systems
+	    SETI computation (signal processing)
+	    Amateur satellies & weather satellites
+	    Tides
+
+    6*	Constants and equations for calculations
+
+    7*	Astronomical Mnemonics
+
+    8	Contacting NASA, ESA, and other space agencies/companies
+	    NASA Centers / Arianespace / ESA / NASDA / Soyuzkarta / Space
+		Camp / Space Commerce Corporation / Spacehab / SPOT Image
+	    Other commercial space businesses
+
+    9	Space shuttle answers, launch schedules, TV coverage
+	    Shuttle launchings and landings; schedules and how to see them
+	    Why does the shuttle roll just after liftoff?
+	    How to receive the NASA TV channel, NASA SELECT
+	    Amateur radio frequencies for shuttle missions
+	    Solid Rocket Booster fuel composition
+
+    10	Planetary probes - Historical Missions
+	    US planetary missions
+	    Mariner (Venus, Mars, & Mercury flybys and orbiters)
+	    Pioneer (Moon, Sun, Venus, Jupiter, and Saturn flybys and orbiters)
+	    Ranger (Lunar lander and impact missions)
+	    Lunar Orbiter (Lunar surface photography)
+	    Surveyor (Lunar soft landers)
+	    Viking (Mars orbiters and landers)
+	    Voyager (Outer planet flybys)
+	    Soviet planetary missions
+	    Soviet Lunar probes
+	    Soviet Venus probes
+	    Soviet Mars probes
+	    Japanese planetary missions
+	    Planetary mission references
+
+    11	Upcoming planetary probes - missions and schedules
+	    Cassini
+	    Galileo
+	    Magellan
+	    Mars Observer
+	    TOPEX/Poseidon
+	    Ulysses
+	    Other space science missions
+	    Proposed missions
+
+    12	Controversial questions
+	    What happened to the Saturn V plans
+	    Why data from space missions isn't immediately available
+	    Risks of nuclear (RTG) power sources for space probes
+	    Impact of the space shuttle on the ozone layer
+	    How long can a human live unprotected in space
+	    How the Challenger astronauts died
+	    Using the shuttle beyond Low Earth Orbit
+	    The "Face on Mars"
+
+    13	Space activist/interest/research groups and space publications
+	    Groups
+	    Publications
+	    Undocumented Groups
+
+    14	How to become an astronaut
+
+    15	Orbital and Planetary Launch Services
+
+
+    NOTES ON ADDRESSES, PHONE NUMBERS, ETC.
+
+    Unless otherwise specified, telephone numbers, addresses, and so on are
+    for the United States of America. Non-US readers should remember to add
+    the country code for telephone calls, etc.
+
+
+    CREDITS
+
+    Eugene Miya started a series of linked FAQ postings some years ago which
+    inspired (and was largely absorbed into) this set.
+
+    Peter Yee and Ron Baalke have and continue to spend a lot of their own
+    time setting up the SPACE archives at NASA Ames and forwarding official
+    NASA announcements.
+
+    Many other people have contributed material to this list in the form of
+    old postings to sci.space and sci.astro which I've edited. Please let me
+    know if corrections need to be made. Contributors I've managed to keep
+    track of are:
+
+    0004847546@mcimail.com (Francis Reddy)	- map projections
+    ad038@yfn.ysu.edu (Steven Fisk)		- publication refs.
+    akerman@bill.phy.queensu.CA (Richard Akerman)   - crater diameters
+    alweigel@athena.mit.edu (Lisa Weigel)	- SEDS info
+    aoab314@emx.utexas.edu (Srinivas Bettadpur) - tides
+    awpaeth@watcgl.waterloo.edu (Alan Wm Paeth) - map projections
+    aws@iti.org (Allen W. Sherzer)		- Great Exploration
+    baalke@kelvin.jpl.nasa.gov (Ron Baalke)	- planetary probe schedules
+    bankst@rata.vuw.ac.nz (Timothy Banks)	- map projections,
+	variable star analysis archive
+    bern@uni-trier.de (Jochen Bern)		- German mnemonic translation
+    brosen@pioneer.arc.nasa.gov (Bernie Rosen)	- Space Camp
+    bschlesinger@nssdca.gsfc.nasa.gov (Barry Schlesinger)   - FITS format
+    cew@venera.isi.edu (Craig E. Ward)		- space group contact info
+    chapin@cbnewsc.att.com (Tom Chapin)		- planetary positions
+    cunnida@tenet.edu (D. Alan Cunningham)	- NASA Spacelink
+    cyamamot@kilroy.Jpl.Nasa.Gov (Cliff Yamamoto) - orbital elements
+    datri@convex.com (Anthony Datri)		- PDS/VICAR viewing software
+    daver@sjc.mentorg.com (Dave Rickel)		- orbit formulae
+    dlbres10@pc.usl.edu (Phil Fraering)		- propulsion
+    eder@hsvaic.boeing.com (Dani Eder)		- Saturn V plans, SRBs
+    eugene@eos.arc.nasa.gov (Eugene N. Miya)	- introduction,
+	NASA contact info, started FAQ postings
+    french@isu.isunet.edu (Patrick M. French)	- space group contact info
+    g@telesoft.com (Gary Morris)		- amateur radio info
+    gaetz@cfa.harvard.edu (Terry Gaetz)		- N-body calculations,
+	orbital dynamics
+    grandi@noao.edu (Steve Grandi)		- planetary positions
+    greer%utd201.dnet%utadnx@utspan.span.nasa.gov (Dale M. Greer)   - constants
+    henry@zoo.toronto.edu (Henry Spencer)	- survival in vacuum,
+	astronaut how-to, Challenger disaster, publication refs, DC-X
+    higgins@fnal.bitnet (William Higgins)	- RTGs, publishers,
+	shuttle landings, spysats, propulsion, "Face on Mars"
+    hmueller@cssun.tamu.edu (Hal Mueller)	- map projections,
+	orbital dynamics
+    jbh55289@uxa.cso.uiuc.edu (Josh Hopkins)	- launch services
+    jim@pnet01.cts.com (Jim Bowery)		- propulsion, launch services
+    jnhead@pirl.lpl.arizona.edu (James N. Head) - atmospheric scale heights
+    jscotti@lpl.arizona.edu (Jim Scotti)	- planetary positions
+    kcarroll@zoo.toronto.edu (Kieran A. Carroll)- refs for spacecraft design
+    ken@orion.bitnet (Kenneth Ng)		- RTGs
+    kjenks@gothamcity.jsc.nasa.gov (Ken Jenks)	- shuttle roll manuever
+    klaes@verga.enet.dec.com (Larry Klaes)	- planetary probe history
+    leech@cs.unc.edu (Jon Leech)		- crater diameters
+    lfa@ssi.com (Lou Adornato)			- orbital dynamics
+    maury.markowitz@egsgate.fidonet.org (Maury Markowitz)   - propulsion
+    max@west.darkside.com (Erik Max Francis)	- equations
+    mbellon@mcdurb.Urbana.Gould.COM		- N-body calculations
+    mcconley@phoenix.Princeton.edu (Marc Wayne Mcconley)    - space careers
+    msb@sq.com (Mark Brader)			- Mariner 1 info.
+    mwm@cmu.edu (Mark Maimone)			- SPACE Digest
+    nickw@syma.sussex.ac.uk (Dr. Nick Watkins)	- models, spysats
+    ohainaut@eso.org (Olivier R. Hainaut)	- publishers, STARCAT
+    oneil@aio.jsc.nasa.gov (Graham O'Neil)	- Lunar Prospector
+    panama@cup.portal.com (Kenneth W Durham)	- cometary orbits, IAU
+    paul.blase@nss.fidonet.org (Paul Blase)	- propulsion
+    pjs@plato.jpl.nasa.gov (Peter Scott)	- RTGs
+    pschleck@unomaha.edu (Paul W. Schleck)	- AMSAT, ARRL contact info
+    rdb@mel.cocam.oz.au (Rodney Brown)		- propulsion refs
+    rja7m@phil.cs.virginia.edu (Ran Atkinson)	- FTPable astro. programs
+    rjungcla@ihlpb.att.com (R. Michael Jungclas)- models
+    roelle@sigi.jhuapl.edu (Curt Roelle)	- German mnemonic translation
+    seal@leonardo.jpl.nasa.gov (David Seal)	- Cassini mission schedule
+    shafer@skipper.dfrf.nasa.gov (Mary Shafer)	- photos, shuttle landings
+    smith@sndpit.enet.dec.com (Willie Smith)	- photos
+    stephen@gpwd.gp.co.nz (Stephen Dixon)	- shuttle audio frequencies
+    sterner@warper.jhuapl.edu (Ray Sterner)	- planetary positions
+    stooke@vaxr.sscl.uwo.ca (Phil Stooke)	- planetary maps
+    ted_anderson@transarc.com (Ted Anderson)	- propulsion
+    terry@astro.as.utexas.edu (Terry Hancock)	- NASA center info
+    thorson@typhoon.atmos.coloState.edu (Bill Thorson) - FITS info
+    tm2b+@andrew.cmu.edu (Todd L. Masco)	- SPACE Digest
+    tom@ssd.csd.harris.com (Tom Horsley)	- refs for algorithms
+    veikko.makela@helsinki.fi (Veikko Makela)	- orbital element sets
+    Wales.Larrison@ofa123.fidonet.org (Wales Larrison) - groups & publications
+    wayne@csri.utoronto.ca (Wayne Hayes)	- constants
+    weemba@libra.wistar.upenn.edu (Matthew P Wiener) - Voyager history
+    yamada@yscvax.ysc.go.jp (Yoshiro Yamada)	- ISAS/NASDA missions
+    yee@ames.arc.nasa.gov (Peter Yee)		- AMES archive server,
+	propulsion
+
+    In Net memoriam:
+	Ted Flinn
+
+NEXT: FAQ #2/15 - Network Resources
+
+Newsgroup: sci.space
+document_id: 59872
+Subject: Space FAQ 02/15 - Network Resources
+From: leech@cs.unc.edu (Jon Leech)
+
+Archive-name: space/net
+Last-modified: $Date: 93/04/01 14:39:15 $
+
+NETWORK RESOURCES
+
+OVERVIEW
+
+    You may be reading this document on any one of an amazing variety of
+    computers, so much of the material below may not apply to you. In
+    general, however, systems connected to 'the net' fall in one of three
+    categories: Internet, Usenet, or BITNET. Electronic mail may be sent
+    between these networks, and other resources available on one of these
+    networks are sometimes accessible from other networks by email sent to
+    special 'servers'.
+
+    The space and astronomy discussion groups actually are composed of
+    several mechanisms with (mostly) transparent connections between them.
+
+    One mechanism is the mailing list, in which mail is sent to a central
+    distribution point which relays it to all recipients of the list. In
+    addition to the general lists for space (called SPACE Digest for
+    Internet users, and SPACE on BITNET), there are a number of more
+    specialized mailing lists described below.
+
+    A second mechanism is Usenet 'netnews'. This is somewhat like a bulletin
+    board operating on each system which is a part of the net. Netnews
+    separates contributions into hundreds of different categories based on a
+    'group name'. The groups dealing most closely with space topics are
+    called 'sci.space.news', 'sci.space', 'sci.space.shuttle', 'sci.astro',
+    and 'talk.politics.space'. Contributors 'post' submissions (called
+    'articles' in netnews terminology) on their local machine, which sends
+    it to other nearby machines. Similarly, articles sent from nearby
+    machines are stored locally and may be forwarded to other systems, so
+    that an article is posted locally and eventually reaches all the Usenet
+    sites interested in receiving the news group to which the article was
+    posted.
+
+    Gateway machines redirect the Usenet sci.space group into Internet and
+    BITNET mailing lists and vice versa; the other Usenet groups are not
+    accessible as mailing lists. If you can receive netnews, its more
+    flexible interface and access to a wider range of material usually make
+    it the preferred option.
+
+MAILING LISTS
+
+    SPACE Digest is the main Internet list, and is now being run by the
+    International Space University (in only its second change of management
+    in over a decade). Email space-request@isu.isunet.edu (message body
+    should be in the format 'subscribe space John Public') to join. Note
+    that the moderated SPACE Magazine list is defunct at present for lack of
+    a moderator. Old copies of SPACE Digest since its inception in 1981 are
+    available by anonymous FTP. Retrieve
+	julius.cs.qub.ac.uk:pub/SpaceDigestArchive/README
+    for further details.
+
+    Elements is a moderated list for fast distribution of Space Shuttle
+    Keplerian Elements before and during Shuttle flights. NASA two line
+    elements are sent out on the list from Dr. Kelso, JSC, and other sources
+    as they are released. Email to elements-request@telesoft.com to join.
+
+    GPS Digest is a moderated list for discussion of the Global Positioning
+    System and other satellite navigation positioning systems. Email to
+    gps-request@esseye.si.com to join.
+
+    Space-investors is a list for information relevant to investing in
+    space-related companies. Email Vincent Cate (vac@cs.cmu.edu) to join.
+
+    Space-tech is a list for more technical discussion of space topics;
+    discussion has included esoteric propulsion technologies, asteroid
+    capture, starflight, orbital debris removal, etc. Email to
+    space-tech-request@cs.cmu.edu to join. Archives of old digests and
+    selected excerpts are available by anonymous FTP from
+    gs80.sp.cs.cmu.edu (128.2.205.90) in /usr/anon/public/space-tech,
+    or by email to space-tech-request if you don't have FTP access.
+
+    SEDS-L is a BITNET list for members of Students for the Exploration and
+    Development of Space and other interested parties. Email
+    LISTSERV@TAMVM1.BITNET with a message saying "SUBSCRIBE SEDS-L your
+    name". Email saying "INDEX SEDS-L" to list the archive contents.
+
+    SEDSNEWS is a BITNET list for news items, press releases, shuttle status
+    reports, and the like. This duplicates material which is also found in
+    Space Digest, sci.space, sci.space.shuttle, and sci.astro. Email
+    LISTSERV@TAMVM1.BITNET saying "SUBSCRIBE SEDSNEWS your name" to join.
+    Email saying "INDEX SEDSNEWS" to list the archive contents.
+
+    Ron Baalke (baalke@kelvin.jpl.nasa.gov) runs a mailing list which
+    carries the contents of the sci.space.news Usenet group. Email him
+    to join the list.
+
+    As a general note, please mail to the *request* address to get off a
+    mailing list. SPACE Digest, for example, relays many inappropriate
+    'please remove me from this list' messages which are sent to the list
+    address rather than the request address.
+
+PERIODICALLY UPDATED INFORMATION
+
+    In addition to this FAQ list, a broad variety of topical information is
+    posted to the net (unless otherwise noted, in the new group
+    sci.space.news created for this purpose). Please remember that the
+    individuals posting this information are performing a service for all
+    net readers, and don't take up their time with frivolous requests.
+
+    ACRONYMS
+	Garrett Wollman (wollman@UVM.EDU) posts an acronym list around the
+	first of each month.
+
+    ASTRO-FTP LIST
+	Veikko Makela (veikko.makela@helsinki.fi) posts a monthly list of
+	anonymous FTP servers containing astronomy and space related
+	material to sci.space and sci.astro.
+
+    AVIATION WEEK
+	Henry Spencer (henry@zoo.toronto.edu) posts summaries of
+	space-related stories in the weekly _Aviation Week and Space
+	Technology_.
+
+    BUYING TELESCOPES
+	Ronnie Kon (ronnie@cisco.com) posts a guide to buying telescopes to
+	sci.astro.
+
+    ELECTRONIC JOURNAL OF THE ASA
+	Don Barry (don@chara.gsu.edu) posts the monthly Electronic Journal
+	of the Astronomical Society of the Atlantic to sci.astro.
+
+    FLIGHT INTERNATIONAL
+	Swaraj Jeyasingh (sjeyasin@axion.bt.co.uk) posts summaries of
+	space-related news from _Flight International_. This focuses more on
+	non-US space activities than Aviation Week.
+
+    LARGE ASTRONOMICAL PROJECTS
+	Robert Bunge (rbunge@access.digex.com) posts a list describing many
+	"Large Telescope Projects Either Being Considered or in the Works"
+	to sci.astro.
+
+    NASA HEADLINE NEWS & SHUTTLE REPORTS
+	Peter Yee (yee@ames.arc.nasa.gov) posts a variety of NASA material,
+	including NASA Headline News (with the schedule for NASA SELECT),
+	shuttle payload briefings and flight manifests, and KSC shuttle
+	status reports. For Usenet users, much of this material appears in
+	the group sci.space.shuttle.
+
+    NASA UPDATES
+	Ron Baalke (baalke@kelvin.jpl.nasa.gov) posts frequent updates from
+	JPL, Ames, and other centers on the Ulysses, Gailileo, Pioneer,
+	Magellan, Landsat, and other missions.
+
+    ORBITAL ELEMENT SETS
+	TS Kelso (tkelso@blackbird.afit.af.mil) posts orbital elements from
+	NASA Prediction Bulletins.
+
+	Mike Rose (mrose@stsci.edu) posts orbital elements for the Hubble
+	Space Telescope to sci.astro.
+
+	Jost Jahn (j.jahn@abbs.hanse.de) posts ephemerides for asteroids,
+	comets, conjunctions, and encounters to sci.astro.
+
+    SATELLITE LAUNCHES
+	Richard Langley (lang@unb.ca) posts SPACEWARN Bulletin, which
+	describes recent launch/orbital decay information and satellites
+	which are useful for scientific activities. Recent bulletins are
+	available by anonymous FTP from nssdca.gsfc.nasa.gov in
+	ANON_DIR:[000000.ACTIVE.SPX].
+
+    SHUTTLE MANIFEST
+	Ken Hollis (gandalf@pro-electric.cts.com) posts a compressed version
+	of the Space Shuttle launch manifest to sci.space.shuttle. This
+	includes dates, times, payloads, and information on how to see
+	launches and landings.
+
+    SOLAR ACTIVITY
+	Cary Oler (oler@hg.uleth.ca) posts Solar Terrestrial reports
+	(describing solar activity and its effect on the Earth) to
+	sci.space. The report is issued in part from data released by the
+	Space Enviroment Services Center, Boulder Colorado. The intro
+	document needed to understand these reports is available by
+	anonymous FTP from solar.stanford.edu (36.10.0.4) in
+	pub/understanding_solar_terrestrial_reports. nic.funet.fi
+	(128.214.6.100) also has this document in
+	/pub/misc/rec.radio.shortwave/solarreports and is an archive site
+	for the reports (please note this site is in Europe, and the
+	connection to the US is only 56KB). A new primary archive site,
+	xi.uleth.ca (142.66.3.29), has recently been established and will be
+	actively supported.
+
+    SOVIET SPACE ACTIVITIES
+	Glenn Chapman (glennc@cs.sfu.ca) posts summaries of Soviet space
+	activities.
+
+    SPACE ACTIVIST NEWSLETTER
+	Allen Sherzer (aws@iti.org) posts a newsletter, "One Small Step for
+	a Space Activist," to talk.politics.space. It describes current
+	legislative activity affecting NASA and commercial space activities.
+
+    SPACE EVENTS CALENDAR
+	Ron Baalke (baalke@kelvin.jpl.nasa.gov) posts a calendar including
+	anniversaries, conferences, launch dates, meteor showers and
+	eclipses, and other space-related events.
+
+    SPACE NEWS
+	John Magliacane (kd2bd@ka2qhd.UUCP) posts "SpaceNews" (covering
+	AMSATs, NOAA and other weather satellites, and other ham
+	information) to rec.radio.amateur.misc and sci.space.
+
+    SPACE REPORT
+	Jonathan McDowell (mcdowell@cfa.harvard.edu) posts "Jonathan's Space
+	Report" covering launches, landings, reentries, status reports,
+	satellite activities, etc.
+
+    TOWARD 2001
+	Bev Freed (freed@nss.fidonet.org) posts "Toward 2001", a weekly
+	global news summary reprinted from _Space Calendar_ magazine.
+
+
+WARNING ABOUT NON-PUBLIC NETWORKS
+
+    (Included at the suggestion of Eugene Miya, who wrote the item)
+
+    NASA has an internal system of unclassified electronic mail and bulletin
+    boards. This system is not open for public use. Specifically, NASA
+    personnel and procurement operations are regarded with some sensitivity.
+    Contractors must renegotiate their contracts. The Fair and Open
+    Procurement Act does not look kindly to those having inside information.
+    Contractors and outsiders caught using this type of information can
+    expect severe penalities. Unauthorized access attempts may subject you
+    to a fine and/or imprisonment in accordance with Title 18, USC, Section
+    1030. If in fact you should should learn of unauthorized access, contact
+    NASA personnel.
+
+    Claims have been made on this news group about fraud and waste. None
+    have ever been substantiated to any significant degree. Readers
+    detecting Fraud, Waste, Abuse, or Mismanagement should contact the NASA
+    Inspector General (24-hours) at 800-424-9183 (can be anonymous) or write
+
+	NASA
+	Inspector General
+	P.O. Box 23089
+	L'enfant Plaza Station
+	Washington DC 20024
+
+NEXT: FAQ #3/15 - Online (and some offline) sources of images, data, etc.
+
+Newsgroup: sci.space
+document_id: 59873
+Subject: Space FAQ 03/15 - Data Sources
+From: leech@cs.unc.edu (Jon Leech)
+
+Archive-name: space/data
+Last-modified: $Date: 93/04/01 14:39:07 $
+
+ONLINE AND OTHER SOURCES OF IMAGES, DATA, ETC.
+
+
+INTRODUCTION
+
+    A wide variety of images, data, catalogs, information releases, and
+    other material dealing with space and astronomy may be found on the net.
+    A few sites offer direct dialup access or remote login access, while the
+    remainder support some form of file transfer. Many sites are listed as
+    providing 'anonymous FTP'. This refers to the File Transfer Protocol on
+    the Internet. Sites not connected to the Internet cannot use FTP
+    directly, but there are a few automated FTP servers which operates via
+    email. Send mail containing only the word HELP to ftpmail@decwrl.dec.com
+    or bitftp@pucc.princeton.edu, and the servers will send you instructions
+    on how to make requests.
+
+    The sources with the broadest selection of material are the NASA Ames
+    SPACE archive and the National Space Science Data Center.
+
+    Don't even ask for images to be posted to the net. The data volume is
+    huge and nobody wants to spend the time on it.
+
+
+VIEWING IMAGES
+
+    The possible combinations of image formats and machines is forebodingly
+    large, and I won't attempt to cover common formats (GIF, etc.) here. To
+    read PDS and VICAR (and many other) formats on Unix systems running X,
+    use XV 2.11, available by anonymous FTP from export.lcs.mit.edu
+    (18.24.0.12) in contrib/xv-2.11.tar.Z and the other standard X11 FTP
+    sites.
+
+    The FAQ for the Usenet group alt.binaries.pictures discusses image
+    formats and how to get image viewing software. A copy of this document
+    is available by anonymous FTP from the Usenet FAQ archives at
+    pit-manager.mit.edu (18.72.1.58), in directory
+    pub/usenet/alt.binaries.pictures.
+
+
+ONLINE ARCHIVES
+
+    NASA AMES
+
+    Extensive archives are maintained at NASA Ames and are available via
+    anonymous FTP or an email server. These archives include many images and
+    a wide variety of documents including this FAQ list, NASA press
+    releases, shuttle launch advisories, and mission status reports. Please
+    note that these are NOT maintained on an official basis.
+
+    FTP users should connect to ames.arc.nasa.gov (128.102.18.3) and look in
+    pub/SPACE. pub/SPACE/Index contains a listing of files available in the
+    archive (the index is about 200K by itself).
+
+    To access the archives by email, send a letter to
+    archive-server@ames.arc.nasa.gov (or ames!archive-server). In the
+    subject of your letter (or in the body), use commands like:
+
+	send SPACE Index
+	send SPACE SHUTTLE/ss01.23.91.
+
+    The capitalization of the subdirectory names is important. All are in
+    caps. Only text files are handled by the email server at present; use
+    one of the FTP email servers described in the introduction to this
+    section for images or programs.
+
+    The Magellan Venus and Voyager Jupiter, Saturn, and Uranus CD-ROM image
+    disks have been put online in the CDROM and CDROM2 directories. The
+    disks will be rotated on a weekly basis. Thousands of images are
+    available in these collections.
+
+    The GIF directory contains images in GIF format. The VICAR directory
+    contains Magellan images in VICAR format (these are also available in
+    the GIF directory). A PC program capable of displaying these files is
+    found in the IMDISP directory (see the item "VIEWING IMAGES" below).
+
+    The NASA media guide describes the various NASA centers and how to
+    contact their public affairs officers; this may be useful when pursuing
+    specific information. It's in MISC/media.guide.
+
+    Any problems with the archive server should be reported to Peter Yee
+    (yee@ames.arc.nasa.gov).
+
+
+    NASA ASTROPHYSICS DATA SYSTEM
+
+    The ADS is a distributed data retrieval system which is easy to use and
+    provides uniform access to ground-based and space-based astronomy data
+    from NASA data centers across the country. It currently has over 140
+    data catalogs of radio, infrared, optical, UV, and X-ray data which can
+    be queried by position or any other parameter in the catalog. The ADS
+    also provides tools to manipulate and plot tabular results. In addition,
+    ADS has a Beta version of an Abstracts Service which allows users to
+    query over 125,000 abstracts of astronomy papers since 1975 by authors,
+    keywords, title words, or abstract text words.
+
+    ADS use requires direct Internet access. For more info and to sign up to
+    become a user, email ads@cuads.coloradu.edu. The User's Guide and
+    "QuickStart" Guide are available by anonymous FTP to sao-ftp.harvard.edu
+    in directory pub/ads/ADS_User_Guide (PostScript files).
+
+    Contact Carolyn Stern Grant (stern@cfa.harvard.edu).
+
+
+    NASA JET PROPULSION LAB (MISSION INFORMATION AND IMAGES)
+
+    pubinfo.jpl.nasa.gov (128.149.6.2) is an anonymous FTP site operated by
+    the JPL Public Information Office, containing news releases, status
+    reports, fact sheets, images, and other data on JPL missions. It may
+    also be reached by modem at (818)-354-1333 (no parity, 8 data bits, 1
+    stop bit).
+
+    Contact newsdesk@jplpost.jpl.nasa.gov or phone (818)-354-7170.
+
+
+    NASA LANGLEY (TECHNICAL REPORTS)
+
+    techreports.larc.nasa.gov is an anonymous FTP site offering technical
+    reports. To get started, cd to directory pub/techreports/larc/92 and
+    retrieve files README and abstracts.92. Most files are compressed
+    PostScript. The reports are also in a WAIS database with the following
+    description:
+
+	(:source
+	 :version 3
+	 :ip-name "techreports.larc.nasa.gov"
+	 :tcp-port 210
+	 :database-name "nasa-larc-abs"
+	 :cost 0.00
+	 :cost-unit :free
+	 :maintainer "M.L.Nelson@LaRC.NASA.GOV"
+	 :description "NASA Langley Research Center Technical Reports
+
+    Contact tr-admin@techreports.larc.nasa.gov.
+
+
+    NASA SPACELINK
+
+    SpaceLink is an online service located at Marshall Space Flight Center
+    in Huntsville, Alabama. The system is specifically designed for
+    teachers. The data base is arranged to provide easy access to current
+    and historical information on NASA aeronautics, space research, and
+    technology transfer information. Also included are suggested classroom
+    activities that incorporate information on NASA projects to teach a
+    number of scientific principles. Unlike bulletin board systems, NASA
+    Spacelink does not provide for interaction between callers. However it
+    does allow teachers and other callers to leave questions and comments
+    for NASA which may be answered by regular mail. Messages are answered
+    electronically, even to acknowledge requests which will be fulfilled by
+    mail. Messages are generally handled the next working day except during
+    missions when turnaround times increase. The mail system is closed-loop
+    between the user and NASA.
+
+    SpaceLink also offers downloadable shareware and public domain programs
+    useful for science educators as well as space graphics and GIF images
+    from NASA's planetary probes and the Hubble Telescope.
+
+    You can dial in at (205)-895-0028 (300/1200/2400/9600(V.32) baud, 8
+    bits, no parity, 1 stop bit), or telnet to spacelink.msfc.nasa.gov
+    (128.158.13.250, also known as xsl.msfc.nasa.gov) if you're on the
+    Internet. Anonymous FTP capability (password guest) is now available.
+
+    Most of this information is also available from the Ames server in
+    directory SPACELINK.
+
+
+    NATIONAL SPACE SCIENCE DATA CENTER (NSSDC)
+
+    The National Space Science Data Center is the official clearinghouse for
+    NASA data. The data catalog (*not* the data itself) is available online.
+    Internet users can telnet to nssdca.gsfc.nasa.gov (128.183.36.23) and
+    log in as 'NODIS' (no password). You can also get the catalog by sending
+    email to 'request@nssdc.gsfc.nasa.gov'.
+
+    You can also dial in at (301)-286-9000 (300, 1200, or 2400 baud, 8 bits,
+    no parity, one stop). At the "Enter Number:" prompt, enter MD and
+    carriage return. When the system responds "Call Complete," enter a few
+    more carriage returns to get the "Username:" and log in as 'NODIS' (no
+    password).
+
+    The system is menu-driven; topics available as of 3/93 are:
+
+	1   -	Master Directory - NASA & Global Change
+	2   -	Personnel Information Management System
+	3   -	Nimbus-7 GRID TOMS Data
+	4   -	Interplanetary Medium Data (OMNI)
+	5   -	Request data and/or information from NSSDC
+	6   -	Geophysical Models
+	7   -	CANOPUS Newsletter
+	8   -	International Ultraviolet Explorer Data Request
+	9   -	CZCS Browse and Order Utility
+	10  -	Astronomical Data Center (ADC)
+	11  -	STEP Bulletin Board Service
+	12  -	Standards and Technology Information System
+	13  -	Planetary Science & Magellan Project Information
+	14  -	Other Online Data Services at NSSDC
+	15  -	CD-ROMS Available at NSSDC
+
+    For users with Internet access, datasets are made available via
+    anonymous FTP once you select the desired datasets from the online
+    catalog. For other users, data may be ordered on CD-ROM and in other
+    formats. Among the many types of data available are Voyager, Magellan,
+    and other planetary images, Earth observation data, and star catalogs.
+    Viewers for Macintosh and IBM systems are also available. As an example
+    of the cost, an 8 CD set of Voyager images is $75. Data may ordered
+    online, by email, or by physical mail. The postal address is:
+
+	National Space Science Data Center
+	Request Coordination Office
+	Goddard Space Flight Center
+	Code 633
+	Greenbelt, MD  20771
+
+	Telephone: (301) 286-6695
+
+	Email address:	 request@nssdca.gsfc.nasa.gov
+
+
+    SPACE TELESCOPE SCIENCE INSTITUTE ELECTRONIC INFORMATION SERVICE
+
+    stsci.edu (130.167.1.2) has a large amount of information about the
+    Hubble Space Telescope available by anonymous FTP, such as status
+    reports and newsletters, in addition to material oriented towards HST
+    observers and proposers. Get the top level README file to begin with.
+    Contact Pete Reppert (reppert@stsci.edu) or Chris O'Dea
+    (odea@stsci.edu).
+
+
+    STARCAT
+
+    The Space Telescope European Coordination Facility, at ESO/Garching
+    provides on-line access to a huge astronomical database, featuring
+
+	- Observation log files of several satellites/telescopes
+	    (IUE,IRAS,HST,NTT...).
+	- Spectra and images (IUE, HST).
+	- Most of the astronomical catalogues (SAO, HR, NGC, PPM, IRAS,
+	    Veron, GSC and many others, more than 50) in a very convenient
+	    way (give center+radius+kind of objects, and you get the
+	    corresponding files!).
+
+    Log on as ``starcat'' (no password) on node stesis.hq.eso.org
+    (134.171.8.100) or on STESIS (DECnet). The files created can be
+    retreived by FTP. Contact: Benoit Pirenne, bpirenne@eso.org (phone +49
+    89 320 06 433) at ST-ECF
+
+
+    ASTRONOMICAL DATABASES
+
+    The full SAO stellar database is *NOT* available online, probably due to
+    the 40 MB size. It may be ordered on magnetic tape from the NSSDC. A
+    subset containing position and magnitude only is available by FTP (see
+    "Astronomy Programs" below).
+
+    nic.funet.fi (128.214.6.100) has a large collection of astronomical
+    programs for many types of computers, databases of stars and deep sky
+    objects, and general astronomy information in directory /pub/astro. This
+    site is mainly for European users, but overseas connections are
+    possible.
+
+    The Ames archives contain a database of 8,436 galaxies including name,
+    RA, declination, magnitude, and radial velocity in MISC/galaxy.dat.
+    Supplied by Wayne Hayes (wayne@csri.utoronto.ca).
+
+    iris1.ucis.dal.ca (129.173.18.107) has a number of GIFs from Voyager,
+    Hubble, and other sources available by anonymous FTP in pub/gif (most of
+    this data is also in SPACE/GIF on the Ames server). Please restrict
+    access to 5pm - 8am Atlantic time.
+
+    pomona.claremont.edu has the Yale Bright Star catalog for anonymous FTP
+    in directory [.YALE_BSC]. Contact James Dishaw
+    (jdishaw@hmcvax.claremont.edu).
+
+    The Hubble Guide Star catalog is available on CD-ROM for the Mac and PC
+    for $49.95 US (catalog # ST101).
+
+	Astronomical Society of the Pacific
+	390 Ashton Ave.
+	San Francisco, CA 94112
+	Phone: (415) 337-2624 9 AM - 3 PM Pacific Time
+	FAX: (415) 337-5205
+
+    For German (and possibly other European) readers, Jost Jahn has a
+    service to distribute astronomical data to interested amateurs at cost.
+    About 30-40 catalogs are available for DM 6..8/disk. Several floppy disk
+    formats are available. Because of the expense of receiving email on his
+    system, he asks that you contact him by physical mail:
+
+	Jost Jahn
+	Neustaedter Strasse 11
+	W-3123 Bodenteich
+	GERMANY
+	Phone: FRG-5824-3197
+
+
+    ASTRONOMY PROGRAMS
+
+    Various astronomy-related programs and databases posted to the net in
+    the past are archived for anonymous FTP at multiple sites, including
+    ftp.uu.net (137.39.1.9). Also see the ASTRO-FTP list posted to sci.astro
+    monthly, which is more complete than this list.
+
+    Astonomical/Space-related sources of interest in comp.sources.unix:
+
+    Volume 8:	    phoon	moon phase and date routines
+    Volume 12,13:   starchart	starchart program & Yale Star data
+    Volume 15:	    moontool	shows moon phase picture on Suns
+    Volume 16:	    sao		reduced SAO catalog
+
+    Astonomical/Space-related sources of interest in comp.sources.misc:
+
+    Volume  8:	    moon	another moon phase program
+    Volume 11:	    starchart	starchart program, version 3.2
+    Volume 11:	    n3emo-orbit orbit: track earth satellites
+    Volume 12:	    starchart2	starchart program, update to version 3.2.1
+    Volume 13:	    jupmoons	plotter for Jupiter's major moons [in perl]
+    Volume 13:	    lunisolar	lunisolar (not sure what this does)
+    Volume 14:	    ephem-4.21	astronomical ephemeris, v4.21
+    Volume 14:	    n3emo-orbit patch to orbit 3.7
+    Volume 18:	    planet	planet generation simulator
+
+    Elwood Downey (e_downey@tasha.cca.cr.rockwell.com), the author of
+    "ephem", has offered to mail copies to people who can't find it on one
+    of the archives.
+
+    XSAT, an X Window System based satellite tracking program, is
+    available by anonymous FTP from export.lcs.mit.edu (18.24.0.12) in
+    contrib/xsat1.0.tar.Z. Contact Dave Curry (davy@ecn.purdue.edu)
+    for more information.
+
+    Xsky, a computerized sky atlas for the X Window System, is available for
+    anonymous FTP on arizona.edu in the directory [.SOFTWARE.UNIX.XSKY] as
+    xsky.tarz. Contact Terry R. Friedrichsen (terry@venus.sunquest.com) for
+    more information.
+
+    The "Variable Stars Analysis Software Archive" is available via
+    anonymous FTP from kauri.vuw.ac.nz (130.195.11.3) in directory
+    pub/astrophys. This is intended for specialists in this field, and they
+    would appreciate people from outside New Zealand confining their FTP
+    access to the astrophys directory, as they pay a significant amount for
+    Internet access. Contents are relatively sparse at present due to the
+    youth of the archive - contributions are encouraged. Contact the archive
+    administrator, Timothy Banks (bankst@kauri.vuw.ac.nz) for more
+    information.
+
+    The "IDL Astronomy Users Library" is available by anonymous FTP from
+    idlastro.gsfc.nasa.gov (128.183.57.82). This is a central repository for
+    general purpose astronomy procedures written in IDL, a commercial image
+    processing, plotting, and programming language. Contact Wayne Landsman
+    (landsman@stars.gsfc.nasa.gov) for more information.
+
+
+    ORBITAL ELEMENT SETS
+
+    The most recent orbital elements from the NASA Prediction Bulletins are
+    carried on the Celestial BBS, (513)-427-0674. Documentation and tracking
+    software are also available on this system. The Celestial BBS may be
+    accessed 24 hours/day at 300, 1200, or 2400 baud using 8 data bits, 1
+    stop bit, no parity.
+
+    Orbital element sets are available via anonymous FTP from the
+    following sites:
+
+    archive.afit.af.mil (129.92.1.66)	    NASA,TVRO,Shuttle
+    directory: /pub/space
+
+    ftp.funet.fi (128.214.6.100)	    NASA,TVRO,Molczan,CelBBS,
+    directory: /pub/astro/pc/satel	    Shuttle (*)
+
+    kilroy.jpl.nasa.gov (128.149.1.165)     NASA,Molczan
+    directory: /pub/space/
+
+
+    SPACE DIGEST ARCHIVES
+
+    Copies of back issues of Space Digest are archived on
+    LISTSERV@UGA.BITNET. Send mail containing the message "INDEX SPACE" to
+    get an index of files; send it the message "GET filename filetype" to
+    get a particular file.
+
+
+LANDSAT AND NASA PHOTOS
+
+    You can get black-and-white 1:1M prints, negatives, or positives for
+    $10, $18, $12 respectively for any Landsat data more than 2 years old
+    from EDC, (Eros (Earth Resources Orbiting Satellite) Data Center). Call
+    them at (605)-594-6511. You get 80 meter resolution from the MSS
+    scanner, 135x180 kilometers on a picture 135x180 mm in size. I think you
+    have to select one band from (green, red, near IR, second near IR), but
+    I'm not sure. Digitial data is also available at higher prices.
+
+    Transparencies of all NASA photos available to the public can be
+    borrowed from the NASA photo archive; you can have copies or prints
+    made.
+
+	 NASA Audio-Visual Facility
+	 918 North Rengstorff Ave
+	 Mountain View, CA  94043
+	 (415)-604-6270
+
+
+PLANETARY MAPS
+
+    The USGS address for maps of the planets is:
+
+    U.S. Geological Survey,
+    Distribution Branch,
+    Box 25286, Federal Center, Bldg. 41
+    Denver, CO 80225
+
+    Maps cost $2.40 to $3.10 per sheet (a few come in sets of 2 or 3 sheets).
+
+    The best global maps of Mars based on Viking images are 1:15,000,000
+    scale in 3 sheets. These maps are:
+
+    I-1535 (2 sheets only) - relief, albedo, names
+    I-1535
+    I-1618 (3 sheets) - relief, names
+    I-2030 (3 sheets) - relief, topographic contours
+    I-1802-A,B,C (3 sheets) - geology
+
+    There are many other maps as well: 30 sheets at 1:5,000,000 scale in
+    relief, albedo, geology, photomosaic forms (not all 30 sheets available
+    in all formats); 140 sheets at 1:2,000,000 scale as photomosaics of the
+    whole planet, about 100 sheets of interesting sites at 1:500,000 scale
+    in photomosaic format, and lots of special sheets.
+
+    Then there are maps of Mercury, Venus, the Moon, the four Galilean
+    Satellites, six moons of Saturn and five of Uranus. [Phil Stooke
+    (stooke@vaxr.sscl.uwo.ca), the author of this item, has offered to
+    respond to email requests for information on any topic relating to lunar
+    and planetary maps.]
+
+
+COMETARY ORBIT DATA
+
+    The Central Bureau for Astronomical Telegrams and the Minor Planet
+    Center announce the sixth edition of the Catalogue of Cometary Orbits in
+    IAU Circular 4935. The catalogue contains 1292 entries which represent
+    all known comets through November 1989 and is 96 pages long.
+    Non-subscribers to the Circulars may purchase the catalogue for $15.00
+    while the cost to subscribers is $7.50. The basic catalogue in ASCII
+    along with a program to extract specific orbits and calculate
+    ephemerides is available on MS-DOS 5.25-inch 2S2D diskette at a cost of
+    $75.00 (the program requires an 8087 math coprocessor). The catalogue
+    alone is also available by e-mail for $37.50 or on magnetic tape for
+    $300.00.
+
+    Except for the printed version of the catalogue, the various magnetic
+    media or e-mail forms of the catalogue do not specifically meantion
+    non-subscribers. It is possible that these forms of the catalogue may
+    not be available to non-subscribers or that their prices may be more
+    expensive than those given. Mail requests for specific information and
+    orders to:
+
+	Central Bureau for Astronomical Telegrams
+	Smithsonian Astrophysical Observatory
+	Cambridge, MA 02138, USA
+
+
+NEXT: FAQ #4/15 - Performing calculations and interpreting data formats
+
+Newsgroup: sci.space
+document_id: 59874
+Subject: Space FAQ 05/15 - References
+From: leech@cs.unc.edu (Jon Leech)
+
+Archive-name: space/references
+Last-modified: $Date: 93/04/01 14:39:21 $
+
+REFERENCES ON SPECIFIC AREAS
+
+    PUBLISHERS OF SPACE/ASTRONOMY MATERIAL
+
+    Astronomical Society of the Pacific
+    1290 24th Avenue
+    San Francisco, CA 94122
+
+	More expensive but better organized slide sets.
+
+    Cambridge University Press
+    32 East 57th Street
+    New York, NY 10022
+
+    Crawford-Peters Aeronautica
+    P.O. Box 152528
+    San Diego, CA 92115
+    (619) 287-3933
+
+	An excellent source of all kinds of space publications. They publish
+	a number of catalogs, including:
+	    Aviation and Space, 1945-1962
+	    Aviation and Space, 1962-1990
+	    Space and Related Titles
+
+    European Southern Observatory
+    Information and Photographic Service
+    Dr R.M. West
+    Karl Scharzschild Strasse 2
+    D-8046 Garching bei Munchen
+    FRG
+
+	Slide sets, posters, photographs, conference proceedings.
+
+    Finley Holiday Film Corporation
+    12607 East Philadelphia Street
+    Whittier, California 90601
+    (213)945-3325
+    (800)FILMS-07
+
+	Wide selection of Apollo, Shuttle, Viking, and Voyager slides at ~50
+	cents/slide. Call for a catalog.
+
+    Hansen Planetarium (Utah)
+
+	Said to hold sales on old slide sets. Look in Sky & Telescope
+	for contact info.
+
+    Lunar and Planetary Institute
+    3303 NASA Road One
+    Houston, TX 77058-4399
+
+	Technical, geology-oriented slide sets, with supporting
+	booklets.
+
+    John Wiley & Sons
+    605 Third Avenue
+    New York, NY 10158-0012
+
+    Sky Publishing Corporation
+    PO Box 9111
+    Belmont, MA  02178-9111
+
+	Offers "Sky Catalogue 2000.0" on PC floppy with information
+	(including parallax) for 45000 stars.
+
+    Roger Wheate
+    Geography Dept.
+    University of Calgary, Alberta
+    Canada T2N 1N4
+    (403)-220-4892
+    (403)-282-7298 (FAX)
+    wheate@uncamult.bitnet
+
+	Offers a 40-slide set called "Mapping the Planets" illustrating
+	recent work in planetary cartography, comes with a booklet and
+	information on getting your own copies of the maps. $50 Canadian,
+	shipping included.
+
+    Superintendent of Documents
+    US Government Printing Office
+    Washington, DC 20402
+
+    Univelt, Inc.
+    P. O. Box 28130
+    San Diego, Ca. 92128
+
+	Publishers for the American Astronomical Society.
+
+    US Naval Observatory
+	202-653-1079 (USNO Bulletin Board via modem)
+	202-653-1507 General
+
+    Willmann-Bell
+    P.O. Box 35025
+    Richmond, Virginia 23235 USA
+    (804)-320-7016 9-5 EST M-F
+
+
+    CAREERS IN THE SPACE INDUSTRY
+
+    In 1990 the Princeton Planetary Society published the first edition of
+    "Space Jobs: The Guide to Careers in Space-Related Fields." The
+    publication was enormously successful: we distributed 2000 copies to
+    space enthusiasts across the country and even sent a few to people in
+    Great Britain, Australia, and Ecuador. Due to the tremendous response to
+    the first edition, PPS has published an expanded, up-to-date second
+    edition of the guide.
+
+    The 40-page publication boasts 69 listings for summer and full-time job
+    opportunities as well as graduate school programs. The second edition of
+    "Space Jobs" features strategies for entering the space field and
+    describes positions at consulting and engineering firms, NASA, and
+    non-profit organizations. The expanded special section on graduate
+    schools highlights a myriad of programs ranging from space manufacturing
+    to space policy. Additional sections include tips on becoming an
+    astronaut and listings of NASA Space Grant Fellowships and Consortia, as
+    well as NASA Centers for the Commercial Development of Space.
+
+    To order send check or money order made payable to Princeton Planetary
+    Society for $4 per copy, plus $1 per copy for shipping and handling
+    (non-US customers send an International Money Order payable in US
+    dollars) to:
+
+    Princeton Planetary Society
+    315 West College
+    Princeton University
+    Princeton, NJ  08544
+
+
+    DC-X SINGLE-STAGE TO ORBIT (SSTO) PROGRAM
+
+    SDI's SSRT (Single Stage Rocket Technology) project has funded a
+    suborbital technology demonstrator called DC-X that should fly in
+    mid-1993. Further development towards an operational single-stage to
+    orbit vehicle (called Delta Clipper) is uncertain at present.
+
+    An collection of pictures and files relating to DC-X is available by
+    anonymous FTP or email server in the directory
+
+	bongo.cc.utexas.edu:pub/delta-clipper
+
+    Chris W. Johnson (chrisj@emx.cc.utexas.edu) maintains the archive.
+
+
+    HOW TO NAME A STAR AFTER A PERSON
+
+    Official names are decided by committees of the International
+    Astronomical Union, and are not for sale. There are purely commercial
+    organizations which will, for a fee, send you pretty certificates and
+    star maps describing where to find "your" star. These organizations have
+    absolutely no standing in the astronomical community and the names they
+    assign are not used by anyone else. It's also likely that you won't be
+    able to see "your" star without binoculars or a telescope. See the back
+    pages of Astronomy or other amateur astronomy publications for contact
+    info; one such organization may be found at:
+
+	International Star Registry
+	34523 Wilson Road
+	Ingleside, IL 60041
+
+    This is not an endorsement of ISR.
+
+
+    LLNL "GREAT EXPLORATION"
+
+    The LLNL "Great Exploration", a plan for an on-the-cheap space station,
+    Lunar base, and Mars mission using inflatable space structures, excited
+    a lot of interest on the net and still comes up from time to time. Some
+    references cited during net discussion were:
+
+	Avation Week Jan 22, 1990 for an article on the overall Great
+	Exploration
+
+	NASA Assessment of the LLNL Space Exploration Proposal and LLNL
+	Responses by Dr. Lowell Wood LLNL Doc. No. SS 90-9. Their address
+	is: PO Box 808 Livermore, CA 94550 (the NASA authors are unknown).
+
+	Briefing slides of a presentation to the NRC last December may be
+	available. Write LLNL and ask.
+
+	Conceptual Design Study for Modular Inflatable Space Structures, a
+	final report for purchase order B098747 by ILC Dover INC. I don't
+	know how to get this except from LLNL or ILC Dover. I don't have an
+	address for ILC.
+
+
+    LUNAR PROSPECTOR
+
+    Lunar Exploration Inc. (LEI) is a non-profit corporation working on a
+    privately funded lunar polar orbiter. Lunar Prospector is designed to
+    perform a geochemical survey and search for frozen volatiles at the
+    poles. A set of reference files describing the project is available in
+
+	ames.arc.nasa.gov:pub/SPACE/LEI/*
+
+
+    LUNAR SCIENCE AND ACTIVITIES
+
+    Grant H Heiken, David T Vaniman, and Bevan M French (editors), "Lunar
+    Sourcebook, A User's Guide to the Moon", Cambridge University Press
+    1991, ISBN 0-521-33444-6; hardcover; expensive. A one-volume
+    encyclopedia of essentially everything known about the Moon, reviewing
+    current knowledge in considerable depth, with copious references. Heavy
+    emphasis on geology, but a lot more besides, including considerable
+    discussion of past lunar missions and practical issues relevant to
+    future mission design. *The* reference book for the Moon; all others are
+    obsolete.
+
+    Wendell Mendell (ed), "Lunar Bases and Space Activities of the 21st
+    Century", $15. "Every serious student of lunar bases *must* have this
+    book" - Bill Higgins. Available from:
+
+	Lunar and Planetary Institute
+	3303 NASA Road One
+	Houston, TX 77058-4399
+	If you want to order books, call (713)486-2172.
+
+    Thomas A. Mutch, "Geology of the Moon: A Stratigraphic View", Princeton
+    University Press, 1970. Information about the Lunar Orbiter missions,
+    including maps of the coverage of the lunar nearside and farside by
+    various Orbiters.
+
+
+    ORBITING EARTH SATELLITE HISTORIES
+
+    A list of Earth orbiting satellites (that are still in orbit) is
+    available by anonymous FTP in:
+
+	ames.arc.nasa.gov:pub/SPACE/FAQ/Satellites
+
+
+    SPACECRAFT MODELS
+
+    "Space in Miniature #2: Gemini" by
+	Michael J. Mackowski
+	1621 Waterwood Lane, St. Louis, MO 63146
+	$7.50
+
+    Only 34pp but enough pictures & diagrams to interest more than just the
+    modelling community, I feel.
+
+    Marco's Miniatures of Dracut, Mass. have produced a 1/144 Skylab in an
+    edition of 500 & a 1/48 Lunar Rover (same scale as Monogram and Revell
+    Lunar Modules) in a similar edition. Prices are $45 for Skylab, $24 for
+    LRV. Check with them for postage etc. I have no connection with them,
+    but have found their service to be good and their stock of rare/old kits
+    *is* impressive. Prices range from reasonable ($35 for Monogram 1/32
+    scale Apollo CSM with cutaway details) to spectacular ($145 for Airfix
+    Vostok).
+
+	 Four Star Collectibles
+	 P.O. Box 658
+	 Dracut Mass 01826, USA.
+	 (508)-957-0695.
+
+    Voyager, HST, Viking, Lunar Rover etc. kits from:
+
+	Lunar Models
+	5120 Grisham
+	Rowlett, Texas 75088
+	(214)-475-4230
+
+    As reviewed by Bob Kaplow:
+
+	Peter Alway's book "Scale Model Rocketry" is now available. Mine
+	arrived in the mail earlier this week. To get your own copy, send
+	$19.95 + $2.50 s/h ($22.45 total) to:
+
+			Peter Alway
+			2830 Pittsfield
+			Ann Arbor, MI 48104
+
+	The book includes information on collecting scale data, construction
+	of scale models, and several handy tables. Appendicies include plans
+	for 3 sport scale models, a 1:9.22 D Region Tomahawk (BT50), a 1/40
+	V-2 (BT60), and a 1/9.16 Aerobee 150A (BT55/60).
+
+	I've only begun to study the book, but it certainly will be a
+	valuable data source for many modellers. Most vehicles include
+	several paragraphs of text describing the missions flown by the
+	rocket, various specs including "NAR" engine classification, along
+	with a dimensioned drawing, color layouts & paint pattern, and a
+	black & white photograph.
+
+	The vehicles included are the Aerobee 150A, Aerobee 300, Aerobee Hi,
+	Arcas, Asp, Astrobee 1500, Astrobee D, Atlas Centaur, Atlas-Agena,
+	Atlas-Score, Baby WAC, D-Region Tomahawk, Deacon Rockoon, Delta B,
+	Delta E, Gemini-Titan II, Iris, Javelin, Juno 1, Juno 2, Little Joe
+	1, Little Joe 2, Mercury-Atlas, Mercury-Redstone, Nike-Apache,
+	Nike-Asp, Nike-Cajun, Nike-Deacon, Nike-Tomahawk, RAM B, Saturn 1
+	Block 1, Saturn 1 Block 2, Saturn 1B, Saturn 5, Scout, Standard
+	Aerobee, Terrapin, Thor-Able, Titan III C, Titan III E, Trailblazer
+	1, V-2, Vanguard, Viking Model 1, Viking Model 2, and Wac Corporal.
+
+
+    ROCKET PROPULSION
+
+	George P. Sutton, "Rocket Propulsion Elements", 5th edn,
+	Wiley-Interscience 1986, ISBN 0-471-80027-9. Pricey textbook. The
+	best (nearly the only) modern introduction to the technical side of
+	rocketry. A good place to start if you want to know the details. Not
+	for the math-shy. Straight chemical rockets, essentially nothing on
+	more advanced propulsion (although earlier editions reportedly had
+	some coverage).
+
+	Dieter K. Huzel and David H. Huang, "Design of Liquid Propellant
+	Rocket Engines", NASA SP-125.
+	NTIS N71-29405		PC A20/MF A01	1971  461p
+	Out of print; reproductions may be obtained through the NTIS
+	(expensive). The complete and authoritative guide to designing
+	liquid-fuel engines. Reference #1 in most chapters of Sutton. Heavy
+	emphasis on practical issues, what works and what doesn't, what the
+	typical values of the fudge factors are. Stiff reading, massive
+	detail; written for rocket engineers by rocket engineers.
+
+
+    SPACECRAFT DESIGN
+
+	Brij N. Agrawal, "Design of Geosynchronous Spacecraft",
+	Prentice-Hall, ISBN 0-13-200114-4.
+
+	James R. Wertz ed, "Spacecraft Attitude Determination and
+	Control", Kluwer, ISBN 90-277-1204-2.
+
+	P.R.K. Chetty, "Satellite Technology and its Applications",
+	McGraw-Hill, ISBN 0-8306-9688-1.
+
+	James R. Wertz and Wiley J. Larson (editors), "Space Mission
+	Analysis and Design", Kluwer Academic Publishers
+	(Dordrecht/Boston/London) 1991, ISBN 0-7923-0971-5 (paperback), or
+	0-7923-0970-7 (hardback).
+
+	    This looks at system-level design of a spacecraft, rather than
+	    detailed design. 23 chapters, 4 appendices, about 430 pages. It
+	    leads the reader through the mission design and system-level
+	    design of a fictitious earth-observation satellite, to
+	    illustrate the principles that it tries to convey. Warning:
+	    although the book is chock-full of many useful reference tables,
+	    some of the numbers in at least one of those tables (launch
+	    costs for various launchers) appear to be quite wrong. Can be
+	    ordered by telephone, using a credit card; Kluwer's phone number
+	    is (617)-871-6600. Cost $34.50.
+
+
+    ESOTERIC PROPULSION SCHEMES (SOLAR SAILS, LASERS, FUSION...)
+
+    This needs more and more up-to-date references, but it's a start.
+
+    ANTIMATTER:
+
+	"Antiproton Annihilation Propulsion", Robert Forward
+	    AFRPL TR-85-034 from the Air Force Rocket Propulsion Laboratory
+	    (AFRPL/XRX, Stop 24, Edwards Air Force Base, CA 93523-5000).
+	    NTIS AD-A160 734/0	   PC A10/MF A01
+	    PC => Paper copy, A10 => $US57.90 -- or maybe Price Code?
+	    MF => MicroFiche, A01 => $US13.90
+
+	    Technical study on making, holding, and using antimatter for
+	    near-term (30-50 years) propulsion systems. Excellent
+	    bibliography. Forward is the best-known proponent
+	    of antimatter.
+
+	    This also may be available as UDR-TR-85-55 from the contractor,
+	    the University of Dayton Research Institute, and DTIC AD-A160
+	    from the Defense Technical Information Center, Defense Logistics
+	    Agency, Cameron Station, Alexandria, VA 22304-6145. And it's
+	    also available from the NTIS, with yet another number.
+
+	"Advanced Space Propulsion Study, Antiproton and Beamed Power
+	    Propulsion", Robert Forward
+
+	    AFAL TR-87-070 from the Air Force Astronautics Laboratory, DTIC
+	    #AD-A189 218.
+	    NTIS AD-A189 218/1	  PC A10/MF A01
+
+	    Summarizes the previous paper, goes into detail on beamed power
+	    systems including " 1) pellet, microwave, and laser beamed power
+	    systems for intersteller transport; 2) a design for a
+	    near-relativistic laser-pushed lightsail using near-term laser
+	    technology; 3) a survey of laser thermal propulsion, tether
+	    transportation systems, antiproton annihilation propulsion,
+	    exotic applications of solar sails, and laser-pushed
+	    interstellar lightsails; 4) the status of antiproton
+	    annihilation propulsion as of 1986; and 5) the prospects for
+	    obtaining antimatter ions heavier than antiprotons." Again,
+	    there is an extensive bibliography.
+
+	    "Application of Antimatter - Electric Power to Interstellar
+	    Propulsion", G. D. Nordley, JBIS Interstellar Studies issue of
+	    6/90.
+
+    BUSSARD RAMJETS AND RELATED METHODS:
+
+	G. L. Matloff and A. J. Fennelly, "Interstellar Applications and
+	Limitations of Several Electrostatic/Electromagnetic Ion Collection
+	Techniques", JBIS 30 (1977):213-222
+
+	N. H. Langston, "The Erosion of Interstellar Drag Screens", JBIS 26
+	(1973): 481-484
+
+	C. Powell, "Flight Dynamics of the Ram-Augmented Interstellar
+	Rocket", JBIS 28 (1975):553-562
+
+	A. R. Martin, "The Effects of Drag on Relativistic Spacefight", JBIS
+	25 (1972):643-652
+
+    FUSION:
+
+	"A Laser Fusion Rocket for Interplanetary Propulsion", Roderick Hyde,
+	LLNL report UCRL-88857. (Contact the Technical Information Dept. at
+	Livermore)
+
+	    Fusion Pellet design: Fuel selection. Energy loss mechanisms.
+	    Pellet compression metrics. Thrust Chamber: Magnetic nozzle.
+	    Shielding. Tritium breeding. Thermal modeling. Fusion Driver
+	    (lasers, particle beams, etc): Heat rejection. Vehicle Summary:
+	    Mass estimates. Vehicle Performance: Interstellar travel
+	    required exhaust velocities at the limit of fusion's capability.
+	    Interplanetary missions are limited by power/weight ratio.
+	    Trajectory modeling. Typical mission profiles. References,
+	    including the 1978 report in JBIS, "Project Daedalus", and
+	    several on ICF and driver technology.
+
+	"Fusion as Electric Propulsion", Robert W. Bussard, Journal of
+	Propulsion and Power, Vol. 6, No. 5, Sept.-Oct. 1990
+
+	    Fusion rocket engines are analyzed as electric propulsion
+	    systems, with propulsion thrust-power-input-power ratio (the
+	    thrust-power "gain" G(t)) much greater than unity. Gain values
+	    of conventional (solar, fission) electric propulsion systems are
+	    always quite small (e.g., G(t)<0.8). With these, "high-thrust"
+	    interplanetary flight is not possible, because system
+	    acceleration (a(t)) capabilities are always less than the local
+	    gravitational acceleration. In contrast, gain values 50-100
+	    times higher are found for some fusion concepts, which offer
+	    "high-thrust" flight capability. One performance example shows a
+	    53.3 day (34.4 powered; 18.9 coast), one-way transit time with
+	    19% payload for a single-stage Earth/Mars vehicle. Another shows
+	    the potential for high acceleration (a(t)=0.55g(o)) flight in
+	    Earth/moon space.
+
+	"The QED Engine System: Direct Electric Fusion-Powered Systems for
+	Aerospace Flight Propulsion" by Robert W. Bussard, EMC2-1190-03,
+	available from Energy/Matter Conversion Corp., 9100 A. Center
+	Street, Manassas, VA 22110.
+
+	    [This is an introduction to the application of Bussard's version
+	    of the Farnsworth/Hirsch electrostatic confinement fusion
+	    technology to propulsion. 1500<Isp<5000 sec. Farnsworth/Hirsch
+	    demonstrated a 10**10 neutron flux with their device back in
+	    1969 but it was dropped when panic ensued over the surprising
+	    stability of the Soviet Tokamak. Hirsch, responsible for the
+	    panic, has recently recanted and is back working on QED. -- Jim
+	    Bowery]
+
+	"PLASMAKtm Star Power for Energy Intensive Space Applications", by
+	Paul M. Koloc, Eight ANS Topical Meeting on Technology of Fusion
+	Energy, special issue FUSION TECHNOLOGY, March 1989.
+
+	    Aneutronic energy (fusion with little or negligible neutron
+	    flux) requires plasma pressures and stable confinement times
+	    larger than can be delivered by current approaches. If plasma
+	    pressures appropriate to burn times on the order of milliseconds
+	    could be achieved in aneutronic fuels, then high power densities
+	    and very compact, realtively clean burning engines for space and
+	    other special applications would be at hand. The PLASMAKtm
+	    innovation will make this possible; its unique pressure
+	    efficient structure, exceptional stability, fluid-mechanically
+	    compressible Mantle and direct inductive MHD electric power
+	    conversion advantages are described. Peak burn densities of tens
+	    of megawats per cc give it compactness even in the
+	    multi-gigawatt electric output size. Engineering advantages
+	    indicate a rapid development schedule at very modest cost. [I
+	    strongly recommend that people take this guy seriously. Bob
+	    Hirsch, the primary proponent of the Tokamak, has recently
+	    declared Koloc's PLASMAKtm precursor, the spheromak, to be one
+	    of 3 promising fusion technologies that should be pursued rather
+	    than Tokamak. Aside from the preceeding appeal to authority, the
+	    PLASMAKtm looks like it finally models ball-lightning with solid
+	    MHD physics. -- Jim Bowery]
+
+    ION DRIVES:
+
+	Retrieve files pub/SPACE/SPACELINK/6.5.2.* from the Ames SPACE
+	archive; these deal with many aspects of ion drives and describe the
+	SERT I and II missions, which flight-tested cesium ion thrusters in
+	the 1960s and 70s. There are numerous references.
+
+    MASS DRIVERS (COILGUNS, RAILGUNS):
+
+	IEEE Transactions on Magnetics (for example, v. 27 no. 1, January
+	1991 issue). Every so often they publish the proceedings of the
+	Symposium on Electromagnetic Launcher Technology, including hundreds
+	of papers on the subject. It's a good look at the state of the art,
+	though perhaps not a good tutorial for beginners. Anybody know some
+	good review papers?
+
+    NUCLEAR ROCKETS (FISSION):
+
+	"Technical Notes on Nuclear Rockets", by Bruce W. Knight and Donald
+	Kingsbury, unpublished. May be available from: Donald Kingsbury,
+	Math Dept., McGill University, PO Box 6070, Station A, Montreal,
+	Quebec M3C 3G1 Canada.
+
+    SOLAR SAILS:
+
+	Starsailing. Solar Sails and Interstellar Travel. Louis Friedman,
+	Wiley, New York, 1988, 146 pp., paper $9.95. (Not very technical,
+	but an adequate overview.)
+
+	"Roundtrip Interstellar Travel Using Laser-Pushed Lightsails
+	(Journal of Spacecraft and Rockets, vol. 21, pp. 187-95, Jan.-Feb.
+	1984)
+
+    TETHERS:
+
+	_Tethers and Asteroids for Artificial Gravity Assist in the Solar
+	System,_ by P.A. Penzo and H.L. Mayer., _Journal of Spacecraft
+	and Rockets_ for Jan-Feb 1986.
+
+	    Details how a spacecraft with a kevlar tether of the same mass
+	    can change its velocity by up to slightly less than 1 km/sec. if
+	    it is travelling under that velocity wrt a suitable asteroid.
+
+    GENERAL:
+
+	"Alternate Propulsion Energy Sources", Robert Forward
+	    AFPRL TR-83-067.
+	    NTIS AD-B088 771/1	  PC A07/MF A01   Dec 83 138p
+
+	    Keywords: Propulsion energy, metastable helium, free-radical
+	    hydrogen, solar pumped (sic) plasmas, antiproton annihiliation,
+	    ionospheric lasers, solar sails, perforated sails, microwave
+	    sails, quantum fluctuations, antimatter rockets... It's a wide,
+	    if not deep, look at exotic energy sources which might be useful
+	    for space propulsion. It also considers various kinds of laser
+	    propulsion, metallic hydrogen, tethers, and unconventional
+	    nuclear propulsion. The bibliographic information, pointing to
+	    the research on all this stuff, belongs on every daydreamer's
+	    shelf.
+
+	Future Magic. Dr. Robert L. Forward, Avon, 1988. ISBN 0-380-89814-4.
+
+	    Nontechnical discussion of tethers, antimatter, gravity control,
+	    and even futher-out topics.
+
+
+    SPY SATELLITES
+
+    *Deep Black*, by William Burrows;
+	"best modern general book for spysats."
+
+    1) A Base For Debate: The US Satellite Station at Nurrungar, Des Ball,
+    Allen and Unwin Australia, 1987 ISBN 0 04 355027 4 [ covers DSP early
+    warning satellites]
+
+    2) Pine Gap: Australia and the US Geostationary Signals intelligence
+    satellite program, Des Ball, Allen and Unwin Australia, 1988 ISBN 0 04
+    363002 5. [covers RHYOLITE/AQUACADE, CHALET/VORTEX, and MAGNUM signals
+    intelligence satellites]
+
+    3) Guardians: Strategic Reconnaissance Satellites, Curtis Peebles, 1987,
+    Ian Allan, ISBN 0 7110 17654 [ good on MOL, military Salyut and Soviet
+    satellites, less so on others. Tends to believe what he's told so flaws
+    in discussion of DSP, RHYOLITE et al..]
+
+    4) America's Secret Eyes In Space: The Keyhole Spy Satellite Program,
+    Jeffrey Richelson, 1990, Harper and Row, ISBN 0 88730 285 8 [ in a class
+    of its own, *the* historical reference on the KEYHOLE satellites]
+
+    5) Secret Sentries in Space, Philip J Klass, 1971.
+	"long out of print but well worth a look"
+
+
+    SPACE SHUTTLE COMPUTER SYSTEMS
+
+    %J Communications of the ACM
+    %V 27
+    %N 9
+    %D September 1984
+    %K Special issue on space [shuttle] computers
+
+    %A Myron Kayton
+    %T Avionics for Manned Spacecraft
+    %J IEEE Transactions on Aerospace and Electronic Systems
+    %V 25
+    %N 6
+    %D November 1989
+    %P 786-827
+
+    Other various AIAA and IEEE publications.
+
+    Computers in Spaceflight: The NASA Experience
+    James E.  Tomayko
+    1988?
+
+
+    SETI COMPUTATION (SIGNAL PROCESSING)
+
+    %A D. K. Cullers
+    %A Ivan R. Linscott
+    %A Bernard M. Oliver
+    %T Signal Processing in SETI
+    %J Communications of the ACM
+    %V 28
+    %N 11
+    %D November 1984
+    %P 1151-1163
+    %K CR Categories and Subject Descriptors: D.4.1 [Operating Systems]:
+    Process Management - concurrency; I.5.4 [Pattern Recognition]:
+    Applications - signal processing; J.2 [Phsyical Sciences and Engineering]:
+    astronomy
+    General Terms: Design
+    Additional Key Words and Phrases: digital Fourier transforms,
+    finite impulse-response filters, interstellar communications,
+    Search for Extra-terrestrial Intelligence, signal detection,
+    spectrum analysis
+
+
+    AMATEUR SATELLIES & WEATHER SATELLITES
+
+    A fairly long writeup on receiving and interpreting weather satellite
+    photos is available from the Ames SPACE archive in
+    pub/SPACE/FAQ/WeatherPhotos.
+
+    The American Radio Relay League publication service offers the following
+    references (also see the section on AMSAT in the space groups segment of
+    the FAQ):
+
+	ARRL Satellite Experimenters Handbook,		#3185, $20
+	ARRL Weather Satellite Handbook,		#3193, $20
+	IBM-PC software for Weather Satellite Handbook, #3290, $10
+
+	AMSAT NA 5th Space Symposium,			#0739, $12
+	AMSAT NA 6th Space Symposium,			#2219, $12
+
+	Shipping is extra.
+
+    The American Radio Relay League
+    Publications Department
+    225 Main Street
+    Newington, CT 06111
+    (203)-666-1541
+
+
+    TIDES
+
+    Srinivas Bettadpur contributed a writeup on tides, available from the
+    Ames SPACE archive in pub/SPACE/FAQ/Tides. It covers the following
+    areas:
+
+	- 2-D Example of Tidal Deformation
+	- Treatment of Tidal Fields in Practice
+	- Long term evolution of the Earth-Moon system under tides
+
+    The writeup refers to the following texts:
+
+	"Geophysical Geodesy" by K. Lambeck
+	"Tides of the planet Earth" by P. Melchior
+
+NEXT: FAQ #6/15 - Constants and equations for calculations
+
+Newsgroup: sci.space
+document_id: 59904
+From: leech@cs.unc.edu (Jon Leech)
+Subject: Space FAQ 09/15 - Mission Schedules
+
+Archive-name: space/schedule
+Last-modified: $Date: 93/04/01 14:39:23 $
+
+SPACE SHUTTLE ANSWERS, LAUNCH SCHEDULES, TV COVERAGE
+
+    SHUTTLE LAUNCHINGS AND LANDINGS; SCHEDULES AND HOW TO SEE THEM
+
+    Shuttle operations are discussed in the Usenet group sci.space.shuttle,
+    and Ken Hollis (gandalf@pro-electric.cts.com) posts a compressed version
+    of the shuttle manifest (launch dates and other information)
+    periodically there. The manifest is also available from the Ames SPACE
+    archive in SPACE/FAQ/manifest. The portion of his manifest formerly
+    included in this FAQ has been removed; please refer to his posting or
+    the archived copy. For the most up to date information on upcoming
+    missions, call (407) 867-INFO (867-4636) at Kennedy Space Center.
+
+    Official NASA shuttle status reports are posted to sci.space.news
+    frequently.
+
+
+    WHY DOES THE SHUTTLE ROLL JUST AFTER LIFTOFF?
+
+    The following answer and translation are provided by Ken Jenks
+    (kjenks@gothamcity.jsc.nasa.gov).
+
+    The "Ascent Guidance and Flight Control Training Manual," ASC G&C 2102,
+    says:
+
+	"During the vertical rise phase, the launch pad attitude is
+	commanded until an I-loaded V(rel) sufficient to assure launch tower
+	clearance is achieved. Then, the tilt maneuver (roll program)
+	orients the vehicle to a heads down attitude required to generate a
+	negative q-alpha, which in turn alleviates structural loading. Other
+	advantages with this attitude are performance gain, decreased abort
+	maneuver complexity, improved S-band look angles, and crew view of
+	the horizon. The tilt maneuver is also required to start gaining
+	downrange velocity to achieve the main engine cutoff (MECO) target
+	in second stage."
+
+    This really is a good answer, but it's couched in NASA jargon. I'll try
+    to interpret.
+
+    1)	We wait until the Shuttle clears the tower before rolling.
+
+    2)	Then, we roll the Shuttle around so that the angle of attack
+	between the wind caused by passage through the atmosphere (the
+	"relative wind") and the chord of the wings (the imaginary line
+	between the leading edge and the trailing edge) is a slightly
+	negative angle ("a negative q-alpha").	This causes a little bit of
+	"downward" force (toward the belly of the Orbiter, or the +Z
+	direction) and this force "alleviates structural loading."
+	We have to be careful about those wings -- they're about the
+	most "delicate" part of the vehicle.
+
+    3)	The new attitude (after the roll) also allows us to carry more
+	mass to orbit, or to achieve a higher orbit with the same mass, or
+	to change the orbit to a higher or lower inclination than would be
+	the case if we didn't roll ("performance gain").
+
+    4)	The new attitude allows the crew to fly a less complicated
+	flight path if they had to execute one of the more dangerous abort
+	maneuvers, the Return To Launch Site ("decreased abort maneuver
+	complexity").
+
+    5)	The new attitude improves the ability for ground-based radio
+	antennae to have a good line-of-sight signal with the S-band radio
+	antennae on the Orbiter ("improved S-band look angles").
+
+    6)	The new attitude allows the crew to see the horizon, which is a
+	helpful (but not mandatory) part of piloting any flying machine.
+
+    7)	The new attitude orients the Shuttle so that the body is
+	more nearly parallel with the ground, and the nose to the east
+	(usually).  This allows the thrust from the engines to add velocity
+	in the correct direction to eventually achieve orbit.  Remember:
+	velocity is a vector quantity made of both speed and direction.
+	The Shuttle has to have a large horizontal component to its
+	velocity and a very small vertical component to attain orbit.
+
+    This all begs the question, "Why isn't the launch pad oriented to give
+    this nice attitude to begin with?  Why does the Shuttle need to roll to
+    achieve that attitude?"  The answer is that the pads were leftovers
+    from the Apollo days.  The Shuttle straddles two flame trenches -- one
+    for the Solid Rocket Motor exhaust, one for the Space Shuttle Main
+    Engine exhaust.  (You can see the effects of this on any daytime
+    launch.  The SRM exhaust is dirty gray garbage, and the SSME exhaust is
+    fluffy white steam.  Watch for the difference between the "top"
+    [Orbiter side] and the "bottom" [External Tank side] of the stack.) The
+    access tower and other support and service structure are all oriented
+    basically the same way they were for the Saturn V's.  (A side note: the
+    Saturn V's also had a roll program.  Don't ask me why -- I'm a Shuttle
+    guy.)
+
+    I checked with a buddy in Ascent Dynamics.	He added that the "roll
+    maneuver" is really a maneuver in all three axes: roll, pitch and yaw.
+    The roll component of that maneuver is performed for the reasons
+    stated.  The pitch component controls loading on the wings by keeping
+    the angle of attack (q-alpha) within a tight tolerance.  The yaw
+    component is used to determine the orbital inclination.  The total
+    maneuver is really expressed as a "quaternion," a grad-level-math
+    concept for combining all three rotation matrices in one four-element
+    array.
+
+
+    HOW TO RECEIVE THE NASA TV CHANNEL, NASA SELECT
+
+    NASA SELECT is broadcast by satellite. If you have access to a satellite
+    dish, you can find SELECT on Satcom F2R, Transponder 13, C-Band, 72
+    degrees West Longitude, Audio 6.8, Frequency 3960 MHz. F2R is stationed
+    over the Atlantic, and is increasingly difficult to receive from
+    California and points west. During events of special interest (e.g.
+    shuttle missions), SELECT is sometimes broadcast on a second satellite
+    for these viewers.
+
+    If you can't get a satellite feed, some cable operators carry SELECT.
+    It's worth asking if yours doesn't.
+
+    The SELECT schedule is found in the NASA Headline News which is
+    frequently posted to sci.space.news. Generally it carries press
+    conferences, briefings by NASA officials, and live coverage of shuttle
+    missions and planetary encounters. SELECT has recently begun carrying
+    much more secondary material (associated with SPACELINK) when missions
+    are not being covered.
+
+
+    AMATEUR RADIO FREQUENCIES FOR SHUTTLE MISSIONS
+
+    The following are believed to rebroadcast space shuttle mission audio:
+
+	W6FXN  - Los Angeles
+	K6MF   - Ames Research Center, Mountain View, California
+	WA3NAN - Goddard Space Flight Center (GSFC), Greenbelt, Maryland.
+	W5RRR  - Johnson Space Center (JSC), Houston, Texas
+	W6VIO  - Jet Propulsion Laboratory (JPL), Pasadena, California.
+	W1AW Voice Bulletins
+
+	Station    VHF	   10m	   15m	   20m	  40m	 80m
+	------	 ------  ------  ------  ------  -----	-----
+	W6FXN	 145.46
+	K6MF	 145.585			 7.165	3.840
+	WA3NAN	 147.45  28.650  21.395  14.295  7.185	3.860
+	W5RRR	 146.64  28.400  21.350  14.280  7.227	3.850
+	W6VIO	 224.04		 21.340  14.270
+	W6VIO	 224.04		 21.280  14.282  7.165	3.840
+	W1AW		 28.590  21.390  14.290  7.290	3.990
+
+    W5RRR transmits mission audio on 146.64, a special event station on the
+    other frequencies supplying Keplerian Elements and mission information.
+
+    W1AW also transmits on 147.555, 18.160. No mission audio but they
+    transmit voice bulletins at 0245 and 0545 UTC.
+
+    Frequencies in the 10-20m bands require USB and frequencies in the 40
+    and 80m bands LSB. Use FM for the VHF frequencies.
+
+    [This item was most recently updated courtesy of Gary Morris
+    (g@telesoft.com, KK6YB, N5QWC)]
+
+
+    SOLID ROCKET BOOSTER FUEL COMPOSITION
+
+    Reference: "Shuttle Flight Operations Manual" Volume 8B - Solid Rocket
+    Booster Systems, NASA Document JSC-12770
+
+    Propellant Composition (percent)
+
+    Ammonium perchlorate (oxidizer)			69.6
+    Aluminum						16
+    Iron Oxide (burn rate catalyst)			0.4
+    Polybutadiene-acrilic acid-acrylonitrile (a rubber) 12.04
+    Epoxy curing agent					1.96
+
+    End reference
+
+    Comment: The aluminum, rubber, and epoxy all burn with the oxidizer.
+
+NEXT: FAQ #10/15 - Historical planetary probes
+

@@ -1,0 +1,70 @@
+Newsgroup: comp.windows.x
+document_id: 66947
+Subject: Re: Trouble compiling X11R5 on SunOS_4.1.3
+From: nemo@aguirre.dia.fi.upm.es (Francisco J. Ballesteros)
+
+In article <1993Apr2.212405.5213@head-cfa.harvard.edu> dmm@head-cfa.harvard.edu (David Meleedy) writes:
+
+>   	   I've been trying to compile X11R5 patchlevel 23 on a Sun Sparc
+>      IPX using SunOS_4.1.3, and gcc 2.3.3.
+>   
+>   	   The problem occurs during the initial "make World".  When
+>      it gets up to compiling the standard X clients, it can't seem to find
+>      some of the libraries.  Right now we highly suspect the program "ld"
+>      which was updated for 4_1_3.
+>   
+
+    Yip, we had the same problem; the only fix we found was to link static
+some of the clients, ( btw, we used cc). :-(.
+
+--
+/+=========================================++================================+\
+||Francisco J. Ballesteros [a.k.a. Nemo]   ||  email: nemo@clip.dia.fi.upm.es||
+||org:  Computer Science, CLIP lab.        ||  phone: +34 1 336-7448         ||
+||      Campus Montegancedo s.n. U.P.M.    ||  ___         ___               ||
+||      Boadilla del Monte, Madrid, Spain. ||  \\   \\   o \\_)  \   _ \__   ||
+\+=========================================++== \\__ \\__\\ \\ == \_(_\_\_) =+/
+
+Newsgroup: comp.windows.x
+document_id: 66948
+From: ten0772@eafs000.ca.boeing.com (Timothy E. Neto)
+Subject: Re: X-server multi screen
+
+rainer@sun3.eeam.elin.co.at (Rainer Hochreiter) writes:
+
+>Hi Xperts, some simple questions for you:
+
+>I've seen a lot of different terms, which seem to mean the same thing.
+>Who can give an exact definition what these terms mean:
+
+>	-) multi-screen
+>	-) multi-headed
+>	-) multi-display
+>	-) X-Server zaphod mode
+
+>Is there a limit how many screens/displays a single server can handle
+>(in an articel a read something about an upper limit of 12) ?
+
+>How is the capability called, if I want to move the cursor from one
+>screen/display to another.
+
+>Any hints welcome.
+
+>Thanks, rainer.
+>-- 
+>Rainer Hochreiter                | Telephone: +43 (1) 89100 / 3961
+>ELIN-Energieanwendung GesmbH     | Telefax  : +43 (1) 89100 / 3387
+>Penzingerstr. 76                 |
+>A-1141 Wien, Austria/Europe      | E-mail   : rainer@elin.co.at
+
+As to how many clients may be display on a server, I believe the limit
+would be how much memory is available to your server or allocated by the
+server.
+
+
+-- 
+Indecision is the key to | Timothy E. Neto  (206) 655-5190              1   000
+flexibility, & you can't | Of B & T's Gadget & Widget Works             1  0. .0
+E-Mail God.              | Flight Systems Lab, Boeing Comm. Aircraft    1  0 _ 0
+My ideas not Boeing's    | Internet: ten0772@aw401.fsl.ca.boeing.com    1   000
+

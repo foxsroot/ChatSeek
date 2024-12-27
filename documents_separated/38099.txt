@@ -1,0 +1,43 @@
+Newsgroup: comp.graphics
+document_id: 37963
+Subject: AutoCAD -> TIFF Can it be done????
+From: cvadrmaz@vmsb.is.csupomona.edu
+
+Hello, I realize that this might be a FAQ but I have to ask since I don't get a
+change to read this newsgroup very often.  Anyways for my senior project I need
+to convert an AutoCad file to a TIFF file.  Please I don't need anyone telling
+me that the AutoCAD file is a vector file and the TIFF is a bit map since I
+have heard that about 100 times already I would just like to know if anyone
+knows how to do this or at least point me to the right direction.
+
+Any help greatly appreciated,
+Matt Georgy
+
+Newsgroup: comp.graphics
+document_id: 38099
+From: amjad@eng.umd.edu (Amjad A Soomro)
+Subject: Gamma-Law Correction
+
+Hi:
+
+I am digitizing a NTSC signal and displaying on a PC video monitor.
+It is known that the display response of tubes is non-linear and is
+sometimes said to follow Gamma-Law. I am not certain if these
+non-linearities are "Gamma-corrected" before encoding NTSC signals
+or if the TV display is supposed to correct this.
+ 
+Also, if  256 grey levels, for example, are coded in a C program do
+these intensity levels appear with linear brightness on a PC
+monitor? In other words does PC monitor display circuitry
+correct for "gamma errrors"?
+ 
+Your response is much appreciated.
+ 
+Amjad.
+
+Amjad Soomro
+CCS, Computer Science Center
+U. of Maryland at College Park
+email: amjad@wam.umd.edu
+
+

@@ -1,0 +1,7 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9813
+From: jenkinch@ccmail.orst.edu
+Subject: Re: Adaptec SCSI Device Driver for Win3.1
+
+
+

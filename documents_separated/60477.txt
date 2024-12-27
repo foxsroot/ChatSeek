@@ -1,0 +1,50 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60476
+Subject: Re: Soundblaster IRQ and Port settings
+From: ARowatt@massey.ac.nz (A.J. Rowatt)
+
+They don't have a conflict because technically LPT1: does not use
+IRQ7!.
+     The Parallel printer processor (the actual number escapes
+me) contains a printer control register which enables the chip
+to transmit an interrupt to the interrupt controller as IRQ7,
+then onto the main processor as Int 0x0F. By default the parallel
+printer processor does not enable it's interrupt line therefore
+no Int 0x0F's will be sourced from the printer controller chip,
+thus enabling other devices to use the actual IRQ7.
+
+     Note, this applies to COM ports also which by default do not
+route interrupts to the system bus, although COM's software
+usually enable this feature as it make monitoring COM port
+activity easier than polling the serial UART, thus probably
+getting the sound card slighty confused!.
+
+Windows may be a different story....
+
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60477
+From: jleon@usc.edu (Juan Carlos Leon)
+Subject: modems and noisy lines.
+
+Hi,
+
+I just got a problem, I have a cheapo 2400bps modem which I use to connect
+to my university, but I get too much garbage on the screen. I do know it's
+because the noise in the line (I can actually hear it).  So my question is
+will an error correction protocol help to eliminate this garbage?, my modem
+doesn't have any of these on hardware, can a software implemented protocol
+do the trick?
+
+Thanks.
+
+Juan Carlos Leon
+
+
+
+
+-- 
+jleon@scf.usc.edu             |  jcleon@ucs.usc.edu
+Electrical & Computer Major   |  University Computing Services
+		University of Southern California
+			Los Angeles, CA.
+

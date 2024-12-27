@@ -1,0 +1,34 @@
+Newsgroup: comp.graphics
+document_id: 38670
+Subject: Re: Looking for Tseng VESA drivers
+From: t890449@patan.fi.upm.es ()
+
+Hi, this is my first msg to the Net (actually the 3rd copy of it, dam*ed VI!!).
+
+  Look for the new VPIC6.0, it comes with updated VESA 1.2 drivers for almost every known card. The VESA level is 1.2, and my Tseng4000 24-bit has a nice affair with the driver. 
+
+  Hope it is useful!!
+
+
+							Bye
+
+
+
+Newsgroup: comp.graphics
+document_id: 38671
+From: eapu207@orion.oac.uci.edu (John Peter Kondis)
+Subject: I need to make my VGA do shades.
+
+I have a routine that changes the color (RGB) attributes on my
+VGA adapter, but it doesn't work in the mode that I need.  
+Specifically 68 hex.  An obscure mode, of course, but I need to
+change the zillions of colors to 64 shade greyscale, but I do
+not have the correct memory address for the pointer I need.
+
+PLEASE, someone, I need the starting address, or maybe somewhere 
+I can find it.  Thank you.
+
+John Kondis
+eapu207@orion.oac.uci.edu
+
+

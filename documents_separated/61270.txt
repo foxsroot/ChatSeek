@@ -1,0 +1,84 @@
+Newsgroup: sci.space
+document_id: 61267
+Subject: Re: Gamma Ray Bursters How energetic could they be?
+From: belgarath@vax1.mankato.msus.edu
+
+In article <1rgvjsINNbhq@senator-bedfellow.MIT.EDU>, jfc@athena.mit.edu (John F Carr) writes:
+> 
+> If gamma ray bursters are extragalactic, would absorption from the
+> galaxy be expected?  How transparent is the galactic core to gamma
+> rays?
+> 
+> How much energy does a burster put out?  I know energy depends on
+> distance, which is unknown.  An answer of the form _X_ ergs per
+> megaparsec^2 is OK.
+> 
+> 
+> --
+>     John Carr (jfc@athena.mit.edu)
+        I had to turn to one of my problem sets that I did in class for this
+little problem.  I don't have a calculator, but I DO have the problem set that
+we did not too long ago, so I'll use that, and hope it's what you wanted.  
+This is a highly simplified problem, with a very simple burst.  Bursts are
+usually more complex than this example I will use here.
+        Our burst has a peak flux of 5.43E-6 ergs cm^-2 sec^-1 and a duration
+of 8.95 seconds.  During the frst second of the burst, and the last 4 seconds,
+its flux is half of the peak flux.  It's flux is the peak flux the rest of the
+time.  Assume that the background flux is 10E-7 erg cm^-2 sec^-1.
+        Then we had to find the integrated luminosity of the burst, for several
+different spheres: R=.25pc(Oort Cloud Radius), R=22.5pc(at the edge of the
+galaxy), R=183.5pc or the edge of the galactic corona, and lastly at a
+R=8800Mpc.  
+        We integrated the flux over all time to find the fluence, then used the
+old standby formula:
+                        Luminosity=4(pi)(r^2)Fpeak
+        For a radius of .25 pc, we found an L around 10^32 erg/sec.  Pretty
+energetic for close by.  for the coronal model, we found around 10^43 erg/sec.
+And lastly, for the cosmological model an L=10^53. That's what you'd call
+moderately energetic, I'd say.  Any suggestions about what could put out that
+much energy in one second? 
+                                                -jeremy
+
+
+
+
+Newsgroup: sci.space
+document_id: 61270
+From: pgf@srl03.cacs.usl.edu (Phil G. Fraering)
+Subject: Re: Vandalizing the sky.
+
+sichase@csa2.lbl.gov (SCOTT I CHASE) writes:
+
+>In article <pgf.735606045@srl02.cacs.usl.edu>, pgf@srl02.cacs.usl.edu (Phil G. Fraering) writes...
+>>Jeff.Cook@FtCollinsCO.NCR.COM (Jeff Cook) writes:
+>>....
+>>>people in primitive tribes out in the middle of nowhere as they look up
+>>>and see a can of Budweiser flying across the sky... :-D
+>> 
+>>Seen that movie already. Or one just like it.
+>>Come to think of it, they might send someone on
+>>a quest to get rid of the dang thing...
+
+>Actually, the idea, like most good ideas, comes from Jules Verne, not
+
+("like most good ideas,..." please, people!)
+
+>_The Gods Must Be Crazy._  In one of his lesser known books (I can't
+>remember which one right now), the protagonists are in a balloon gondola,
+>travelling over Africa on their way around the world in the balloon, 
+
+_Five Weeks in a Balloon_. Not a good idea unless you have helium.
+Verne's protagonists didn't. They just got increadibly lucky.
+
+And yes, I knew the title of the movie too, just didn't want to start
+talking about it. Except to bring up the image of a team of S. African
+Bushmen showing up at a launch site with spears and flint knives
+to stop the launch (anyone want to bet on their success in doing so?
+especially since they could probably stop a shuttle launch by sneezing
+too hard within a couple miles of the launch site).
+--
+Phil Fraering         |"Seems like every day we find out all sorts of stuff.
+pgf@srl02.cacs.usl.edu|Like how the ancient Mayans had televison." Repo Man
+
+
+

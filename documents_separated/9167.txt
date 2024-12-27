@@ -1,0 +1,80 @@
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9166
+Subject: Re: WINBENCH 3.11 help -- graphics comparison?!?
+From: franklig@helium.gas.uug.arizona.edu (Gregory C Franklin )
+
+In article <1pqd9hINNbmi@zephyr.grace.cri.nz> srg3sir@grv.grace.cri.nz writes:
+>
+>
+>In article <C4zoGD.C56@news.udel.edu> swyatt@bach.udel.edu (Stephen L Wyatt) writes:
+>>I have a question about WINBENCH (pc labs thing) 3.11..
+>>
+>>I have a 386/33 and a Ahead B (512k) card and got these results-
+>>
+>>windows vga driver - 2.44 million
+>>ahead B (640-480-256) driver - 455,000 winmarks
+>>windows svga (800-600-16) driver - 1.68 million winmarks...
+>>
+>>I was thinking about upgrading to a diamond 24x card.. I read it had about
+>>8 million winmark..
+>
+>On my 386dx 33Mhz 4Mb RAM
+>Winbench 2.5
+> 24x v2.02 16.7M        1,668,274
+>     v2.03 16.7M        1,668,985
+>     v2.03 16           4,602,428
+>     v2.03 256          7,635,278
+
+Be very careful with these results!  As I recall, numbers from Winbench
+2.5 are calculated differently from 3.1, and so these figures are not
+comparable.
+
+However, to answer Stephen's question, replacing the Ahead B card with
+a Diamond 24x will yield a cost-effective, dramatic speed increase for
+Windows.  That or the ATI Graphics Ultra Plus....
+--
+Greg Franklin
+franklig@gas.uug.arizona.edu
+
+Newsgroup: comp.os.ms-windows.misc
+document_id: 9167
+From: rick@sundance.SJSU.EDU (Richard Warner)
+Subject: Re: WinBench
+
+al@col.hp.com (Al DeVilbiss) writes:
+
+>jorge@erex.East.Sun.COM (Jorge Lach - Sun BOS Hardware) writes:
+>> Is there any FTP site that carries WinBench results for different graphics
+>> cards? In Excel (XLS) format? What is the latest version of WinBench and
+>> how do they differ? Is the source available, and has anybody try to port it to
+>> X-Window, at least in a way that will make comparisons possible?
+>> 
+>On ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by
+>Steve Gibson of InfoWorld with winbench 3.11 and a number of other 
+>benchmark results for nine isa and four VLB video cards.  This is a 
+>very current upload and is likely to have any card you're currently 
+>giving serious consideration.  Not in XLS format.  Latest version of
+>WinBench that I know of is ver 3.11.  I believe they try to maintain
+>the same rating scale between versions, and new versions are released
+>to defeat the lastest coding tricks put in by driver programmers to
+>beat the benchmarks.  Don't know on the last one.
+
+And why they are considering using WinBench as a test, they may want
+to read everything Steve Gibson has said on the subject in his
+InfoWorld column the past couple of month.  In short, virtually
+every board manufacturer cheats on the test by writing things in the
+driver that is there only to make the board appear faster on the
+WinBench suite.  So the WinBench score has no bearing in reality to
+how cards stack up on real world tasks.
+
+In the last PC-Magazine they benchmarked some of the new accelerators,
+and admitted that many of them 'cheated' on WinBench.  Interestingly,
+they 'allowed' one type of cheating behaviour (caching for bitblt
+operations, no matter how unreal), yet did not allow a couple of other
+types of cheating behaviour that some of the cards used.  At least
+one card was eliminated from the "Editor's Choice" because of
+cheating on the benchmark.
+
+>Al DeVilbiss
+>al@col.hp.com
+

@@ -1,0 +1,9 @@
+Newsgroup: rec.autos
+document_id: 101589
+From: swdwan@napier.uwaterloo.ca (Donald Wan)
+Subject: just testing
+
+hello testing
+
+
+

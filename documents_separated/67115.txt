@@ -1,0 +1,7 @@
+Newsgroup: comp.windows.x
+document_id: 67115
+From: grape@suned1.Nswses.Navy.MIL (Mike Grapevine)
+Subject: subscribe
+
+	subscribe grape@nswses.navy.mil
+

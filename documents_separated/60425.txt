@@ -1,0 +1,50 @@
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60424
+Subject: HINT 486 VLB/ISA/EISA motherboard
+From: schauf@iastate.edu (Brian J Schaufenbuel)
+
+
+
+I am looking at buying some Companion brand VLB/ISA/EISA motherboards with
+HINT chipsets.  Has anybody had any experience with this board (good or bad)?
+Any information would be helpful!
+
+thanks
+
+-- 
+_______________________________________- Brian Schaufenbuel____________________
+| Brian J Schaufenbuel [ "There is no art which one government sooner learns  ]
+| Helser 3644 Halsted  [  than that of draining money from the pockets of the ]
+| Ames, Ia  50012      [  people [especially college students]." - Adam Smith ]
+
+Newsgroup: comp.sys.ibm.pc.hardware
+document_id: 60425
+From: bq274@cleveland.Freenet.Edu (Andy J. Berkvam)
+Subject: How to detect mouse at hardware level?
+
+
+'lo all,
+
+  I am writting a program that checks a computer for its configuration.
+It's going to be run everytime a computer boots up to our campus
+network.  (Actually, it already is running, it's just not getting all
+the info I want it to yet...)  Anyway, I want to check for a mouse.  I
+already check for a mouse driver (using the code in Microsoft's Mouse
+book).  But there is no guarantee that the driver is loaded when my
+program runs, or that they ever load the driver.
+
+  Since I am interested in what hardware is attached to the machine, how
+do I detect is a mouse is attached?  I know it can be done because the
+mouse driver can do it.
+
+  Thanks in advance,
+
+Andy
+
+
+-- 
+Andy Berkvam                          |  Few are wholly dead:
+U of Wisconsin - Stevens Point        |  Blow on a dead man's embers
+Cleveland Freenet: bq274              |  And a live flame will start.
+Internet: aberkvam@spu1.uwsp.edu      |                -Robert Graves
+
