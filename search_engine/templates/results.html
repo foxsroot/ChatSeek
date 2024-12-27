@@ -32,9 +32,16 @@
 
 <div class="search-info">
     <p id="showing-results">About {{ total_results }} results</p>
-    {% if total_results <= 10 and corrected_query != query %} <p class="auto-correct">Did you mean: <span class="quote">"</span><a
-        id="corrected-word" href="/search?query={{ corrected_query }}">{{
+    {% if corrected_query != "" and total_results <= 10 and corrected_query != query %}
+    <p class="auto-correct">Did you mean: <span class="quote">"</span><a id="corrected-word" href="/search?query={{ corrected_query }}">{{
     corrected_query }}</a><span class="quote">"</span></p>
+    {% endif %}
+
+    {% if old_query != "" %}
+    <div class="search-instead">
+        <p class="corrected_query">These are results for <a href="/search?query={{ query }}">{{ query }}</a></p>
+        <p class="old-query">Search instead for <a href="/search?query={{ old_query }}&force=True">{{ old_query }}</a></p>
+    </div>
     {% endif %}
 </div>
 <main>
@@ -45,8 +52,10 @@
             <h1>
                 <a href="{{ result.link }}">{{ result.subject }}</a>
             </h1>
+            {% if result.description != "" %}
             <p style="white-space: pre-wrap;text-wrap: wrap;line-height: normal;">...{{ result.description |
                 safe}}...</p>
+            {% endif %}
             <p><b>Newsgroup:</b> {{ result.newsgroup }}</p>
             <p><b>Email:</b> {{ result.email }}</p>
         </div>

@@ -30,3 +30,7 @@
 # app_v10
 - Refined autocorrect behavior: If the searched word exists in >= 10 documents, suppress the "Did you mean..." suggestion to avoid unnecessary corrections
 - Added "About x results" on results page
+
+# app_v11
+- Added description feature for results page
+- Changed header behavior to sticky

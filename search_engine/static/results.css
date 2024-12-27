@@ -209,3 +209,41 @@ body.dark-mode footer {
 body {
     margin: 0 0;
 }
+
+.search-instead {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.corrected_query {
+    margin-bottom: 0;
+}
+
+.old-query {
+    margin-top: 0;
+}
+
+.search-instead a {
+    color: #1a0dab;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.search-instead a:visited {
+    color: #681da8;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body.dark-mode .search-instead a {
+    color: #99c3ff;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body.dark-mode .search-instead a:visited {
+    color: #c58af9;
+    font-style: italic;
+    font-weight: bold;
+}
+
