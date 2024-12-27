@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>{{ subject }}</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='document.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dark-mode.css') }}">
 </head>
+
 <body>
-<a href="/" class="back-link">←</a>
-<h1>{{ subject }}</h1>
-<hr>
-<div class="details">
-    <p><b>Newsgroup: </b>{{ newsgroup }}</p>
-    <p><b>Email: </b>{{ email }}</p>
-    <p><b>Document ID: </b>{{ docID }}</p>
-</div>
-<div class="message">
-    <p>{{ content | safe }}</p>
-</div>
+    <div id="loader"></div>
+    <a href="javascript:history.back()" class="back-link">← Back</a>
+    <button id="theme-toggle" class="theme-toggle">🌙 Night Mode</button>
+
+    <h1>{{ subject }}</h1>
+    <hr>
+    <div class="details">
+        <p><b>Newsgroup: </b>{{ newsgroup }}</p>
+        <p><b>Email: </b>{{ email }}</p>
+        <p><b>Document ID: </b>{{ docID }}</p>
+    </div>
+    <div class="message">
+        <p>{{ content | safe }}</p>
+    </div>
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.textContent = '☀️ Light Mode';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            themeToggle.textContent = isDarkMode ? '☀️ Light Mode' : '🌙 Night Mode';
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+
+        
+        window.addEventListener('beforeunload', () => {
+            document.getElementById('loader').style.display = 'block';
+        });
+    </script>
+
 </body>
+
 </html>

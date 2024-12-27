@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>ChatSeek</title>
@@ -8,91 +9,117 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='search-bar.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='suggest.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dark-mode.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-<header>
-    <a href="/"><img src="../static/icon.png" id="icon"></a>
-    <form action="/search" method="POST">
-        <input type="text" name="query" id="searchbox" placeholder="Search through conversations..." required
-               autocomplete="off" onkeyup="fetchSuggestions()" value="{{ query }}">
-        <ul id="suggestions" class="suggestions"></ul>
-        <button type="submit">Go</button>
-    </form>
-</header>
-<hr>
-<div class="search-info">
-    <p id="showing-results">About {{ total_results }} results</p>
-    {% if total_results <= 10 %}
-    <p class="auto-correct">Did you mean: <span class="quote">"</span><a id="corrected-word" href="/search?query={{ corrected_query }}">{{
-        corrected_query }}</a><span class="quote">"</span></p>
-    {% endif %}
-</div>
-<main>
-    {% if results %}
-    <div class="results">
-        {% for result in results %}
-        <div class="result-card">
-            <h1>
-                <a href="{{ result.link }}">{{ result.subject }}</a>
-            </h1>
-            <p>Description (coming soon)</p>
-            <p><b>Newsgroup:</b> {{ result.newsgroup }}</p>
-            <p><b>Email:</b> {{ result.email }}</p>
+    <header>
+        <a href="/"><img src="../static/icon.png" id="icon"></a>
+        <form action="/search" method="POST">
+            <input type="text" name="query" id="searchbox" placeholder="Search through conversations..." required
+                autocomplete="off" onkeyup="fetchSuggestions()" value="{{ query }}">
+            <ul id="suggestions" class="suggestions"></ul>
+            <button type="submit" class="submit">Go</button>
+        </form>
+
+        <button id="theme-toggle" class="theme-toggle">🌙 Night Mode</button>
+
+    </header>
+    <hr>
+    <div class="search-info">
+        <p id="showing-results">About {{ total_results }} results</p>
+        {% if total_results <= 10 %} <p class="auto-correct">Did you mean: <span class="quote">"</span><a
+                id="corrected-word" href="/search?query={{ corrected_query }}">{{
+                corrected_query }}</a><span class="quote">"</span></p>
+            {% endif %}
+    </div>
+    <main>
+        {% if results %}
+        <div class="results">
+            {% for result in results %}
+            <div class="result-card">
+                <h1>
+                    <a href="{{ result.link }}">{{ result.subject }}</a>
+                </h1>
+                <p>Description (coming soon)</p>
+                <p><b>Newsgroup:</b> {{ result.newsgroup }}</p>
+                <p><b>Email:</b> {{ result.email }}</p>
+            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-    </div>
 
-    <div class="pagination">
-        {% if page > 1 %}
-        <a href="{{ url_for('search', query=query, page=page-1) }}">Previous</a>
+        <div class="pagination">
+            {% if page > 1 %}
+            <a href="{{ url_for('search', query=query, page=page-1) }}" class="pagination-btn prev-btn">← Previous</a>
+            {% endif %}
+            <span class="pagination-info">Page {{ page }} of {{ total_pages }}</span>
+            {% if page < total_pages %} <a href="{{ url_for('search', query=query, page=page+1) }}"
+                class="pagination-btn next-btn">Next →</a>
+                {% endif %}
+        </div>
+
+        {% else %}
         {% endif %}
-        <span>Page {{ page }} of {{ total_pages }}</span>
-        {% if page < total_pages %}
-        <a href="{{ url_for('search', query=query, page=page+1) }}">Next</a>
-        {% endif %}
-    </div>
-    {% else %}
-    {% endif %}
-</main>
-<script>
-    let debounceTimer;
+    </main>
+    <script>
+        let debounceTimer;
 
-    function fetchSuggestions() {
-        console.log("suggest");
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
-            const query = document.getElementById('searchbox').value.trim();
-            const suggestionsList = document.getElementById('suggestions');
+        function fetchSuggestions() {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                const query = document.getElementById('searchbox').value.trim();
+                const suggestionsList = document.getElementById('suggestions');
 
-            if (query.length === 0) {
-                suggestionsList.innerHTML = '';
-                return;
-            }
-
-            const words = query.split(' ');
-            const lastWord = words.pop();
-            const prefix = words.join(' ');
-
-            fetch(`/suggest?q=${encodeURIComponent(lastWord)}`)
-                .then(response => response.json())
-                .then(data => {
+                if (query.length === 0) {
+                    suggestionsList.style.display = 'none';
                     suggestionsList.innerHTML = '';
-                    data.forEach(suggestion => {
-                        const fullSuggestion = prefix ? `${prefix} ${suggestion}` : suggestion;
-                        const li = document.createElement('li');
-                        li.textContent = fullSuggestion;
-                        li.onclick = () => {
-                            document.getElementById('search-bar').value = fullSuggestion;
-                            suggestionsList.innerHTML = '';
-                        };
-                        suggestionsList.appendChild(li);
+                    return;
+                }
+                else {
+                    suggestionsList.style.display = 'block';
+                }
+
+                const words = query.split(' ');
+                const lastWord = words.pop();
+                const prefix = words.join(' ');
+
+                fetch(`/suggest?q=${encodeURIComponent(lastWord)}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        suggestionsList.innerHTML = '';
+                        data.forEach(suggestion => {
+                            const fullSuggestion = prefix ? `${prefix} ${suggestion}` : suggestion;
+                            const li = document.createElement('li');
+                            li.textContent = fullSuggestion;
+                            li.onclick = () => {
+                                document.getElementById('searchbox').value = fullSuggestion;
+                                suggestionsList.innerHTML = '';
+                            };
+                            suggestionsList.appendChild(li);
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Error fetching suggestions:', error);
                     });
-                })
-                .catch(error => {
-                    console.error('Error fetching suggestions:', error);
-                });
-        }, 300);
-    }
-</script>
+            }, 300);
+        }
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.textContent = '☀️ Light Mode';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            themeToggle.textContent = isDarkMode ? '☀️ Light Mode' : '🌙 Night Mode';
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+    </script>
 </body>
+
 </html>

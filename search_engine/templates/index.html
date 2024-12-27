@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>ChatSeek</title>
@@ -8,17 +9,23 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='search-bar.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='suggest.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dark-mode.css') }}">
 </head>
+
 <body>
     <div class="container">
         <img src="../static/icon.png" id="icon">
         <form action="/search" method="POST" class="search-container">
-            <input type="text" id="search-bar" name="query" placeholder="Search through conversations..." required autocomplete="off" onkeyup="fetchSuggestions()">
+            <input type="text" id="search-bar" name="query" placeholder="Search through conversations..." required
+                autocomplete="off" onkeyup="fetchSuggestions()">
             <ul id="suggestions" class="suggestions"></ul>
             <button type="submit">Go</button>
         </form>
-        <p>Discover Insights Faster: Effortlessly Search Through Thousands of<br>Newsgroup Chats to Spark Your Next Article Idea.</p>
+        <p>Discover Insights Faster: Effortlessly Search Through Thousands of<br>Newsgroup Chats to Spark Your Next
+            Article Idea.</p>
     </div>
+
+    <button id="theme-toggle" class="theme-toggle">🌙 Night Mode</button>
 
     <script>
         let debounceTimer;
@@ -30,8 +37,12 @@
                 const suggestionsList = document.getElementById('suggestions');
 
                 if (query.length === 0) {
+                    suggestionsList.style.display = 'none';
                     suggestionsList.innerHTML = '';
                     return;
+                }
+                else {
+                    suggestionsList.style.display = 'block';
                 }
 
                 const words = query.split(' ');
@@ -58,6 +69,23 @@
                     });
             }, 300);
         }
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const currentTheme = localStorage.getItem('theme') || 'light';
+
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeToggle.textContent = '☀️ Light Mode';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            themeToggle.textContent = isDarkMode ? '☀️ Light Mode' : '🌙 Night Mode';
+            localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        });
+
     </script>
 </body>
+
 </html>
