@@ -15,18 +15,20 @@
 
 <body>
 <header>
-    <a href="/"><img src="../static/icon.png" id="icon"></a>
-    <form action="/search" method="POST">
-        <input type="text" name="query" id="searchbox" placeholder="Search through conversations..." required
-               autocomplete="off" onkeyup="fetchSuggestions()" value="{{ query }}">
-        <ul id="suggestions" class="suggestions"></ul>
-        <button type="submit" class="submit">Go</button>
-    </form>
+    <div class="search-header">
+        <a href="/"><img src="../static/icon.png" id="icon"></a>
+        <form action="/search" method="POST">
+            <input type="text" name="query" id="searchbox" placeholder="Search through conversations..." required
+                   autocomplete="off" onkeyup="fetchSuggestions()" value="{{ query }}">
+            <ul id="suggestions" class="suggestions"></ul>
+            <button type="submit" class="submit">Go</button>
+        </form>
+    </div>
 
     <button id="theme-toggle" class="theme-toggle">🌙 Night Mode</button>
+    <hr id="hr-top">
 </header>
 
-<hr id="hr-top">
 
 <div class="search-info">
     <p id="showing-results">About {{ total_results }} results</p>
@@ -43,7 +45,8 @@
             <h1>
                 <a href="{{ result.link }}">{{ result.subject }}</a>
             </h1>
-            <p>Description (coming soon)</p>
+            <p style="white-space: pre-wrap;text-wrap: wrap;line-height: normal;">...{{ result.description |
+                safe}}...</p>
             <p><b>Newsgroup:</b> {{ result.newsgroup }}</p>
             <p><b>Email:</b> {{ result.email }}</p>
         </div>
@@ -73,7 +76,8 @@
 </main>
 
 <footer>
-    <p>&copy 2024 ChatSeek. All Rights Reserved.<br>Dedicated to empowering seamless exploration of newsgroup insights for your creative and research needs.</p>
+    <p>&copy 2024 ChatSeek. All Rights Reserved.<br>Dedicated to empowering seamless exploration of newsgroup insights
+        for your creative and research needs.</p>
 </footer>
 <script>
     let debounceTimer;
@@ -143,6 +147,17 @@
             document.getElementById("icon").src = "../static/icon.png";
         }
     });
+
+    window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+        document.getElementById("hr-top").style.display = "none";
+    } else {
+        header.classList.remove('scrolled');
+        document.getElementById("hr-top").style.display = "block";
+    }
+});
 </script>
 </body>
 

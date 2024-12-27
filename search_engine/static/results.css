@@ -1,7 +1,3 @@
-header {
-    margin: 20px;
-}
-
 main {
     margin: 20px;
 }
@@ -20,11 +16,11 @@ body.dark-mode hr {
 
 #hr-top {
     width: 97%;
+    margin-top: 20px;
 }
 
 .auto-correct {
     color: #F44242;
-    /*display: none;*/
     margin-left: 10px;
 }
 
@@ -59,15 +55,45 @@ h1 {
     font-size: 18px;
 }
 
-header {
+.search-header {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin: 20px;
+}
+
+header {
+    position: sticky;
+    top: 10px;
+    z-index: 3;
+}
+
+header.scrolled {
+    background-color: #ffffff;
+    box-shadow: 1px 0 4px 0 #CCCCCC;
+    top: 0;
+    padding: 0 0;
+    transition: background-color 200ms ease-out;
+}
+
+body.dark-mode header.scrolled {
+    background-color: #303134;
+    box-shadow: none;
 }
 
 .result-card {
     line-height: 5px;
     margin-bottom: 45px;
+}
+
+body.dark-mode .result-card p b {
+    font-weight: bolder;
+    color: #cfcfcf
+}
+
+.result-card p:nth-child(1) {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #showing-results {
