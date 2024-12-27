@@ -2,23 +2,18 @@ from flask import Flask, render_template, request, send_from_directory, url_for
 import json
 import os
 import snowballstemmer
+import re
 
 app = Flask(__name__)
-
-# Initialize the English stemmer
 stemmer = snowballstemmer.stemmer('english')
 
-# Load the filtered token dictionary with positional index
-with open('token_dict_positional.json', 'r') as json_file:
+with open('../token_dict_positional.json', 'r') as json_file:
     token_dict = json.load(json_file)
 
-# Load the TF-IDF data
 with open('tfidf.json', 'r') as tfidf_file:
     tfidf_data = json.load(tfidf_file)
 
-# Directory where documents are stored
 documents_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'documents_separated'))
-
 
 def get_document_subject(document_id):
     file_path = os.path.join(documents_directory, f"{document_id}.txt")
@@ -94,6 +89,7 @@ def search():
 
     if query:
         tokens = query.split()
+        tokens = [re.sub(r'[^a-zA-Z0-9]', '', token) for token in tokens]
         stemmed_tokens = [stemmer.stemWord(token) for token in tokens]
         matched_documents = set()
 
@@ -117,7 +113,6 @@ def search():
                 token_positions = {}
                 tfidf_score = 0
 
-                # For each token, accumulate TF-IDF score
                 for token in stemmed_tokens:
                     if token in token_dict and document_id in token_dict[token]:
                         positions = token_dict[token][document_id]
@@ -125,19 +120,16 @@ def search():
                         if document_id in tfidf_data and token in tfidf_data[document_id]:
                             tfidf_score += tfidf_data[document_id].get(token, 0)
 
-                # If the query has only one token or the tokens are adjacent
                 if len(stemmed_tokens) == 1 or tokens_are_adjacent(token_positions):
                     results.append({
-                        "document_id": document_id,
                         "subject": subject,
                         "tfidf_score": tfidf_score,
-                        "token_positions": token_positions,
                         "link": document_link,
                         "email": get_email(document_id),
-                        "newsgroup": get_newsgroup(document_id)
+                        "newsgroup": get_newsgroup(document_id),
+                        "docId": document_id
                     })
 
-    # Sort by the TF-IDF score (descending order)
     sorted_results = sorted(results, key=lambda x: x["tfidf_score"], reverse=True)
 
     total_results = len(sorted_results)
@@ -146,13 +138,38 @@ def search():
     paginated_results = sorted_results[start:end]
 
     total_pages = (total_results + results_per_page - 1) // results_per_page
-
     return render_template('results.html', query=query, results=paginated_results, page=page, total_pages=total_pages)
 
 
 @app.route('/documents/<path:filename>', methods=['GET'])
 def send_document(filename):
-    return send_from_directory(documents_directory, filename)
+    file_path = os.path.join(documents_directory, filename)
+    try:
+        with open(file_path, 'r', encoding='ISO-8859-1') as file:
+            lines = file.readlines()
+
+        content_start_index = 0
+        for index, line in enumerate(lines):
+            if line.strip() == "":
+                content_start_index = index + 1
+                break
+
+        pruned_content = lines[content_start_index:]
+        document_id = os.path.splitext(filename)[0]
+        subject = get_document_subject(document_id)
+        email = get_email(document_id)
+        newsgroup = get_newsgroup(document_id)
+
+        return render_template(
+            'document.html',
+            subject=subject,
+            email=email,
+            newsgroup=newsgroup,
+            docID=document_id,
+            content=''.join(pruned_content).replace('\n', '<br>')
+        )
+    except FileNotFoundError:
+        return "Document not found", 404
 
 
 if __name__ == '__main__':

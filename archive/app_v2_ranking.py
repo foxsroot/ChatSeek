@@ -8,7 +8,7 @@ app = Flask(__name__)
 stemmer = snowballstemmer.stemmer('english')
 
 # Positional index
-with open('token_dict_positional.json', 'r') as json_file:
+with open('../token_dict_positional.json', 'r') as json_file:
     token_dict = json.load(json_file)
 
 # Load the TF-IDF data

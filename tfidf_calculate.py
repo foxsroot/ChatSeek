@@ -19,12 +19,16 @@ for term, postings in token_dict.items():
     # Document frequency (number of documents containing the term)
     document_frequency = len(postings)
 
-    # Inverse Document Frequency
-    idf = math.log(total_documents / document_frequency)
+    # If the term appears in every document, set IDF to 0
+    if document_frequency == total_documents:
+        idf = 0
+    else:
+        # Inverse Document Frequency (with smoothing)
+        idf = math.log((total_documents + 1) / (document_frequency + 1)) + 1
 
     for doc_id, positions in postings.items():
-        # Term Frequency (TF) is the count of positions
-        tf = len(positions)
+        # Term Frequency (Log normalization)
+        tf = 1 + math.log(len(positions)) if len(positions) > 0 else 0
 
         # TF-IDF calculation
         tf_idf_value = tf * idf
@@ -34,8 +38,15 @@ for term, postings in token_dict.items():
             tfidf[doc_id] = {}
         tfidf[doc_id][term] = tf_idf_value
 
+# Optional: Normalize TF-IDF per document
+for doc_id, terms in tfidf.items():
+    norm = math.sqrt(sum(value ** 2 for value in terms.values()))
+    if norm > 0:
+        for term in terms:
+            terms[term] /= norm
+
 # Save TF-IDF values to a JSON file
-with open('search_engine/tfidf.json', 'w') as json_file:
+with open('search_engine/tfidf_v3.json', 'w') as json_file:
     json.dump(tfidf, json_file, indent=4)
 
-print("TF-IDF calculation complete.")
+print("TF-IDF calculation complete with normalization.")

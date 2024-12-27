@@ -30,15 +30,3 @@
 # app_v10
 - Refined autocorrect behavior: If the searched word exists in >= 10 documents, suppress the "Did you mean..." suggestion to avoid unnecessary corrections
 - Added "About x results" on results page
-
-# app_v11
-
-
-## To Do
-- Implement wildcard query functionality to allow more flexible search patterns
-- Enhance autosuggest functionality to handle multi-word inputs: Ensure that suggested sentences are verified to exist in the dataset before being displayed
-- Revamp the pagination UI to make navigation between pages more intuitive and visually appealing
-- Implement a back button on document pages that seamlessly returns users to their previous search results, preserving filters and states
-- Redesign the UI for auto-suggestions to improve clarity and user experience
-- Upgrade the UI for individual document views to provide a modern and more user-friendly presentation
-- Add a night mode option

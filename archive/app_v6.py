@@ -7,18 +7,13 @@ import re
 app = Flask(__name__)
 stemmer = snowballstemmer.stemmer('english')
 
-with open('token_dict_positional.json', 'r') as json_file:
+with open('../token_dict_positional.json', 'r') as json_file:
     token_dict = json.load(json_file)
 
 with open('tfidf.json', 'r') as tfidf_file:
     tfidf_data = json.load(tfidf_file)
 
-# Load all tokens for auto-suggestions
-with open('all_tokens.json', 'r') as token_file:
-    all_tokens = json.load(token_file)
-
 documents_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'documents_separated'))
-
 
 def get_document_subject(document_id):
     file_path = os.path.join(documents_directory, f"{document_id}.txt")
@@ -51,7 +46,6 @@ def tokens_are_adjacent(token_positions):
             return False
     return True
 
-
 def get_email(document_id):
     file_path = os.path.join(documents_directory, f"{document_id}.txt")
     try:
@@ -63,7 +57,6 @@ def get_email(document_id):
         return "Document not found"
 
     return "Email not found"
-
 
 def get_newsgroup(document_id):
     file_path = os.path.join(documents_directory, f"{document_id}.txt")
@@ -77,55 +70,9 @@ def get_newsgroup(document_id):
 
     return "Email not found"
 
-
-def levenshtein_distance(s1, s2):
-    if len(s1) > len(s2):
-        s1, s2 = s2, s1
-
-    distances = range(len(s1) + 1)
-    for index2, char2 in enumerate(s2):
-        new_distances = [index2 + 1]
-        for index1, char1 in enumerate(s1):
-            if char1 == char2:
-                new_distances.append(distances[index1])
-            else:
-                new_distances.append(1 + min((distances[index1], distances[index1 + 1], new_distances[-1])))
-        distances = new_distances
-    return distances[-1]
-
-
-def auto_correct_query(tokens):
-    corrected_tokens = []
-    for token in tokens:
-        closest_match = token
-        min_distance = float('inf')
-        max_distance = max(1, len(token) // 3)  # Max distance is 1/3 of token length
-
-        for candidate in all_tokens:
-            distance = levenshtein_distance(token, candidate)
-            if distance <= max_distance and distance < min_distance:
-                min_distance = distance
-                closest_match = candidate
-
-        corrected_tokens.append(closest_match)
-    return corrected_tokens
-
-
 @app.route('/')
 def index():
     return render_template('index.html')
-
-
-@app.route('/suggest', methods=['GET'])
-def suggest():
-    query = request.args.get('q', '').lower()
-    suggestions = []
-
-    if query:
-        suggestions = [token for token in all_tokens if token.startswith(query)][:10]
-
-    return json.dumps(suggestions)
-
 
 @app.route('/search', methods=['GET', 'POST'])
 def search():
@@ -139,23 +86,10 @@ def search():
     results_per_page = 20
     results = []
 
-    corrected_query = query
-
     if query:
-
         tokens = query.split()
         tokens = [re.sub(r'[^a-zA-Z0-9]', '', token) for token in tokens]
-
-        corrected_tokens = auto_correct_query(tokens)
-        corrected_query = ' '.join(corrected_tokens)
-
-        # if corrected_query != query:
-        #     stemmed_tokens = [stemmer.stemWord(token) for token in corrected_tokens]
-        # else:
-        #     stemmed_tokens = [stemmer.stemWord(token) for token in tokens]
-
         stemmed_tokens = [stemmer.stemWord(token) for token in tokens]
-
         matched_documents = set()
 
         if len(stemmed_tokens) == 1:
@@ -203,14 +137,7 @@ def search():
 
     total_pages = (total_results + results_per_page - 1) // results_per_page
 
-    return render_template(
-        'results.html',
-        query=query,
-        corrected_query=corrected_query,
-        results=paginated_results,
-        page=page,
-        total_pages=total_pages
-    )
+    return render_template('results.html', query=query, results=paginated_results, page=page, total_pages=total_pages)
 
 
 @app.route('/documents/<path:filename>', methods=['GET'])
@@ -242,7 +169,6 @@ def send_document(filename):
         )
     except FileNotFoundError:
         return "Document not found", 404
-
 
 if __name__ == '__main__':
     app.run(debug=True)
