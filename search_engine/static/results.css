@@ -1,3 +1,11 @@
+header {
+    margin: 20px;
+}
+
+main {
+    margin: 20px;
+}
+
 body.dark-mode #searchbox {
     box-shadow: 0 1px 10px 1px #606060FF;
 }
@@ -10,13 +18,14 @@ body.dark-mode hr {
     width: clamp(195px, 835px, 46vw);
 }
 
-main {
-    margin-left: 10px;
+#hr-top {
+    width: 97%;
 }
 
 .auto-correct {
     color: #F44242;
     /*display: none;*/
+    margin-left: 10px;
 }
 
 #corrected-word {
@@ -63,6 +72,7 @@ header {
 
 #showing-results {
     font-size: smaller;
+    margin-left: 10px;
 }
 
 .search-info {
@@ -71,4 +81,105 @@ header {
 }
 
 /* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
 
+.pagination-arrow,
+.pagination-number {
+    text-decoration: none;
+    color: #5D55F6;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.pagination-number:hover,
+.pagination-arrow:hover {
+    color: #fff;
+    background-color: #5D55F6;
+    transform: scale(1.1);
+}
+
+.pagination-number.active {
+    background-color: #5D55F6;
+    color: #fff;
+}
+
+.pagination-dots {
+    font-size: 16px;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    border: none;
+}
+
+.pagination-arrow[style="visibility: hidden;"] {
+    visibility: hidden;
+}
+
+body.dark-mode .pagination-number {
+    color: #bfbfbf;
+    border: none;
+}
+
+body.dark-mode .pagination-arrow {
+    color: #bfbfbf;
+}
+
+body.dark-mode .pagination-arrow:hover {
+    border: none;
+}
+
+body.dark-mode .pagination-number.active {
+    background-color: #bfbfbf;
+    color: #1e1e1e;
+    border: none;
+}
+
+body.dark-mode .pagination-number:hover,
+body.dark-mode .pagination-arrow:hover {
+    color: #1e1e1e;
+    background-color: #bfbfbf;
+    transform: scale(1.1);
+}
+
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    color: #474747;
+    height: 80px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+body.dark-mode footer {
+    background-color: #171717;
+    color: #bfbfbf;
+}
+
+body {
+    margin: 0 0;
+}
