@@ -34,3 +34,9 @@
 # app_v11
 - Added description feature for results page
 - Changed header behavior to sticky
+
+# app_v12
+- Stemmed the query
+
+# app_v13
+- Allow duplicate tokens on positional search
