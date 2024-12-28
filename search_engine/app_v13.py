@@ -39,7 +39,7 @@ def tokens_are_adjacent(token_positions):
     if not token_positions or len(token_positions) < 2:
         return True
 
-    positions = list(token_positions.values())
+    positions = [pos for _, pos in token_positions]
 
     for i in range(len(positions) - 1):
         found_adjacent = False
@@ -234,20 +234,20 @@ def search():
             for document_id in matched_documents:
                 subject = get_document_subject(document_id)
                 document_link = url_for('send_document', filename=f'{document_id}.txt')
-                token_positions = {}
+                token_positions = []
                 tfidf_score = 0
 
                 if len(stemmed_tokens) > 1:
                     for token in stemmed_tokens:
                         if token not in token_dict:
-                            token_positions[token] = [-5]
+                            token_positions.append((token, [-5]))
                         if token in token_dict and document_id in token_dict[token]:
                             positions = token_dict[token][document_id]
-                            token_positions[token] = positions
+                            token_positions.append((token, positions))
                             if document_id in tfidf_data and token in tfidf_data[document_id]:
                                 tfidf_score += tfidf_data[document_id].get(token, 0)
                         elif token in token_dict:
-                            token_positions[token] = [-5]
+                            token_positions.append((token, [-5]))
                 else:
                     if document_id in tfidf_data and stemmed_tokens[0] in tfidf_data[document_id]:
                         tfidf_score += tfidf_data[document_id].get(stemmed_tokens[0], 0)
